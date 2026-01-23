@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-01-23T13:41:46.887413",
-  "total_reviews": 417,
+  "generated_at": "2026-01-23T13:57:12.679706",
+  "total_reviews": 500,
   "sentiment_summary": {
-    "neutral": 195,
-    "positive": 112,
-    "negative": 110
+    "neutral": 235,
+    "positive": 132,
+    "negative": 133
   },
   "rating_distribution": {
-    "1": 246,
-    "5": 106,
-    "2": 30,
-    "3": 20,
-    "4": 15
+    "1": 300,
+    "5": 128,
+    "2": 35,
+    "3": 21,
+    "4": 16
   },
   "categories": {
     "printing": {
       "name": "Print Quality & Functionality",
-      "mention_count": 209,
-      "percentage_of_total": 50.1,
+      "mention_count": 248,
+      "percentage_of_total": 49.6,
       "sentiment": {
-        "positive": 34,
-        "negative": 67,
-        "neutral": 108
+        "positive": 37,
+        "negative": 81,
+        "neutral": 130
       },
       "pm_focus": "Core value proposition, print reliability",
       "sample_reviews": [
@@ -59,13 +59,13 @@
       "subcategory_breakdown": {
         "other": {
           "name": "Other/Unspecified",
-          "count": 133,
-          "percentage_of_category": 63.6,
+          "count": 158,
+          "percentage_of_category": 63.7,
           "severity": "low",
           "sentiment": {
-            "positive": 20,
-            "negative": 42,
-            "neutral": 71
+            "positive": 22,
+            "negative": 51,
+            "neutral": 85
           },
           "sample_reviews": [
             {
@@ -90,13 +90,13 @@
         },
         "document_types": {
           "name": "Document Type Support",
-          "count": 36,
-          "percentage_of_category": 17.2,
+          "count": 42,
+          "percentage_of_category": 16.9,
           "severity": "low",
           "sentiment": {
-            "positive": 7,
-            "negative": 11,
-            "neutral": 18
+            "positive": 8,
+            "negative": 13,
+            "neutral": 21
           },
           "sample_reviews": [
             {
@@ -121,13 +121,13 @@
         },
         "ink_toner": {
           "name": "Ink/Toner Issues",
-          "count": 31,
-          "percentage_of_category": 14.8,
+          "count": 34,
+          "percentage_of_category": 13.7,
           "severity": "medium",
           "sentiment": {
             "positive": 4,
-            "negative": 11,
-            "neutral": 16
+            "negative": 13,
+            "neutral": 17
           },
           "sample_reviews": [
             {
@@ -152,13 +152,13 @@
         },
         "paper_handling": {
           "name": "Paper Handling/Jams",
-          "count": 18,
-          "percentage_of_category": 8.6,
+          "count": 23,
+          "percentage_of_category": 9.3,
           "severity": "medium",
           "sentiment": {
             "positive": 2,
-            "negative": 7,
-            "neutral": 9
+            "negative": 8,
+            "neutral": 13
           },
           "sample_reviews": [
             {
@@ -184,7 +184,7 @@
         "print_speed": {
           "name": "Print Speed/Performance",
           "count": 8,
-          "percentage_of_category": 3.8,
+          "percentage_of_category": 3.2,
           "severity": "medium",
           "sentiment": {
             "positive": 2,
@@ -215,7 +215,7 @@
         "print_jobs": {
           "name": "Print Job Management",
           "count": 7,
-          "percentage_of_category": 3.3,
+          "percentage_of_category": 2.8,
           "severity": "medium",
           "sentiment": {
             "positive": 2,
@@ -246,7 +246,7 @@
         "print_quality": {
           "name": "Print Quality Issues",
           "count": 3,
-          "percentage_of_category": 1.4,
+          "percentage_of_category": 1.2,
           "severity": "high",
           "sentiment": {
             "positive": 0,
@@ -278,12 +278,12 @@
     },
     "mobile_experience": {
       "name": "Mobile App Experience",
-      "mention_count": 182,
-      "percentage_of_total": 43.6,
+      "mention_count": 213,
+      "percentage_of_total": 42.6,
       "sentiment": {
-        "positive": 56,
-        "negative": 63,
-        "neutral": 63
+        "positive": 62,
+        "negative": 75,
+        "neutral": 76
       },
       "pm_focus": "App usability, user satisfaction",
       "sample_reviews": [
@@ -321,13 +321,13 @@
       "subcategory_breakdown": {
         "other": {
           "name": "Other/Unspecified",
-          "count": 97,
-          "percentage_of_category": 53.3,
+          "count": 114,
+          "percentage_of_category": 53.5,
           "severity": "low",
           "sentiment": {
             "positive": 21,
-            "negative": 35,
-            "neutral": 41
+            "negative": 40,
+            "neutral": 53
           },
           "sample_reviews": [
             {
@@ -352,12 +352,12 @@
         },
         "ease_of_use": {
           "name": "Ease of Use",
-          "count": 50,
-          "percentage_of_category": 27.5,
+          "count": 60,
+          "percentage_of_category": 28.2,
           "severity": "high",
           "sentiment": {
-            "positive": 30,
-            "negative": 13,
+            "positive": 36,
+            "negative": 17,
             "neutral": 7
           },
           "sample_reviews": [
@@ -383,13 +383,13 @@
         },
         "ui_design": {
           "name": "UI/Visual Design",
-          "count": 33,
-          "percentage_of_category": 18.1,
+          "count": 40,
+          "percentage_of_category": 18.8,
           "severity": "medium",
           "sentiment": {
-            "positive": 6,
-            "negative": 12,
-            "neutral": 15
+            "positive": 8,
+            "negative": 16,
+            "neutral": 16
           },
           "sample_reviews": [
             {
@@ -414,12 +414,12 @@
         },
         "navigation": {
           "name": "Navigation/Menu Issues",
-          "count": 13,
-          "percentage_of_category": 7.1,
+          "count": 16,
+          "percentage_of_category": 7.5,
           "severity": "high",
           "sentiment": {
             "positive": 3,
-            "negative": 8,
+            "negative": 11,
             "neutral": 2
           },
           "sample_reviews": [
@@ -445,11 +445,11 @@
         },
         "responsiveness": {
           "name": "App Responsiveness",
-          "count": 8,
-          "percentage_of_category": 4.4,
+          "count": 9,
+          "percentage_of_category": 4.2,
           "severity": "medium",
           "sentiment": {
-            "positive": 3,
+            "positive": 4,
             "negative": 2,
             "neutral": 3
           },
@@ -478,12 +478,12 @@
     },
     "connectivity": {
       "name": "Connectivity & Setup",
-      "mention_count": 98,
-      "percentage_of_total": 23.5,
+      "mention_count": 116,
+      "percentage_of_total": 23.2,
       "sentiment": {
-        "positive": 9,
-        "negative": 38,
-        "neutral": 51
+        "positive": 11,
+        "negative": 44,
+        "neutral": 61
       },
       "pm_focus": "First-time user experience, connectivity reliability",
       "sample_reviews": [
@@ -521,13 +521,13 @@
       "subcategory_breakdown": {
         "other": {
           "name": "Other/Unspecified",
-          "count": 44,
-          "percentage_of_category": 44.9,
+          "count": 52,
+          "percentage_of_category": 44.8,
           "severity": "low",
           "sentiment": {
-            "positive": 3,
-            "negative": 14,
-            "neutral": 27
+            "positive": 4,
+            "negative": 16,
+            "neutral": 32
           },
           "sample_reviews": [
             {
@@ -552,13 +552,13 @@
         },
         "wifi_issues": {
           "name": "WiFi Connection Problems",
-          "count": 31,
-          "percentage_of_category": 31.6,
+          "count": 38,
+          "percentage_of_category": 32.8,
           "severity": "critical",
           "sentiment": {
-            "positive": 3,
-            "negative": 16,
-            "neutral": 12
+            "positive": 4,
+            "negative": 19,
+            "neutral": 15
           },
           "sample_reviews": [
             {
@@ -583,12 +583,12 @@
         },
         "initial_setup": {
           "name": "First-Time Setup Issues",
-          "count": 19,
-          "percentage_of_category": 19.4,
+          "count": 20,
+          "percentage_of_category": 17.2,
           "severity": "high",
           "sentiment": {
             "positive": 2,
-            "negative": 6,
+            "negative": 7,
             "neutral": 11
           },
           "sample_reviews": [
@@ -614,13 +614,13 @@
         },
         "connection_drops": {
           "name": "Connection Drops/Unstable",
-          "count": 6,
-          "percentage_of_category": 6.1,
+          "count": 7,
+          "percentage_of_category": 6.0,
           "severity": "high",
           "sentiment": {
             "positive": 2,
             "negative": 3,
-            "neutral": 1
+            "neutral": 2
           },
           "sample_reviews": [
             {
@@ -645,13 +645,13 @@
         },
         "printer_discovery": {
           "name": "Printer Not Found/Discovery",
-          "count": 5,
-          "percentage_of_category": 5.1,
+          "count": 6,
+          "percentage_of_category": 5.2,
           "severity": "critical",
           "sentiment": {
             "positive": 0,
             "negative": 4,
-            "neutral": 1
+            "neutral": 2
           },
           "sample_reviews": [
             {
@@ -677,7 +677,7 @@
         "bluetooth_issues": {
           "name": "Bluetooth Pairing Issues",
           "count": 3,
-          "percentage_of_category": 3.1,
+          "percentage_of_category": 2.6,
           "severity": "high",
           "sentiment": {
             "positive": 0,
@@ -709,12 +709,12 @@
     },
     "features": {
       "name": "Feature Requests & Missing Features",
-      "mention_count": 94,
-      "percentage_of_total": 22.5,
+      "mention_count": 112,
+      "percentage_of_total": 22.4,
       "sentiment": {
-        "positive": 19,
-        "negative": 27,
-        "neutral": 48
+        "positive": 20,
+        "negative": 33,
+        "neutral": 59
       },
       "pm_focus": "Product roadmap, feature prioritization",
       "sample_reviews": [
@@ -752,13 +752,13 @@
       "subcategory_breakdown": {
         "other": {
           "name": "Other/Unspecified",
-          "count": 53,
-          "percentage_of_category": 56.4,
+          "count": 60,
+          "percentage_of_category": 53.6,
           "severity": "low",
           "sentiment": {
-            "positive": 8,
-            "negative": 16,
-            "neutral": 29
+            "positive": 9,
+            "negative": 19,
+            "neutral": 32
           },
           "sample_reviews": [
             {
@@ -783,13 +783,13 @@
         },
         "feature_requests": {
           "name": "New Feature Requests",
-          "count": 23,
-          "percentage_of_category": 24.5,
+          "count": 29,
+          "percentage_of_category": 25.9,
           "severity": "medium",
           "sentiment": {
             "positive": 4,
-            "negative": 7,
-            "neutral": 12
+            "negative": 9,
+            "neutral": 16
           },
           "sample_reviews": [
             {
@@ -814,13 +814,13 @@
         },
         "missing_features": {
           "name": "Missing Core Features",
-          "count": 11,
-          "percentage_of_category": 11.7,
+          "count": 13,
+          "percentage_of_category": 11.6,
           "severity": "high",
           "sentiment": {
             "positive": 5,
-            "negative": 2,
-            "neutral": 4
+            "negative": 3,
+            "neutral": 5
           },
           "sample_reviews": [
             {
@@ -845,13 +845,13 @@
         },
         "enhancement_requests": {
           "name": "Enhancement/Improvement Requests",
-          "count": 9,
-          "percentage_of_category": 9.6,
+          "count": 10,
+          "percentage_of_category": 8.9,
           "severity": "medium",
           "sentiment": {
             "positive": 2,
             "negative": 4,
-            "neutral": 3
+            "neutral": 4
           },
           "sample_reviews": [
             {
@@ -876,13 +876,13 @@
         },
         "removed_features": {
           "name": "Removed/Deprecated Features",
-          "count": 7,
-          "percentage_of_category": 7.4,
+          "count": 10,
+          "percentage_of_category": 8.9,
           "severity": "high",
           "sentiment": {
             "positive": 2,
             "negative": 2,
-            "neutral": 3
+            "neutral": 6
           },
           "sample_reviews": [
             {
@@ -909,12 +909,12 @@
     },
     "uncategorized": {
       "name": "uncategorized",
-      "mention_count": 80,
-      "percentage_of_total": 19.2,
+      "mention_count": 103,
+      "percentage_of_total": 20.6,
       "sentiment": {
-        "positive": 35,
-        "negative": 10,
-        "neutral": 35
+        "positive": 46,
+        "negative": 12,
+        "neutral": 45
       },
       "pm_focus": "",
       "sample_reviews": [
@@ -953,12 +953,12 @@
     },
     "value": {
       "name": "Value & Pricing",
-      "mention_count": 80,
-      "percentage_of_total": 19.2,
+      "mention_count": 92,
+      "percentage_of_total": 18.4,
       "sentiment": {
-        "positive": 16,
-        "negative": 28,
-        "neutral": 36
+        "positive": 17,
+        "negative": 33,
+        "neutral": 42
       },
       "pm_focus": "Monetization, value perception",
       "sample_reviews": [
@@ -996,13 +996,13 @@
       "subcategory_breakdown": {
         "free_vs_paid": {
           "name": "Free vs Paid Feature Gaps",
-          "count": 52,
-          "percentage_of_category": 65.0,
+          "count": 58,
+          "percentage_of_category": 63.0,
           "severity": "medium",
           "sentiment": {
-            "positive": 11,
-            "negative": 17,
-            "neutral": 24
+            "positive": 12,
+            "negative": 20,
+            "neutral": 26
           },
           "sample_reviews": [
             {
@@ -1025,10 +1025,41 @@
             }
           ]
         },
+        "value_perception": {
+          "name": "Value for Money",
+          "count": 15,
+          "percentage_of_category": 16.3,
+          "severity": "medium",
+          "sentiment": {
+            "positive": 1,
+            "negative": 9,
+            "neutral": 5
+          },
+          "sample_reviews": [
+            {
+              "rating": 3,
+              "title": "",
+              "snippet": "I don't use my phone to print anything usually but today it was necessary. I had an issue getting to my normal printer dashboard and fumbled around a bit. I finally figured it out but became a bit flu",
+              "sentiment": "neutral"
+            },
+            {
+              "rating": 2,
+              "title": "",
+              "snippet": "i like the app better than the hp smart version. but it still can't do everything in app. still have to enroll subscription and change settings through web. currently it won't let my printer connect t",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 2,
+              "title": "",
+              "snippet": "difficult to use, runs out of ink way too fast. needs constant updates and reinstalls more headache then it's worth",
+              "sentiment": "neutral"
+            }
+          ]
+        },
         "other": {
           "name": "Other/Unspecified",
           "count": 13,
-          "percentage_of_category": 16.2,
+          "percentage_of_category": 14.1,
           "severity": "low",
           "sentiment": {
             "positive": 3,
@@ -1056,46 +1087,15 @@
             }
           ]
         },
-        "value_perception": {
-          "name": "Value for Money",
-          "count": 11,
-          "percentage_of_category": 13.8,
-          "severity": "medium",
-          "sentiment": {
-            "positive": 1,
-            "negative": 7,
-            "neutral": 3
-          },
-          "sample_reviews": [
-            {
-              "rating": 3,
-              "title": "",
-              "snippet": "I don't use my phone to print anything usually but today it was necessary. I had an issue getting to my normal printer dashboard and fumbled around a bit. I finally figured it out but became a bit flu",
-              "sentiment": "neutral"
-            },
-            {
-              "rating": 2,
-              "title": "",
-              "snippet": "i like the app better than the hp smart version. but it still can't do everything in app. still have to enroll subscription and change settings through web. currently it won't let my printer connect t",
-              "sentiment": "negative"
-            },
-            {
-              "rating": 2,
-              "title": "",
-              "snippet": "difficult to use, runs out of ink way too fast. needs constant updates and reinstalls more headache then it's worth",
-              "sentiment": "neutral"
-            }
-          ]
-        },
         "subscription_model": {
           "name": "Subscription Complaints",
-          "count": 9,
-          "percentage_of_category": 11.2,
+          "count": 12,
+          "percentage_of_category": 13.0,
           "severity": "high",
           "sentiment": {
             "positive": 1,
             "negative": 3,
-            "neutral": 5
+            "neutral": 8
           },
           "sample_reviews": [
             {
@@ -1120,12 +1120,12 @@
         },
         "pricing_concerns": {
           "name": "Pricing Too High",
-          "count": 4,
-          "percentage_of_category": 5.0,
+          "count": 5,
+          "percentage_of_category": 5.4,
           "severity": "high",
           "sentiment": {
             "positive": 0,
-            "negative": 3,
+            "negative": 4,
             "neutral": 1
           },
           "sample_reviews": [
@@ -1152,7 +1152,7 @@
         "ads_complaints": {
           "name": "Excessive Ads",
           "count": 3,
-          "percentage_of_category": 3.8,
+          "percentage_of_category": 3.3,
           "severity": "medium",
           "sentiment": {
             "positive": 2,
@@ -1184,12 +1184,12 @@
     },
     "updates": {
       "name": "Updates & Compatibility",
-      "mention_count": 72,
-      "percentage_of_total": 17.3,
+      "mention_count": 84,
+      "percentage_of_total": 16.8,
       "sentiment": {
-        "positive": 12,
-        "negative": 23,
-        "neutral": 37
+        "positive": 13,
+        "negative": 26,
+        "neutral": 45
       },
       "pm_focus": "Release management, OS compatibility",
       "sample_reviews": [
@@ -1227,13 +1227,13 @@
       "subcategory_breakdown": {
         "device_compatibility": {
           "name": "Device-Specific Issues",
-          "count": 36,
-          "percentage_of_category": 50.0,
+          "count": 40,
+          "percentage_of_category": 47.6,
           "severity": "medium",
           "sentiment": {
-            "positive": 7,
+            "positive": 8,
             "negative": 9,
-            "neutral": 20
+            "neutral": 23
           },
           "sample_reviews": [
             {
@@ -1258,13 +1258,13 @@
         },
         "other": {
           "name": "Other/Unspecified",
-          "count": 23,
-          "percentage_of_category": 31.9,
+          "count": 28,
+          "percentage_of_category": 33.3,
           "severity": "low",
           "sentiment": {
             "positive": 3,
-            "negative": 9,
-            "neutral": 11
+            "negative": 12,
+            "neutral": 13
           },
           "sample_reviews": [
             {
@@ -1289,13 +1289,13 @@
         },
         "printer_compatibility": {
           "name": "Printer Model Compatibility",
-          "count": 15,
-          "percentage_of_category": 20.8,
+          "count": 16,
+          "percentage_of_category": 19.0,
           "severity": "high",
           "sentiment": {
             "positive": 1,
             "negative": 5,
-            "neutral": 9
+            "neutral": 10
           },
           "sample_reviews": [
             {
@@ -1320,13 +1320,13 @@
         },
         "android_compatibility": {
           "name": "Android Version Compatibility",
-          "count": 10,
-          "percentage_of_category": 13.9,
+          "count": 11,
+          "percentage_of_category": 13.1,
           "severity": "high",
           "sentiment": {
             "positive": 2,
             "negative": 2,
-            "neutral": 6
+            "neutral": 7
           },
           "sample_reviews": [
             {
@@ -1351,13 +1351,13 @@
         },
         "update_breaks": {
           "name": "Updates Breaking Functionality",
-          "count": 7,
-          "percentage_of_category": 9.7,
+          "count": 8,
+          "percentage_of_category": 9.5,
           "severity": "critical",
           "sentiment": {
             "positive": 2,
             "negative": 3,
-            "neutral": 2
+            "neutral": 3
           },
           "sample_reviews": [
             {
@@ -1384,12 +1384,12 @@
     },
     "reliability": {
       "name": "App Reliability & Stability",
-      "mention_count": 59,
-      "percentage_of_total": 14.1,
+      "mention_count": 68,
+      "percentage_of_total": 13.6,
       "sentiment": {
         "positive": 6,
-        "negative": 42,
-        "neutral": 11
+        "negative": 49,
+        "neutral": 13
       },
       "pm_focus": "Technical debt, app stability metrics",
       "sample_reviews": [
@@ -1425,14 +1425,45 @@
         }
       ],
       "subcategory_breakdown": {
+        "bugs_glitches": {
+          "name": "Bugs & Glitches",
+          "count": 20,
+          "percentage_of_category": 29.4,
+          "severity": "high",
+          "sentiment": {
+            "positive": 2,
+            "negative": 13,
+            "neutral": 5
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "this app has and bug",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "printers don't work, app debugging and maintenance tools don't work. Utter trash",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "There are too many problems with all HP printers. time to change brand...",
+              "sentiment": "neutral"
+            }
+          ]
+        },
         "other": {
           "name": "Other/Unspecified",
-          "count": 18,
-          "percentage_of_category": 30.5,
+          "count": 20,
+          "percentage_of_category": 29.4,
           "severity": "low",
           "sentiment": {
             "positive": 2,
-            "negative": 14,
+            "negative": 16,
             "neutral": 2
           },
           "sample_reviews": [
@@ -1456,45 +1487,45 @@
             }
           ]
         },
-        "bugs_glitches": {
-          "name": "Bugs & Glitches",
-          "count": 15,
-          "percentage_of_category": 25.4,
-          "severity": "high",
+        "freezing": {
+          "name": "App Freezing/Hanging",
+          "count": 16,
+          "percentage_of_category": 23.5,
+          "severity": "critical",
           "sentiment": {
             "positive": 2,
             "negative": 9,
-            "neutral": 4
+            "neutral": 5
           },
           "sample_reviews": [
             {
               "rating": 1,
               "title": "",
-              "snippet": "this app has and bug",
-              "sentiment": "negative"
-            },
-            {
-              "rating": 1,
-              "title": "",
-              "snippet": "printers don't work, app debugging and maintenance tools don't work. Utter trash",
-              "sentiment": "negative"
-            },
-            {
-              "rating": 1,
-              "title": "",
-              "snippet": "There are too many problems with all HP printers. time to change brand...",
+              "snippet": "shocking, trying to set a new printer up on a Samsung tablet and phone. A deskjet 4200e. the whole process is farcical can't connect, then when you finally connect to the printer, your unable to compl",
               "sentiment": "neutral"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Awful NOT USER FRIENDLY. Why in the heck is it so difficult to change the wifi on your printer? \"OH, just go in the app. It is SUPER easy.\" Bold LIES. Where is the easy? At this point I've got a usele",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Pathetic - Cannot connect to an OfficeJet Pro 8020 via the same wifi network. Tried many times on 2 mobiles (cell phones) and 1 tablet. I can connect to other brands of printer except HP. What happene",
+              "sentiment": "negative"
             }
           ]
         },
         "performance": {
           "name": "Performance/Speed Issues",
-          "count": 14,
-          "percentage_of_category": 23.7,
+          "count": 15,
+          "percentage_of_category": 22.1,
           "severity": "high",
           "sentiment": {
             "positive": 1,
-            "negative": 10,
+            "negative": 11,
             "neutral": 3
           },
           "sample_reviews": [
@@ -1518,41 +1549,10 @@
             }
           ]
         },
-        "freezing": {
-          "name": "App Freezing/Hanging",
-          "count": 13,
-          "percentage_of_category": 22.0,
-          "severity": "critical",
-          "sentiment": {
-            "positive": 2,
-            "negative": 7,
-            "neutral": 4
-          },
-          "sample_reviews": [
-            {
-              "rating": 1,
-              "title": "",
-              "snippet": "shocking, trying to set a new printer up on a Samsung tablet and phone. A deskjet 4200e. the whole process is farcical can't connect, then when you finally connect to the printer, your unable to compl",
-              "sentiment": "neutral"
-            },
-            {
-              "rating": 1,
-              "title": "",
-              "snippet": "Awful NOT USER FRIENDLY. Why in the heck is it so difficult to change the wifi on your printer? \"OH, just go in the app. It is SUPER easy.\" Bold LIES. Where is the easy? At this point I've got a usele",
-              "sentiment": "negative"
-            },
-            {
-              "rating": 1,
-              "title": "",
-              "snippet": "Pathetic - Cannot connect to an OfficeJet Pro 8020 via the same wifi network. Tried many times on 2 mobiles (cell phones) and 1 tablet. I can connect to other brands of printer except HP. What happene",
-              "sentiment": "negative"
-            }
-          ]
-        },
         "crashes": {
           "name": "App Crashes",
           "count": 4,
-          "percentage_of_category": 6.8,
+          "percentage_of_category": 5.9,
           "severity": "critical",
           "sentiment": {
             "positive": 0,
@@ -1583,7 +1583,7 @@
         "resource_usage": {
           "name": "Battery/Memory Usage",
           "count": 1,
-          "percentage_of_category": 1.7,
+          "percentage_of_category": 1.5,
           "severity": "medium",
           "sentiment": {
             "positive": 0,
@@ -1603,12 +1603,12 @@
     },
     "scanning": {
       "name": "Scanning Features",
-      "mention_count": 53,
-      "percentage_of_total": 12.7,
+      "mention_count": 62,
+      "percentage_of_total": 12.4,
       "sentiment": {
-        "positive": 15,
-        "negative": 7,
-        "neutral": 31
+        "positive": 16,
+        "negative": 11,
+        "neutral": 35
       },
       "pm_focus": "Secondary feature adoption, scan workflow",
       "sample_reviews": [
@@ -1646,13 +1646,13 @@
       "subcategory_breakdown": {
         "other": {
           "name": "Other/Unspecified",
-          "count": 52,
-          "percentage_of_category": 98.1,
+          "count": 61,
+          "percentage_of_category": 98.4,
           "severity": "low",
           "sentiment": {
-            "positive": 15,
-            "negative": 7,
-            "neutral": 30
+            "positive": 16,
+            "negative": 11,
+            "neutral": 34
           },
           "sample_reviews": [
             {
@@ -1678,7 +1678,7 @@
         "multipage_scanning": {
           "name": "Multi-page/Batch Scanning",
           "count": 1,
-          "percentage_of_category": 1.9,
+          "percentage_of_category": 1.6,
           "severity": "medium",
           "sentiment": {
             "positive": 0,
@@ -1698,12 +1698,12 @@
     },
     "account_cloud": {
       "name": "Account & Cloud Services",
-      "mention_count": 42,
-      "percentage_of_total": 10.1,
+      "mention_count": 55,
+      "percentage_of_total": 11.0,
       "sentiment": {
         "positive": 4,
-        "negative": 16,
-        "neutral": 22
+        "negative": 23,
+        "neutral": 28
       },
       "pm_focus": "Account funnel, cloud integration",
       "sample_reviews": [
@@ -1741,13 +1741,13 @@
       "subcategory_breakdown": {
         "account_management": {
           "name": "Account Management",
-          "count": 22,
-          "percentage_of_category": 52.4,
+          "count": 28,
+          "percentage_of_category": 50.9,
           "severity": "high",
           "sentiment": {
             "positive": 2,
-            "negative": 5,
-            "neutral": 15
+            "negative": 7,
+            "neutral": 19
           },
           "sample_reviews": [
             {
@@ -1772,13 +1772,13 @@
         },
         "login_issues": {
           "name": "Login/Authentication Problems",
-          "count": 16,
-          "percentage_of_category": 38.1,
+          "count": 22,
+          "percentage_of_category": 40.0,
           "severity": "critical",
           "sentiment": {
             "positive": 1,
-            "negative": 7,
-            "neutral": 8
+            "negative": 11,
+            "neutral": 10
           },
           "sample_reviews": [
             {
@@ -1803,13 +1803,13 @@
         },
         "hp_services": {
           "name": "HP+ / Instant Ink Issues",
-          "count": 8,
-          "percentage_of_category": 19.0,
+          "count": 11,
+          "percentage_of_category": 20.0,
           "severity": "high",
           "sentiment": {
             "positive": 1,
-            "negative": 3,
-            "neutral": 4
+            "negative": 4,
+            "neutral": 6
           },
           "sample_reviews": [
             {
@@ -1834,13 +1834,13 @@
         },
         "sync_issues": {
           "name": "Sync/Data Issues",
-          "count": 4,
-          "percentage_of_category": 9.5,
+          "count": 5,
+          "percentage_of_category": 9.1,
           "severity": "medium",
           "sentiment": {
             "positive": 1,
             "negative": 2,
-            "neutral": 1
+            "neutral": 2
           },
           "sample_reviews": [
             {
@@ -1865,13 +1865,13 @@
         },
         "other": {
           "name": "Other/Unspecified",
-          "count": 2,
-          "percentage_of_category": 4.8,
+          "count": 5,
+          "percentage_of_category": 9.1,
           "severity": "low",
           "sentiment": {
             "positive": 1,
-            "negative": 1,
-            "neutral": 0
+            "negative": 3,
+            "neutral": 1
           },
           "sample_reviews": [
             {
@@ -1884,6 +1884,12 @@
               "rating": 1,
               "title": "",
               "snippet": "slow to send emails",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "My printer can send me an email so I know it's connected to the internet. Why can't I print? Why does it always say my printer is not available? This app is terrible. Not being able to connect and pri",
               "sentiment": "negative"
             }
           ]

@@ -609,150 +609,75 @@ def analyze_reviews(reviews):
     }
 
 
-def generate_pm_insights_report(analysis):
-    """Generate Product Manager insights report"""
+def generate_pm_insights_report(analysis, output_format="markdown"):
+    """Generate Product Manager insights report in clean Markdown format"""
 
     total = analysis["total_reviews"]
+    lines = []
 
-    print("\n" + "="*70)
-    print("  PRINTER APP INSIGHTS REPORT")
-    print("  Product Manager Analysis - HP Perspective")
-    print("="*70)
+    # Helper to add lines
+    def add(text=""):
+        lines.append(text)
+
+    # Header
+    add("# HP Smart App - Customer Insights Report")
+    add("")
+    add(f"**Generated:** {datetime.now().strftime('%Y-%m-%d %H:%M')}")
+    add(f"**Total Reviews Analyzed:** {total}")
+    add("")
 
     # Executive Summary
-    print("\n" + "-"*70)
-    print("  EXECUTIVE SUMMARY")
-    print("-"*70)
-    print(f"\n  Total Reviews Analyzed: {total}")
+    add("---")
+    add("")
+    add("## Executive Summary")
+    add("")
 
-    # Sentiment Overview
     sent = analysis["sentiment_counts"]
     pos_pct = sent["positive"] / total * 100 if total > 0 else 0
     neg_pct = sent["negative"] / total * 100 if total > 0 else 0
     neu_pct = sent["neutral"] / total * 100 if total > 0 else 0
-
-    print(f"\n  Overall Sentiment:")
-    print(f"    Positive: {sent['positive']:5d} ({pos_pct:5.1f}%)")
-    print(f"    Negative: {sent['negative']:5d} ({neg_pct:5.1f}%)")
-    print(f"    Neutral:  {sent['neutral']:5d} ({neu_pct:5.1f}%)")
-
-    # NPS-style indicator
     nps_indicator = pos_pct - neg_pct
-    print(f"\n  Sentiment Score: {nps_indicator:+.1f}")
+
+    # Sentiment table
+    add("### Overall Sentiment")
+    add("")
+    add("| Sentiment | Count | Percentage |")
+    add("|-----------|-------|------------|")
+    add(f"| Positive | {sent['positive']} | {pos_pct:.1f}% |")
+    add(f"| Negative | {sent['negative']} | {neg_pct:.1f}% |")
+    add(f"| Neutral | {sent['neutral']} | {neu_pct:.1f}% |")
+    add("")
+    add(f"**Sentiment Score:** {nps_indicator:+.1f}")
+    add("")
 
     # Rating Distribution
-    print("\n  Rating Distribution:")
+    add("### Rating Distribution")
+    add("")
     ratings = analysis["rating_distribution"]
+    add("| Rating | Count | Percentage | |")
+    add("|--------|-------|------------|---|")
     for r in range(5, 0, -1):
         count = ratings.get(r, 0)
         pct = count / total * 100 if total > 0 else 0
-        bar = "*" * int(pct / 2)
-        print(f"    {r} stars: {count:5d} ({pct:5.1f}%) {bar}")
+        bar = "█" * int(pct / 5) + "░" * (20 - int(pct / 5))
+        add(f"| {'⭐' * r} | {count} | {pct:.1f}% | {bar} |")
+    add("")
 
-    # Top 10 Categories
-    print("\n" + "-"*70)
-    print("  TOP 10 INSIGHT CATEGORIES")
-    print("-"*70)
+    # Calculate average rating
+    total_rating_sum = sum(r * ratings.get(r, 0) for r in range(1, 6))
+    avg_rating = total_rating_sum / total if total > 0 else 0
+    add(f"**Average Rating:** {avg_rating:.2f} / 5.0")
+    add("")
 
-    top_categories = analysis["category_counts"].most_common(10)
-
-    for rank, (cat_id, count) in enumerate(top_categories, 1):
-        if cat_id == "uncategorized":
-            cat_name = "Other/Uncategorized"
-            pm_focus = "Requires manual review"
-        else:
-            cat_info = INSIGHT_CATEGORIES.get(cat_id, {})
-            cat_name = cat_info.get("name", cat_id)
-            pm_focus = cat_info.get("pm_focus", "")
-
-        pct = count / total * 100 if total > 0 else 0
-
-        # Get sentiment for this category
-        cat_sent = analysis["category_sentiment"].get(cat_id, {})
-        cat_pos = cat_sent.get("positive", 0)
-        cat_neg = cat_sent.get("negative", 0)
-
-        print(f"\n  {rank:2d}. {cat_name}")
-        print(f"      Mentions: {count} ({pct:.1f}%)")
-        print(f"      Sentiment: +{cat_pos} positive, -{cat_neg} negative")
-        print(f"      PM Focus: {pm_focus}")
-
-    # ==========================================================================
-    # SECOND-LEVEL ANALYSIS - Sub-category drill-down for top 5 categories
-    # ==========================================================================
-    print("\n" + "="*70)
-    print("  SECOND-LEVEL ANALYSIS: SUB-CATEGORY BREAKDOWN")
-    print("="*70)
-    print("\n  Drilling down into top categories to identify specific issues...\n")
+    # Priority Issues (moved to top for executive visibility)
+    add("---")
+    add("")
+    add("## 🚨 Priority Issues to Address")
+    add("")
 
     subcategory_counts = analysis.get("subcategory_counts", {})
     subcategory_sentiment = analysis.get("subcategory_sentiment", {})
-    subcategory_reviews = analysis.get("subcategory_reviews", {})
 
-    for rank, (cat_id, count) in enumerate(top_categories[:5], 1):
-        if cat_id == "uncategorized":
-            continue
-
-        cat_info = INSIGHT_CATEGORIES.get(cat_id, {})
-        cat_name = cat_info.get("name", cat_id)
-        subcats_info = cat_info.get("subcategories", {})
-
-        print("-"*70)
-        print(f"  {rank}. {cat_name.upper()} ({count} mentions)")
-        print("-"*70)
-
-        # Get sub-category breakdown
-        cat_subcats = subcategory_counts.get(cat_id, {})
-        if cat_subcats:
-            sorted_subcats = sorted(cat_subcats.items(), key=lambda x: -x[1])
-
-            print("\n  Sub-category Breakdown:")
-            print("  " + "-"*40)
-
-            for subcat_id, subcat_count in sorted_subcats[:6]:  # Top 6 sub-categories
-                if subcat_id == "other":
-                    subcat_name = "Other/Unspecified"
-                    severity = "low"
-                else:
-                    subcat_def = subcats_info.get(subcat_id, {})
-                    subcat_name = subcat_def.get("name", subcat_id)
-                    severity = subcat_def.get("severity", "medium")
-
-                subcat_pct = subcat_count / count * 100 if count > 0 else 0
-
-                # Get sub-category sentiment
-                subcat_sent = subcategory_sentiment.get(cat_id, {}).get(subcat_id, {})
-                sub_pos = subcat_sent.get("positive", 0)
-                sub_neg = subcat_sent.get("negative", 0)
-
-                # Severity indicator
-                sev_icon = "🔴" if severity == "critical" else ("🟠" if severity == "high" else ("🟡" if severity == "medium" else "🟢"))
-
-                print(f"\n    {sev_icon} {subcat_name}")
-                print(f"       Count: {subcat_count} ({subcat_pct:.1f}% of category)")
-                print(f"       Sentiment: +{sub_pos} / -{sub_neg}")
-                print(f"       Severity: {severity.upper()}")
-
-                # Show sample reviews for this sub-category
-                samples = subcategory_reviews.get(cat_id, {}).get(subcat_id, [])[:2]
-                if samples:
-                    print(f"       Sample reviews:")
-                    for sample in samples:
-                        sent_icon = "+" if sample["sentiment"] == "positive" else ("-" if sample["sentiment"] == "negative" else "~")
-                        print(f"         {sent_icon} [{sample['rating']}*] \"{sample['snippet'][:80]}...\"")
-        else:
-            print("\n  No sub-category breakdown available.")
-
-        print()
-
-    # ==========================================================================
-    # PRIORITY ISSUES SUMMARY (from sub-category analysis)
-    # ==========================================================================
-    print("\n" + "="*70)
-    print("  PRIORITY ISSUES SUMMARY")
-    print("="*70)
-
-    # Collect all critical and high severity sub-category issues
     priority_issues = []
     for cat_id in subcategory_counts:
         cat_info = INSIGHT_CATEGORIES.get(cat_id, {})
@@ -766,7 +691,6 @@ def generate_pm_insights_report(analysis):
             severity = subcat_def.get("severity", "medium")
             subcat_name = subcat_def.get("name", subcat_id)
 
-            # Get sentiment for this sub-category
             subcat_sent = subcategory_sentiment.get(cat_id, {}).get(subcat_id, {})
             neg_count = subcat_sent.get("negative", 0)
             neg_ratio = neg_count / subcat_count if subcat_count > 0 else 0
@@ -781,99 +705,164 @@ def generate_pm_insights_report(analysis):
                     "neg_count": neg_count
                 })
 
-    # Sort by severity (critical first), then by count
     severity_order = {"critical": 0, "high": 1, "medium": 2, "low": 3}
     priority_issues.sort(key=lambda x: (severity_order.get(x["severity"], 4), -x["count"]))
 
-    print("\n  Top Priority Issues to Address:\n")
+    add("| Priority | Issue | Category | Mentions | Negative % | Severity |")
+    add("|----------|-------|----------|----------|------------|----------|")
     for i, issue in enumerate(priority_issues[:10], 1):
         sev_icon = "🔴" if issue["severity"] == "critical" else ("🟠" if issue["severity"] == "high" else "🟡")
-        print(f"  {i:2d}. {sev_icon} {issue['subcategory']}")
-        print(f"       Category: {issue['category']}")
-        print(f"       Mentions: {issue['count']} | Negative: {issue['neg_count']} ({issue['neg_ratio']*100:.0f}%)")
-        print(f"       Severity: {issue['severity'].upper()}")
-        print()
+        add(f"| {i} | {issue['subcategory']} | {issue['category']} | {issue['count']} | {issue['neg_ratio']*100:.0f}% | {sev_icon} {issue['severity'].upper()} |")
+    add("")
 
-    # Actionable Insights
-    print("\n" + "-"*70)
-    print("  ACTIONABLE PM INSIGHTS")
-    print("-"*70)
+    # Top Categories
+    add("---")
+    add("")
+    add("## Top Issue Categories")
+    add("")
 
-    # Find pain points (high mention + negative sentiment)
-    pain_points = []
-    for cat_id, count in top_categories[:10]:
-        if cat_id != "uncategorized":
-            cat_sent = analysis["category_sentiment"].get(cat_id, {})
-            neg_ratio = cat_sent.get("negative", 0) / count if count > 0 else 0
-            if neg_ratio > 0.4:  # More than 40% negative
-                pain_points.append((cat_id, count, neg_ratio))
+    top_categories = analysis["category_counts"].most_common(10)
 
-    print("\n  Critical Pain Points (High negative sentiment):")
-    if pain_points:
-        for cat_id, count, ratio in sorted(pain_points, key=lambda x: -x[2])[:5]:
-            cat_name = INSIGHT_CATEGORIES.get(cat_id, {}).get("name", cat_id)
-            print(f"    - {cat_name}: {ratio*100:.0f}% negative ({count} mentions)")
-    else:
-        print("    No critical pain points identified")
+    add("| Rank | Category | Mentions | % of Total | Positive | Negative | PM Focus |")
+    add("|------|----------|----------|------------|----------|----------|----------|")
+    for rank, (cat_id, count) in enumerate(top_categories, 1):
+        if cat_id == "uncategorized":
+            cat_name = "Other"
+            pm_focus = "Manual review"
+        else:
+            cat_info = INSIGHT_CATEGORIES.get(cat_id, {})
+            cat_name = cat_info.get("name", cat_id)
+            pm_focus = cat_info.get("pm_focus", "")
 
-    # Feature opportunities
-    feat_count = analysis["category_counts"].get("features", 0)
-    print(f"\n  Feature Request Volume: {feat_count} mentions")
+        pct = count / total * 100 if total > 0 else 0
+        cat_sent = analysis["category_sentiment"].get(cat_id, {})
+        cat_pos = cat_sent.get("positive", 0)
+        cat_neg = cat_sent.get("negative", 0)
 
-    # Connectivity focus (usually #1 for printer apps)
-    conn_count = analysis["category_counts"].get("connectivity", 0)
-    print(f"  Connectivity Issues: {conn_count} mentions (industry-wide challenge)")
+        add(f"| {rank} | {cat_name} | {count} | {pct:.1f}% | {cat_pos} | {cat_neg} | {pm_focus} |")
+    add("")
 
-    # Recommendations
-    print("\n" + "-"*70)
-    print("  PM RECOMMENDATIONS")
-    print("-"*70)
+    # Detailed Sub-category Analysis
+    add("---")
+    add("")
+    add("## Detailed Sub-Category Analysis")
+    add("")
+
+    subcategory_reviews = analysis.get("subcategory_reviews", {})
+
+    for rank, (cat_id, count) in enumerate(top_categories[:5], 1):
+        if cat_id == "uncategorized":
+            continue
+
+        cat_info = INSIGHT_CATEGORIES.get(cat_id, {})
+        cat_name = cat_info.get("name", cat_id)
+        subcats_info = cat_info.get("subcategories", {})
+
+        add(f"### {rank}. {cat_name}")
+        add(f"*{count} total mentions*")
+        add("")
+
+        cat_subcats = subcategory_counts.get(cat_id, {})
+        if cat_subcats:
+            sorted_subcats = [(k, v) for k, v in sorted(cat_subcats.items(), key=lambda x: -x[1]) if k != "other"]
+
+            add("| Sub-Issue | Count | % | Sentiment | Severity |")
+            add("|-----------|-------|---|-----------|----------|")
+
+            for subcat_id, subcat_count in sorted_subcats[:5]:
+                subcat_def = subcats_info.get(subcat_id, {})
+                subcat_name = subcat_def.get("name", subcat_id)
+                severity = subcat_def.get("severity", "medium")
+
+                subcat_pct = subcat_count / count * 100 if count > 0 else 0
+                subcat_sent = subcategory_sentiment.get(cat_id, {}).get(subcat_id, {})
+                sub_pos = subcat_sent.get("positive", 0)
+                sub_neg = subcat_sent.get("negative", 0)
+
+                sev_icon = "🔴" if severity == "critical" else ("🟠" if severity == "high" else ("🟡" if severity == "medium" else "🟢"))
+
+                add(f"| {subcat_name} | {subcat_count} | {subcat_pct:.0f}% | +{sub_pos} / -{sub_neg} | {sev_icon} {severity.title()} |")
+
+            add("")
+
+            # Sample quotes for top sub-issues
+            add("**Sample Customer Quotes:**")
+            add("")
+            shown_quotes = 0
+            for subcat_id, subcat_count in sorted_subcats[:3]:
+                if shown_quotes >= 3:
+                    break
+                subcat_def = subcats_info.get(subcat_id, {})
+                subcat_name = subcat_def.get("name", subcat_id)
+                samples = subcategory_reviews.get(cat_id, {}).get(subcat_id, [])[:1]
+                for sample in samples:
+                    stars = "⭐" * sample["rating"]
+                    add(f"> *\"{sample['snippet'][:120]}...\"*")
+                    add(f"> — {stars} ({subcat_name})")
+                    add("")
+                    shown_quotes += 1
+
+        add("")
+
+    # PM Recommendations
+    add("---")
+    add("")
+    add("## PM Recommendations")
+    add("")
 
     recommendations = []
 
     if analysis["category_counts"].get("connectivity", 0) > total * 0.2:
-        recommendations.append("PRIORITY: Improve WiFi/Bluetooth connectivity flow - biggest user pain point")
+        recommendations.append(("🔴 Critical", "Improve WiFi/Bluetooth connectivity flow", "Biggest user pain point - 20%+ of reviews mention connection issues"))
 
     if analysis["category_counts"].get("reliability", 0) > total * 0.15:
-        recommendations.append("Stability Sprint: Address crash/freeze issues to improve ratings")
+        recommendations.append(("🔴 Critical", "Stability Sprint", "Address crash/freeze issues to improve app store ratings"))
 
     if analysis["category_counts"].get("mobile_experience", 0) > total * 0.1:
-        recommendations.append("UX Audit: Simplify navigation and core workflows")
+        recommendations.append(("🟠 High", "UX Audit", "Simplify navigation and core workflows based on user feedback"))
 
     if analysis["category_counts"].get("updates", 0) > total * 0.1:
-        recommendations.append("Release QA: More thorough testing before iOS updates")
+        recommendations.append(("🟠 High", "Release QA Enhancement", "More thorough testing before Android updates"))
 
     if neg_pct > 40:
-        recommendations.append("URGENT: High negative sentiment - requires immediate attention")
+        recommendations.append(("🔴 Critical", "Urgent Intervention Required", "High negative sentiment requires immediate cross-functional response"))
 
     if not recommendations:
-        recommendations.append("Continue monitoring user feedback for emerging patterns")
+        recommendations.append(("🟢 Monitor", "Continue Monitoring", "User feedback patterns are stable - maintain current trajectory"))
 
-    for i, rec in enumerate(recommendations, 1):
-        print(f"\n  {i}. {rec}")
+    add("| Priority | Action | Rationale |")
+    add("|----------|--------|-----------|")
+    for priority, action, rationale in recommendations:
+        add(f"| {priority} | {action} | {rationale} |")
+    add("")
 
-    # Sample Reviews by Category
-    print("\n" + "-"*70)
-    print("  SAMPLE REVIEWS BY CATEGORY")
-    print("-"*70)
+    # Key Metrics
+    add("---")
+    add("")
+    add("## Key Metrics Summary")
+    add("")
+    add("| Metric | Value |")
+    add("|--------|-------|")
+    add(f"| Total Reviews | {total} |")
+    add(f"| Average Rating | {avg_rating:.2f} |")
+    add(f"| Positive Sentiment | {pos_pct:.1f}% |")
+    add(f"| Negative Sentiment | {neg_pct:.1f}% |")
+    add(f"| 1-Star Reviews | {ratings.get(1, 0)} ({ratings.get(1, 0)/total*100:.1f}%) |")
+    add(f"| 5-Star Reviews | {ratings.get(5, 0)} ({ratings.get(5, 0)/total*100:.1f}%) |")
+    add(f"| Critical Issues | {len([i for i in priority_issues if i['severity'] == 'critical'])} |")
+    add(f"| High Priority Issues | {len([i for i in priority_issues if i['severity'] == 'high'])} |")
+    add("")
 
-    for cat_id, count in top_categories[:5]:
-        if cat_id == "uncategorized":
-            continue
-        cat_name = INSIGHT_CATEGORIES.get(cat_id, {}).get("name", cat_id)
-        print(f"\n  [{cat_name}]")
+    add("---")
+    add("*Report generated by CustomerInsight_Review_Agent*")
 
-        samples = analysis["category_reviews"].get(cat_id, [])[:3]
-        for sample in samples:
-            sent_icon = "+" if sample["sentiment"] == "positive" else ("-" if sample["sentiment"] == "negative" else "~")
-            print(f"    {sent_icon} [{sample['rating']}*] {sample['snippet'][:80]}...")
-
-    print("\n" + "="*70)
-    print("  END OF REPORT")
-    print("="*70 + "\n")
+    # Print and return
+    report = "\n".join(lines)
+    print(report)
+    return report
 
 
-def save_insights_json(analysis, filepath="pm_insights.json"):
+def save_insights_json(analysis, filepath="pm_insights.json", silent=False):
     """Save insights to JSON for further processing"""
 
     # Prepare serializable data
@@ -933,7 +922,8 @@ def save_insights_json(analysis, filepath="pm_insights.json"):
     with open(filepath, "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
 
-    print(f"Insights saved to {filepath}")
+    if not silent:
+        print(f"Insights saved to {filepath}")
 
 
 def main():
@@ -953,15 +943,11 @@ def main():
     else:
         review_file = default_file
 
-    print(f"\nLoading reviews from: {review_file}")
-
+    # Silent loading (no print statements to interfere with report output)
     try:
         reviews = load_reviews(review_file)
-        print(f"Loaded {len(reviews)} reviews")
     except FileNotFoundError:
         print(f"Error: File not found: {review_file}")
-        print("\nPlease run app_store_scraper.py first to collect reviews.")
-        print("Usage: python pm_insights_agent.py [reviews_file.json]")
         return
 
     if not reviews:
@@ -969,15 +955,14 @@ def main():
         return
 
     # Analyze
-    print("Analyzing reviews...")
     analysis = analyze_reviews(reviews)
 
-    # Generate report
-    generate_pm_insights_report(analysis)
+    # Generate report (returns markdown string and prints it)
+    report = generate_pm_insights_report(analysis)
 
-    # Save JSON insights to same directory
+    # Save JSON insights to same directory (silently)
     insights_file = os.path.join(script_dir, "pm_insights.json")
-    save_insights_json(analysis, insights_file)
+    save_insights_json(analysis, insights_file, silent=True)
 
 
 if __name__ == "__main__":
