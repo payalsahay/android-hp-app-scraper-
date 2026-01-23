@@ -1,0 +1,38 @@
+{
+  "scrape_date": "2026-01-23T09:43:31.135998",
+  "total_reviews": 417,
+  "avg_rating": 2.29,
+  "rating_distribution": {
+    "5": 106,
+    "4": 15,
+    "3": 20,
+    "2": 30,
+    "1": 246
+  },
+  "version_distribution": {
+    "20.2.0.6076": 314,
+    "20.1.2.5988": 11,
+    "18.10.0.5530": 9,
+    "20.0.1.5732": 4,
+    "20.1.0.5822": 3,
+    "18.5.1.5470": 2,
+    "20.0.0.5655": 1,
+    "16.15.1.4410": 1,
+    "12.0.2.4056": 1,
+    "16.5.1.4270": 1
+  },
+  "country_distribution": {
+    "us": 417
+  },
+  "one_star_count": 246,
+  "one_star_pct": 59.0,
+  "five_star_count": 106,
+  "five_star_pct": 25.4,
+  "platform": "Google Play",
+  "country": "US",
+  "date_range": {
+    "from": "2025-12-24",
+    "to": "2026-01-22"
+  },
+  "days": 30
+}

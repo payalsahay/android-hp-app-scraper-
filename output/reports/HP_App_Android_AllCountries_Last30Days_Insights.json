@@ -1,0 +1,438 @@
+{
+  "generated_at": "2026-01-23T09:45:18.541552",
+  "total_reviews": 875,
+  "sentiment_summary": {
+    "neutral": 612,
+    "positive": 139,
+    "negative": 124
+  },
+  "rating_distribution": {
+    "1": 475,
+    "5": 274,
+    "2": 52,
+    "4": 38,
+    "3": 36
+  },
+  "categories": {
+    "mobile_experience": {
+      "name": "Mobile App Experience",
+      "mention_count": 349,
+      "sentiment": {
+        "positive": 72,
+        "negative": 71,
+        "neutral": 206
+      },
+      "pm_focus": "App usability, user satisfaction",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "worst app ever, I just need to reconnect to the Internet and there is no way to do that. just a simple thing. yet not available. why are printers so h",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "great app to use with my hp printer to Android phone",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "Excellent app. Intuitive, full featured, easy to use, appealing interface.",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Quelle plaie cette application ! mon imprimante est détecté et connecté au même réseau cependant l'imprimante ne veut pas imprimer. ca prend 3 heures ",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Es lenta, farragosa, tarda en cargar aunque sea la única aplicación abierta con 16gb de RAM físicos para ella sola. Increíble suscribirse a un product",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    "uncategorized": {
+      "name": "uncategorized",
+      "mention_count": 304,
+      "sentiment": {
+        "positive": 43,
+        "negative": 11,
+        "neutral": 250
+      },
+      "pm_focus": "",
+      "sample_reviews": [
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "excelente herramienta, me encanta",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "ok",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "sometimes I can send and a lot of times I can't",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "goed",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "excelente.",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    "printing": {
+      "name": "Print Quality & Functionality",
+      "mention_count": 238,
+      "sentiment": {
+        "positive": 33,
+        "negative": 68,
+        "neutral": 137
+      },
+      "pm_focus": "Core value proposition, print reliability",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "worst app ever, I just need to reconnect to the Internet and there is no way to do that. just a simple thing. yet not available. why are printers so h",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "great app to use with my hp printer to Android phone",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Quelle plaie cette application ! mon imprimante est détecté et connecté au même réseau cependant l'imprimante ne veut pas imprimer. ca prend 3 heures ",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "good printer",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "Makes scanning direct to your mobile device a breeze, i can scan hundreds of pages into pdfs all within the app.",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    "connectivity": {
+      "name": "Connectivity & Setup",
+      "mention_count": 126,
+      "sentiment": {
+        "positive": 12,
+        "negative": 40,
+        "neutral": 74
+      },
+      "pm_focus": "First-time user experience, connectivity reliability",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "worst app ever, I just need to reconnect to the Internet and there is no way to do that. just a simple thing. yet not available. why are printers so h",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "susah gila nak guna. menyusahkan... pakai cable lg senang. bayar mahal² utk wireless... buat rasa sakit hati...",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Quelle plaie cette application ! mon imprimante est détecté et connecté au même réseau cependant l'imprimante ne veut pas imprimer. ca prend 3 heures ",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 2,
+          "title": "",
+          "snippet": "EPSON Eco Tank, you guys!! Best upgrade ever! I've always been an HP guy, but ink was always running out & this horrible app wasn't connecting to my n",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 2,
+          "title": "",
+          "snippet": "after update printer cant be connected and the app was slow",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    "value": {
+      "name": "Value & Pricing",
+      "mention_count": 120,
+      "sentiment": {
+        "positive": 20,
+        "negative": 30,
+        "neutral": 70
+      },
+      "pm_focus": "Monetization, value perception",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Es lenta, farragosa, tarda en cargar aunque sea la única aplicación abierta con 16gb de RAM físicos para ella sola. Increíble suscribirse a un product",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "all the monopoly and subscription you can't print unless you are paying a monthly subscription",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 2,
+          "title": "",
+          "snippet": "EPSON Eco Tank, you guys!! Best upgrade ever! I've always been an HP guy, but ink was always running out & this horrible app wasn't connecting to my n",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Can't print because I need a subscription to use my ink cartridges? what",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Can't even finish the setup process as these clown engineers didn't format this app correctly for android. You can't scroll down to accept the stupid ",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    "features": {
+      "name": "Feature Requests & Missing Features",
+      "mention_count": 93,
+      "sentiment": {
+        "positive": 17,
+        "negative": 27,
+        "neutral": 49
+      },
+      "pm_focus": "Product roadmap, feature prioritization",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "worst app ever, I just need to reconnect to the Internet and there is no way to do that. just a simple thing. yet not available. why are printers so h",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "Excellent app. Intuitive, full featured, easy to use, appealing interface.",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 2,
+          "title": "",
+          "snippet": "EPSON Eco Tank, you guys!! Best upgrade ever! I've always been an HP guy, but ink was always running out & this horrible app wasn't connecting to my n",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Can't print because I need a subscription to use my ink cartridges? what",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Can't even finish the setup process as these clown engineers didn't format this app correctly for android. You can't scroll down to accept the stupid ",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    "scanning": {
+      "name": "Scanning Features",
+      "mention_count": 89,
+      "sentiment": {
+        "positive": 15,
+        "negative": 8,
+        "neutral": 66
+      },
+      "pm_focus": "Secondary feature adoption, scan workflow",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Quelle plaie cette application ! mon imprimante est détecté et connecté au même réseau cependant l'imprimante ne veut pas imprimer. ca prend 3 heures ",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Doppelseitiges Scannen wäre noch chic, ansonsten alles top! Update: seit einiger Zeit bricht fast jeder Scanversuch ab. Meldung \"kein Scannen möglich\"",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "Makes scanning direct to your mobile device a breeze, i can scan hundreds of pages into pdfs all within the app.",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "con quest ultimo aggiornamento l app non mi scannerizza più in formato standard ma scannerizza in gigante preferivo la vecchia versione",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "Excelente calidad de escaneo",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    "reliability": {
+      "name": "App Reliability & Stability",
+      "mention_count": 74,
+      "sentiment": {
+        "positive": 7,
+        "negative": 44,
+        "neutral": 23
+      },
+      "pm_focus": "Technical debt, app stability metrics",
+      "sample_reviews": [
+        {
+          "rating": 2,
+          "title": "",
+          "snippet": "after update printer cant be connected and the app was slow",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Simply not working. Need to restart the app and or the printer 3 times to print one page. Never ever buying a HP product",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "shocking, trying to set a new printer up on a Samsung tablet and phone. A deskjet 4200e. the whole process is farcical can't connect, then when you fi",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "une catastrophe. nouvelle imprimante l'an passé.. tout fonctionnait parfaitement. je viens de changer de téléphone et j'ai ne peux plus utiliser mon i",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Impossible d'avoir la nouvelle version à moins de changer de téléphone portable. C'est honteux",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    "updates": {
+      "name": "Updates & Compatibility",
+      "mention_count": 72,
+      "sentiment": {
+        "positive": 11,
+        "negative": 16,
+        "neutral": 45
+      },
+      "pm_focus": "Release management, OS compatibility",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Doppelseitiges Scannen wäre noch chic, ansonsten alles top! Update: seit einiger Zeit bricht fast jeder Scanversuch ab. Meldung \"kein Scannen möglich\"",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 2,
+          "title": "",
+          "snippet": "EPSON Eco Tank, you guys!! Best upgrade ever! I've always been an HP guy, but ink was always running out & this horrible app wasn't connecting to my n",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "con quest ultimo aggiornamento l app non mi scannerizza più in formato standard ma scannerizza in gigante preferivo la vecchia versione",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 2,
+          "title": "",
+          "snippet": "after update printer cant be connected and the app was slow",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Impossible d'avoir la nouvelle version à moins de changer de téléphone portable. C'est honteux",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    "support": {
+      "name": "Customer Support & Help",
+      "mention_count": 47,
+      "sentiment": {
+        "positive": 10,
+        "negative": 15,
+        "neutral": 22
+      },
+      "pm_focus": "Support deflection, self-service success",
+      "sample_reviews": [
+        {
+          "rating": 2,
+          "title": "",
+          "snippet": "poor instructions for a novice.",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 2,
+          "title": "",
+          "snippet": "printer goes to sleep and does not wake up unless I physically turn off power and turn back on. it gets really frustrating! I like hp print service, e",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "Best one of the app for all brands printers just one small thing missing that manual or auto duplex option, which provide by noko print app",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 2,
+          "title": "",
+          "snippet": "Ny surfplatta Samsung galaxy S10 lite 5 G med mobilt bredband / modem och ny skrivare Hp deskjet 2822e. Tv mm går på det mobila bredbandet men Den nya",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Not helped",
+          "sentiment": "neutral"
+        }
+      ]
+    }
+  }
+}
