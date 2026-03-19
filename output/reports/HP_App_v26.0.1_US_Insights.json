@@ -1,0 +1,1741 @@
+{
+  "generated_at": "2026-03-19T12:28:02.620516",
+  "total_reviews": 164,
+  "sentiment_summary": {
+    "neutral": 62,
+    "positive": 29,
+    "negative": 73
+  },
+  "rating_distribution": {
+    "1": 122,
+    "5": 25,
+    "3": 5,
+    "2": 9,
+    "4": 3
+  },
+  "categories": {
+    "mobile_experience": {
+      "name": "Mobile App Experience",
+      "mention_count": 91,
+      "percentage_of_total": 55.5,
+      "sentiment": {
+        "positive": 17,
+        "negative": 42,
+        "neutral": 32
+      },
+      "pm_focus": "App usability, user satisfaction",
+      "sample_reviews": [
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "After the latest update when I open the app only get a white screen nothing else. After upgrading to a newer printer this app works sporadically.",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 3,
+          "title": "",
+          "snippet": "not very good app..sometimes it's stuck,especially when you update or charge device",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "The app isn't working. I don't have any problems with the printer, but the app is garbage",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Recent update has made the app inoperative.. Has been stuck on the loading circle for two days now.",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "app doesn't open just shows loading endlessly",
+          "sentiment": "neutral"
+        }
+      ],
+      "subcategory_breakdown": {
+        "other": {
+          "name": "Other/Unspecified",
+          "count": 68,
+          "percentage_of_category": 74.7,
+          "severity": "low",
+          "sentiment": {
+            "positive": 11,
+            "negative": 30,
+            "neutral": 27
+          },
+          "sample_reviews": [
+            {
+              "rating": 5,
+              "title": "",
+              "snippet": "After the latest update when I open the app only get a white screen nothing else. After upgrading to a newer printer this app works sporadically.",
+              "sentiment": "neutral"
+            },
+            {
+              "rating": 3,
+              "title": "",
+              "snippet": "not very good app..sometimes it's stuck,especially when you update or charge device",
+              "sentiment": "positive"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "The app isn't working. I don't have any problems with the printer, but the app is garbage",
+              "sentiment": "negative"
+            }
+          ]
+        },
+        "ui_design": {
+          "name": "UI/Visual Design",
+          "count": 11,
+          "percentage_of_category": 12.1,
+          "severity": "medium",
+          "sentiment": {
+            "positive": 1,
+            "negative": 7,
+            "neutral": 3
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "fixing something that is not broken, the app is just pile of bugs after the stupid new UI thing",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Very bad and utterly performance of the app. Looks like some kid had developed the app. No quick response, no proper printing, no ease of use. I regret the decision of buying the waste HP printer inst",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "after the new update they ruined my previous config. Thanks, useless UX team.",
+              "sentiment": "negative"
+            }
+          ]
+        },
+        "ease_of_use": {
+          "name": "Ease of Use",
+          "count": 8,
+          "percentage_of_category": 8.8,
+          "severity": "high",
+          "sentiment": {
+            "positive": 5,
+            "negative": 2,
+            "neutral": 1
+          },
+          "sample_reviews": [
+            {
+              "rating": 5,
+              "title": "",
+              "snippet": "I like it. I can scan documents, and it's easy to understand, and it's straightforward. I'm glad I've found it.",
+              "sentiment": "positive"
+            },
+            {
+              "rating": 5,
+              "title": "",
+              "snippet": "Hp never disappointed me, it works 100%,easy to use and scanning in seconds",
+              "sentiment": "positive"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "since they've redone the app it's been very complicated to get to settings. they took a good thing we were used to and changed it all around and made it complicated just trying to find the PDF scan, p",
+              "sentiment": "neutral"
+            }
+          ]
+        },
+        "navigation": {
+          "name": "Navigation/Menu Issues",
+          "count": 6,
+          "percentage_of_category": 6.6,
+          "severity": "high",
+          "sentiment": {
+            "positive": 0,
+            "negative": 4,
+            "neutral": 2
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Useless. Took an age to set up. Wouldn't find printer. Printer wouldn't connect to network. When it finally did, the scanner wouldn't work. Manage to print a single item off then app never loaded agai",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "since they've redone the app it's been very complicated to get to settings. they took a good thing we were used to and changed it all around and made it complicated just trying to find the PDF scan, p",
+              "sentiment": "neutral"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "terrible app cannot find network printer",
+              "sentiment": "negative"
+            }
+          ]
+        },
+        "responsiveness": {
+          "name": "App Responsiveness",
+          "count": 1,
+          "percentage_of_category": 1.1,
+          "severity": "medium",
+          "sentiment": {
+            "positive": 0,
+            "negative": 1,
+            "neutral": 0
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Very bad and utterly performance of the app. Looks like some kid had developed the app. No quick response, no proper printing, no ease of use. I regret the decision of buying the waste HP printer inst",
+              "sentiment": "negative"
+            }
+          ]
+        }
+      }
+    },
+    "printing": {
+      "name": "Print Quality & Functionality",
+      "mention_count": 73,
+      "percentage_of_total": 44.5,
+      "sentiment": {
+        "positive": 14,
+        "negative": 28,
+        "neutral": 31
+      },
+      "pm_focus": "Core value proposition, print reliability",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Does not load just a blue dot going in a circle. The all in one printer does not show available 90% of the time. Says it's not connected to wifi when ",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "After the latest update when I open the app only get a white screen nothing else. After upgrading to a newer printer this app works sporadically.",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "The app isn't working. I don't have any problems with the printer, but the app is garbage",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "This app is bogus! It doesn't work. It keeps spinning. I can't print from my phone. I just updated my printer a week ago and can't complete the set up",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "was ok, now soo bad defecting elsewhere... spending HOURS trying to get the app to talk to the printer is painful. Will print one item fine, the next ",
+          "sentiment": "negative"
+        }
+      ],
+      "subcategory_breakdown": {
+        "other": {
+          "name": "Other/Unspecified",
+          "count": 38,
+          "percentage_of_category": 52.1,
+          "severity": "low",
+          "sentiment": {
+            "positive": 5,
+            "negative": 16,
+            "neutral": 17
+          },
+          "sample_reviews": [
+            {
+              "rating": 5,
+              "title": "",
+              "snippet": "After the latest update when I open the app only get a white screen nothing else. After upgrading to a newer printer this app works sporadically.",
+              "sentiment": "neutral"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "The app isn't working. I don't have any problems with the printer, but the app is garbage",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "This app is bogus! It doesn't work. It keeps spinning. I can't print from my phone. I just updated my printer a week ago and can't complete the set up. Fix this HP",
+              "sentiment": "negative"
+            }
+          ]
+        },
+        "paper_handling": {
+          "name": "Paper Handling/Jams",
+          "count": 15,
+          "percentage_of_category": 20.5,
+          "severity": "medium",
+          "sentiment": {
+            "positive": 3,
+            "negative": 7,
+            "neutral": 5
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Does not load just a blue dot going in a circle. The all in one printer does not show available 90% of the time. Says it's not connected to wifi when it actually is the list goes on.",
+              "sentiment": "neutral"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "app always stuck i can never print when I need it. very disappointing",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Useless. Took an age to set up. Wouldn't find printer. Printer wouldn't connect to network. When it finally did, the scanner wouldn't work. Manage to print a single item off then app never loaded agai",
+              "sentiment": "negative"
+            }
+          ]
+        },
+        "ink_toner": {
+          "name": "Ink/Toner Issues",
+          "count": 13,
+          "percentage_of_category": 17.8,
+          "severity": "medium",
+          "sentiment": {
+            "positive": 2,
+            "negative": 5,
+            "neutral": 6
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "was ok, now soo bad defecting elsewhere... spending HOURS trying to get the app to talk to the printer is painful. Will print one item fine, the next one will automatically cancel, or fail or just won",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 5,
+              "title": "",
+              "snippet": "have not been able to access the link",
+              "sentiment": "neutral"
+            },
+            {
+              "rating": 5,
+              "title": "",
+              "snippet": "A decent app, keeps you up to date with your printer, but I doubt its ink accuracy",
+              "sentiment": "neutral"
+            }
+          ]
+        },
+        "document_types": {
+          "name": "Document Type Support",
+          "count": 8,
+          "percentage_of_category": 11.0,
+          "severity": "low",
+          "sentiment": {
+            "positive": 4,
+            "negative": 1,
+            "neutral": 3
+          },
+          "sample_reviews": [
+            {
+              "rating": 5,
+              "title": "",
+              "snippet": "Great time saver with a document feeder",
+              "sentiment": "positive"
+            },
+            {
+              "rating": 5,
+              "title": "",
+              "snippet": "I have not used all the features available, but for my needs of an occasional document print, so far, it has worked excellent.",
+              "sentiment": "positive"
+            },
+            {
+              "rating": 5,
+              "title": "",
+              "snippet": "I like it. I can scan documents, and it's easy to understand, and it's straightforward. I'm glad I've found it.",
+              "sentiment": "positive"
+            }
+          ]
+        },
+        "print_jobs": {
+          "name": "Print Job Management",
+          "count": 4,
+          "percentage_of_category": 5.5,
+          "severity": "medium",
+          "sentiment": {
+            "positive": 0,
+            "negative": 3,
+            "neutral": 1
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "was ok, now soo bad defecting elsewhere... spending HOURS trying to get the app to talk to the printer is painful. Will print one item fine, the next one will automatically cancel, or fail or just won",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "app sometimes works and sometimes doesn't. very inconsistent printing ability. keeps reverting back to \"fill page\" randomly during the same print job and no way to change the default settings for the ",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "If your printer companion app needs 332mb (!), you have done a bad job.",
+              "sentiment": "negative"
+            }
+          ]
+        },
+        "print_quality": {
+          "name": "Print Quality Issues",
+          "count": 3,
+          "percentage_of_category": 4.1,
+          "severity": "high",
+          "sentiment": {
+            "positive": 1,
+            "negative": 2,
+            "neutral": 0
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "doesn't work at all anymore on a s25 and s24. HP color laser jet pro MFP m181fw",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 2,
+              "title": "",
+              "snippet": "it is exceptional easy and I like how it tells you how much level of ink you have although my app said it had no color ink when the ink was Brand new and I checked it many times but the other reason i",
+              "sentiment": "positive"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "UNUSABLE. Stuck on loading screen. the PC version is also slow and faulty. Scanning quality is poor",
+              "sentiment": "negative"
+            }
+          ]
+        },
+        "print_speed": {
+          "name": "Print Speed/Performance",
+          "count": 2,
+          "percentage_of_category": 2.7,
+          "severity": "medium",
+          "sentiment": {
+            "positive": 1,
+            "negative": 1,
+            "neutral": 0
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Very bad and utterly performance of the app. Looks like some kid had developed the app. No quick response, no proper printing, no ease of use. I regret the decision of buying the waste HP printer inst",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 5,
+              "title": "",
+              "snippet": "Works great. Prints docs to my wifi printer with no problems and reasonable speed.",
+              "sentiment": "positive"
+            }
+          ]
+        }
+      }
+    },
+    "reliability": {
+      "name": "App Reliability & Stability",
+      "mention_count": 39,
+      "percentage_of_total": 23.8,
+      "sentiment": {
+        "positive": 3,
+        "negative": 33,
+        "neutral": 3
+      },
+      "pm_focus": "Technical debt, app stability metrics",
+      "sample_reviews": [
+        {
+          "rating": 3,
+          "title": "",
+          "snippet": "not very good app..sometimes it's stuck,especially when you update or charge device",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Recent update has made the app inoperative.. Has been stuck on the loading circle for two days now.",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "It's not opening 😕, epic fail! please fix!",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "no idea just doesn't work right. super slow!",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "This app is bogus! It doesn't work. It keeps spinning. I can't print from my phone. I just updated my printer a week ago and can't complete the set up",
+          "sentiment": "negative"
+        }
+      ],
+      "subcategory_breakdown": {
+        "freezing": {
+          "name": "App Freezing/Hanging",
+          "count": 13,
+          "percentage_of_category": 33.3,
+          "severity": "critical",
+          "sentiment": {
+            "positive": 2,
+            "negative": 8,
+            "neutral": 3
+          },
+          "sample_reviews": [
+            {
+              "rating": 3,
+              "title": "",
+              "snippet": "not very good app..sometimes it's stuck,especially when you update or charge device",
+              "sentiment": "positive"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Recent update has made the app inoperative.. Has been stuck on the loading circle for two days now.",
+              "sentiment": "neutral"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "app always stuck i can never print when I need it. very disappointing",
+              "sentiment": "negative"
+            }
+          ]
+        },
+        "other": {
+          "name": "Other/Unspecified",
+          "count": 12,
+          "percentage_of_category": 30.8,
+          "severity": "low",
+          "sentiment": {
+            "positive": 0,
+            "negative": 12,
+            "neutral": 0
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "It's not opening 😕, epic fail! please fix!",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "This app is bogus! It doesn't work. It keeps spinning. I can't print from my phone. I just updated my printer a week ago and can't complete the set up. Fix this HP",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "doesn't work.",
+              "sentiment": "negative"
+            }
+          ]
+        },
+        "performance": {
+          "name": "Performance/Speed Issues",
+          "count": 11,
+          "percentage_of_category": 28.2,
+          "severity": "high",
+          "sentiment": {
+            "positive": 0,
+            "negative": 10,
+            "neutral": 1
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Recent update has made the app inoperative.. Has been stuck on the loading circle for two days now.",
+              "sentiment": "neutral"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "no idea just doesn't work right. super slow!",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "App is useless, stuck in loading screen",
+              "sentiment": "negative"
+            }
+          ]
+        },
+        "bugs_glitches": {
+          "name": "Bugs & Glitches",
+          "count": 6,
+          "percentage_of_category": 15.4,
+          "severity": "high",
+          "sentiment": {
+            "positive": 2,
+            "negative": 4,
+            "neutral": 0
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "mega useless. features are bugged out and half-time do not work",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "fixing something that is not broken, the app is just pile of bugs after the stupid new UI thing",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "app sometimes works and sometimes doesn't. very inconsistent printing ability. keeps reverting back to \"fill page\" randomly during the same print job and no way to change the default settings for the ",
+              "sentiment": "negative"
+            }
+          ]
+        },
+        "crashes": {
+          "name": "App Crashes",
+          "count": 3,
+          "percentage_of_category": 7.7,
+          "severity": "critical",
+          "sentiment": {
+            "positive": 0,
+            "negative": 3,
+            "neutral": 0
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "always crashes or takes forever to load",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Terrible ... each time I need to use it from many years in 3 locations ... not finding the printer ... not doing anything... just white screen (Wi-Fi was good, I restarted everithing) ... very bad",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 2,
+              "title": "",
+              "snippet": "keeps crashing...and very poor connection to printer",
+              "sentiment": "negative"
+            }
+          ]
+        }
+      }
+    },
+    "connectivity": {
+      "name": "Connectivity & Setup",
+      "mention_count": 34,
+      "percentage_of_total": 20.7,
+      "sentiment": {
+        "positive": 7,
+        "negative": 16,
+        "neutral": 11
+      },
+      "pm_focus": "First-time user experience, connectivity reliability",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Does not load just a blue dot going in a circle. The all in one printer does not show available 90% of the time. Says it's not connected to wifi when ",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Trash app and printer, could never get it to connect with my wi-fi to get it to work. Finally gave up and bought a new printer. Will never buy HP agai",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Useless. Took an age to set up. Wouldn't find printer. Printer wouldn't connect to network. When it finally did, the scanner wouldn't work. Manage to ",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "charges me for the month of November and December when I wasn't using them services I wasn't subscribed They didn't have my payment information. re-es",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Remote printing over mobile network has stopped working in latest version.",
+          "sentiment": "neutral"
+        }
+      ],
+      "subcategory_breakdown": {
+        "other": {
+          "name": "Other/Unspecified",
+          "count": 17,
+          "percentage_of_category": 50.0,
+          "severity": "low",
+          "sentiment": {
+            "positive": 3,
+            "negative": 8,
+            "neutral": 6
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "charges me for the month of November and December when I wasn't using them services I wasn't subscribed They didn't have my payment information. re-established subscription in the beginning of this Ma",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Remote printing over mobile network has stopped working in latest version.",
+              "sentiment": "neutral"
+            },
+            {
+              "rating": 2,
+              "title": "",
+              "snippet": "why do the app and printer constantly go blank.? 1 minute gap between each page that's printed. why you need an account to take a print out? why they is no option to protect the privacy and prevent HP",
+              "sentiment": "neutral"
+            }
+          ]
+        },
+        "wifi_issues": {
+          "name": "WiFi Connection Problems",
+          "count": 11,
+          "percentage_of_category": 32.4,
+          "severity": "critical",
+          "sentiment": {
+            "positive": 3,
+            "negative": 5,
+            "neutral": 3
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Does not load just a blue dot going in a circle. The all in one printer does not show available 90% of the time. Says it's not connected to wifi when it actually is the list goes on.",
+              "sentiment": "neutral"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Trash app and printer, could never get it to connect with my wi-fi to get it to work. Finally gave up and bought a new printer. Will never buy HP again.",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Furious! My wifi was off because of service provider issues. I was out-of-town. Now, with instructions from HP, I can not enter the computer code to manage my printer. I tried multiple times to create",
+              "sentiment": "neutral"
+            }
+          ]
+        },
+        "printer_discovery": {
+          "name": "Printer Not Found/Discovery",
+          "count": 4,
+          "percentage_of_category": 11.8,
+          "severity": "critical",
+          "sentiment": {
+            "positive": 1,
+            "negative": 2,
+            "neutral": 1
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Useless. Took an age to set up. Wouldn't find printer. Printer wouldn't connect to network. When it finally did, the scanner wouldn't work. Manage to print a single item off then app never loaded agai",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "terrible app cannot find network printer",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "The HP printer seems fine but I object to being led into a subscription to use the scanner and discovering that I had no choice to retract with a hefty annual charge when I only wanted the 3day trial.",
+              "sentiment": "neutral"
+            }
+          ]
+        },
+        "connection_drops": {
+          "name": "Connection Drops/Unstable",
+          "count": 3,
+          "percentage_of_category": 8.8,
+          "severity": "high",
+          "sentiment": {
+            "positive": 0,
+            "negative": 2,
+            "neutral": 1
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "oh. my. DAYS. I literally almost had a panic attack tryna work this app. I have a printer (deskjet 2800e) that's been out of use for half a year. finally got new ink for it just to find out not ONLY h",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "app is super slow to open. often gets disconnected super frustrating",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Why do i have to be subscribed to used a printer and ink and paper ive already paid for??? Not to mention the amount of times i had to reconnect the damn thing.. Throwing the thing out after ive typed",
+              "sentiment": "neutral"
+            }
+          ]
+        },
+        "initial_setup": {
+          "name": "First-Time Setup Issues",
+          "count": 2,
+          "percentage_of_category": 5.9,
+          "severity": "high",
+          "sentiment": {
+            "positive": 1,
+            "negative": 1,
+            "neutral": 0
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Useless. Took an age to set up. Wouldn't find printer. Printer wouldn't connect to network. When it finally did, the scanner wouldn't work. Manage to print a single item off then app never loaded agai",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 2,
+              "title": "",
+              "snippet": "it is exceptional easy and I like how it tells you how much level of ink you have although my app said it had no color ink when the ink was Brand new and I checked it many times but the other reason i",
+              "sentiment": "positive"
+            }
+          ]
+        }
+      }
+    },
+    "features": {
+      "name": "Feature Requests & Missing Features",
+      "mention_count": 34,
+      "percentage_of_total": 20.7,
+      "sentiment": {
+        "positive": 4,
+        "negative": 13,
+        "neutral": 17
+      },
+      "pm_focus": "Product roadmap, feature prioritization",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "mega useless. features are bugged out and half-time do not work",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 3,
+          "title": "",
+          "snippet": "Doesnt always work when I need it to.",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "app always stuck i can never print when I need it. very disappointing",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Trash app and printer, could never get it to connect with my wi-fi to get it to work. Finally gave up and bought a new printer. Will never buy HP agai",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "app stopped loading. there's no way for me to scan anything unless the app opens. this is a huge issue. request immediate fix",
+          "sentiment": "neutral"
+        }
+      ],
+      "subcategory_breakdown": {
+        "other": {
+          "name": "Other/Unspecified",
+          "count": 21,
+          "percentage_of_category": 61.8,
+          "severity": "low",
+          "sentiment": {
+            "positive": 4,
+            "negative": 11,
+            "neutral": 6
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "mega useless. features are bugged out and half-time do not work",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 3,
+              "title": "",
+              "snippet": "Doesnt always work when I need it to.",
+              "sentiment": "neutral"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "app always stuck i can never print when I need it. very disappointing",
+              "sentiment": "negative"
+            }
+          ]
+        },
+        "removed_features": {
+          "name": "Removed/Deprecated Features",
+          "count": 7,
+          "percentage_of_category": 20.6,
+          "severity": "high",
+          "sentiment": {
+            "positive": 0,
+            "negative": 0,
+            "neutral": 7
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "since they've redone the app it's been very complicated to get to settings. they took a good thing we were used to and changed it all around and made it complicated just trying to find the PDF scan, p",
+              "sentiment": "neutral"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "it no longer even opens as an app I just keep getting a loading circle and nothing else. I am fed up of it. then sometimes itll print bits and not the full page. i shouldn't have to keep on resetting ",
+              "sentiment": "neutral"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "hp printer cartridge are a [rip off]. hp control your printer through system updated printer chips. hp app ware enables only what they want you to use. what happened to the days when you could just pu",
+              "sentiment": "neutral"
+            }
+          ]
+        },
+        "feature_requests": {
+          "name": "New Feature Requests",
+          "count": 5,
+          "percentage_of_category": 14.7,
+          "severity": "medium",
+          "sentiment": {
+            "positive": 0,
+            "negative": 2,
+            "neutral": 3
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "app stopped loading. there's no way for me to scan anything unless the app opens. this is a huge issue. request immediate fix",
+              "sentiment": "neutral"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "hp printer cartridge are a [rip off]. hp control your printer through system updated printer chips. hp app ware enables only what they want you to use. what happened to the days when you could just pu",
+              "sentiment": "neutral"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Just don't use HP, and the app is awful too. Terrible interface that just loops to the home screen and no matter what I do, it won't let me connect to a new network. HP wants to charge me to fix it. D",
+              "sentiment": "negative"
+            }
+          ]
+        },
+        "missing_features": {
+          "name": "Missing Core Features",
+          "count": 3,
+          "percentage_of_category": 8.8,
+          "severity": "high",
+          "sentiment": {
+            "positive": 0,
+            "negative": 0,
+            "neutral": 3
+          },
+          "sample_reviews": [
+            {
+              "rating": 2,
+              "title": "",
+              "snippet": "why do the app and printer constantly go blank.? 1 minute gap between each page that's printed. why you need an account to take a print out? why they is no option to protect the privacy and prevent HP",
+              "sentiment": "neutral"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "the app does not work on my phone or my laptop. I have a printer that I can't do nothing with at the moment but collecting dust. this needs to be fixed ASAP",
+              "sentiment": "neutral"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Edit 2/28/26- App will not even open on phone now! They only ever make this service harder and harder to use. . Updates ruin it. It used to work just fine for me a few months ago. Now it can't locate ",
+              "sentiment": "neutral"
+            }
+          ]
+        }
+      }
+    },
+    "updates": {
+      "name": "Updates & Compatibility",
+      "mention_count": 33,
+      "percentage_of_total": 20.1,
+      "sentiment": {
+        "positive": 4,
+        "negative": 12,
+        "neutral": 17
+      },
+      "pm_focus": "Release management, OS compatibility",
+      "sample_reviews": [
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "After the latest update when I open the app only get a white screen nothing else. After upgrading to a newer printer this app works sporadically.",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 3,
+          "title": "",
+          "snippet": "not very good app..sometimes it's stuck,especially when you update or charge device",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Recent update has made the app inoperative.. Has been stuck on the loading circle for two days now.",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "This app is bogus! It doesn't work. It keeps spinning. I can't print from my phone. I just updated my printer a week ago and can't complete the set up",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Remote printing over mobile network has stopped working in latest version.",
+          "sentiment": "neutral"
+        }
+      ],
+      "subcategory_breakdown": {
+        "other": {
+          "name": "Other/Unspecified",
+          "count": 15,
+          "percentage_of_category": 45.5,
+          "severity": "low",
+          "sentiment": {
+            "positive": 1,
+            "negative": 7,
+            "neutral": 7
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Recent update has made the app inoperative.. Has been stuck on the loading circle for two days now.",
+              "sentiment": "neutral"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Remote printing over mobile network has stopped working in latest version.",
+              "sentiment": "neutral"
+            },
+            {
+              "rating": 2,
+              "title": "",
+              "snippet": "Rarely works and really slow. The previous version was better",
+              "sentiment": "negative"
+            }
+          ]
+        },
+        "device_compatibility": {
+          "name": "Device-Specific Issues",
+          "count": 13,
+          "percentage_of_category": 39.4,
+          "severity": "medium",
+          "sentiment": {
+            "positive": 2,
+            "negative": 3,
+            "neutral": 8
+          },
+          "sample_reviews": [
+            {
+              "rating": 3,
+              "title": "",
+              "snippet": "not very good app..sometimes it's stuck,especially when you update or charge device",
+              "sentiment": "positive"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "This app is bogus! It doesn't work. It keeps spinning. I can't print from my phone. I just updated my printer a week ago and can't complete the set up. Fix this HP",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "worked great until the HP smart app disappeared, now I can't connect the printer to my phone's hotspot.",
+              "sentiment": "positive"
+            }
+          ]
+        },
+        "printer_compatibility": {
+          "name": "Printer Model Compatibility",
+          "count": 6,
+          "percentage_of_category": 18.2,
+          "severity": "high",
+          "sentiment": {
+            "positive": 1,
+            "negative": 2,
+            "neutral": 3
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "This app is bogus! It doesn't work. It keeps spinning. I can't print from my phone. I just updated my printer a week ago and can't complete the set up. Fix this HP",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "The app won't work anymore. It only shows a blank white screen since the last update. I'm a homeschool mom and NEED my printer!!!",
+              "sentiment": "neutral"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Well I used to he able to print from my Android phone, but now with the updated app it's a nightmare procedure of not finding my printer, switch to HP Smart, switch to website, switch to a.n.other app",
+              "sentiment": "neutral"
+            }
+          ]
+        },
+        "update_breaks": {
+          "name": "Updates Breaking Functionality",
+          "count": 2,
+          "percentage_of_category": 6.1,
+          "severity": "critical",
+          "sentiment": {
+            "positive": 0,
+            "negative": 1,
+            "neutral": 1
+          },
+          "sample_reviews": [
+            {
+              "rating": 5,
+              "title": "",
+              "snippet": "After the latest update when I open the app only get a white screen nothing else. After upgrading to a newer printer this app works sporadically.",
+              "sentiment": "neutral"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "after the new update they ruined my previous config. Thanks, useless UX team.",
+              "sentiment": "negative"
+            }
+          ]
+        },
+        "android_compatibility": {
+          "name": "Android Version Compatibility",
+          "count": 2,
+          "percentage_of_category": 6.1,
+          "severity": "high",
+          "sentiment": {
+            "positive": 1,
+            "negative": 0,
+            "neutral": 1
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Well I used to he able to print from my Android phone, but now with the updated app it's a nightmare procedure of not finding my printer, switch to HP Smart, switch to website, switch to a.n.other app",
+              "sentiment": "neutral"
+            },
+            {
+              "rating": 3,
+              "title": "",
+              "snippet": "When attempting to print DiscoverCard credit card email from my AOL app, I get an error message and cannot print, unless I select \"hide images\" in the AOL app. Please help with this. I've tried with A",
+              "sentiment": "positive"
+            }
+          ]
+        }
+      }
+    },
+    "value": {
+      "name": "Value & Pricing",
+      "mention_count": 32,
+      "percentage_of_total": 19.5,
+      "sentiment": {
+        "positive": 4,
+        "negative": 16,
+        "neutral": 12
+      },
+      "pm_focus": "Monetization, value perception",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "The app isn't working. I don't have any problems with the printer, but the app is garbage",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "very problematic",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "was ok, now soo bad defecting elsewhere... spending HOURS trying to get the app to talk to the printer is painful. Will print one item fine, the next ",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Trash app and printer, could never get it to connect with my wi-fi to get it to work. Finally gave up and bought a new printer. Will never buy HP agai",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Useless. Took an age to set up. Wouldn't find printer. Printer wouldn't connect to network. When it finally did, the scanner wouldn't work. Manage to ",
+          "sentiment": "negative"
+        }
+      ],
+      "subcategory_breakdown": {
+        "free_vs_paid": {
+          "name": "Free vs Paid Feature Gaps",
+          "count": 20,
+          "percentage_of_category": 62.5,
+          "severity": "medium",
+          "sentiment": {
+            "positive": 3,
+            "negative": 8,
+            "neutral": 9
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "The app isn't working. I don't have any problems with the printer, but the app is garbage",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "very problematic",
+              "sentiment": "neutral"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Very bad and utterly performance of the app. Looks like some kid had developed the app. No quick response, no proper printing, no ease of use. I regret the decision of buying the waste HP printer inst",
+              "sentiment": "negative"
+            }
+          ]
+        },
+        "other": {
+          "name": "Other/Unspecified",
+          "count": 6,
+          "percentage_of_category": 18.8,
+          "severity": "low",
+          "sentiment": {
+            "positive": 0,
+            "negative": 5,
+            "neutral": 1
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "was ok, now soo bad defecting elsewhere... spending HOURS trying to get the app to talk to the printer is painful. Will print one item fine, the next one will automatically cancel, or fail or just won",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Trash app and printer, could never get it to connect with my wi-fi to get it to work. Finally gave up and bought a new printer. Will never buy HP again.",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Useless. Took an age to set up. Wouldn't find printer. Printer wouldn't connect to network. When it finally did, the scanner wouldn't work. Manage to print a single item off then app never loaded agai",
+              "sentiment": "negative"
+            }
+          ]
+        },
+        "subscription_model": {
+          "name": "Subscription Complaints",
+          "count": 5,
+          "percentage_of_category": 15.6,
+          "severity": "high",
+          "sentiment": {
+            "positive": 0,
+            "negative": 2,
+            "neutral": 3
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "charges me for the month of November and December when I wasn't using them services I wasn't subscribed They didn't have my payment information. re-established subscription in the beginning of this Ma",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "App won't even open now. making me very angry lol. Screw this. Canceling my HP printer subscription.",
+              "sentiment": "neutral"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "useless. Firstly, every time I open the app I keep having to decline optional dats collection, and I have to decline the 'offer' for an ink subscription service. then you have the cheek to try force m",
+              "sentiment": "negative"
+            }
+          ]
+        },
+        "value_perception": {
+          "name": "Value for Money",
+          "count": 2,
+          "percentage_of_category": 6.2,
+          "severity": "medium",
+          "sentiment": {
+            "positive": 0,
+            "negative": 2,
+            "neutral": 0
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "worst app ever - never opens, only freezes, worthless. absolutely trash. Printer was great - this app is the worst.",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "HP printer is a useless printer. It wastes both time and money.",
+              "sentiment": "negative"
+            }
+          ]
+        },
+        "pricing_concerns": {
+          "name": "Pricing Too High",
+          "count": 1,
+          "percentage_of_category": 3.1,
+          "severity": "high",
+          "sentiment": {
+            "positive": 0,
+            "negative": 0,
+            "neutral": 1
+          },
+          "sample_reviews": [
+            {
+              "rating": 3,
+              "title": "",
+              "snippet": "Expensive ink.",
+              "sentiment": "neutral"
+            }
+          ]
+        },
+        "ads_complaints": {
+          "name": "Excessive Ads",
+          "count": 1,
+          "percentage_of_category": 3.1,
+          "severity": "medium",
+          "sentiment": {
+            "positive": 1,
+            "negative": 0,
+            "neutral": 0
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "usually good but recent weeks my app wont even load, just loads into a white screen with a blue spinning load bar and thats all I get wont load on my pc either, uninstalled and reinstalled still wont ",
+              "sentiment": "positive"
+            }
+          ]
+        }
+      }
+    },
+    "uncategorized": {
+      "name": "uncategorized",
+      "mention_count": 26,
+      "percentage_of_total": 15.9,
+      "sentiment": {
+        "positive": 6,
+        "negative": 9,
+        "neutral": 11
+      },
+      "pm_focus": "",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "horrible",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "terrible. works one out of five times",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "not even opening",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "This is one of the most miserable headaches I have ever had",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "never works",
+          "sentiment": "neutral"
+        }
+      ],
+      "subcategory_breakdown": {}
+    },
+    "scanning": {
+      "name": "Scanning Features",
+      "mention_count": 16,
+      "percentage_of_total": 9.8,
+      "sentiment": {
+        "positive": 6,
+        "negative": 2,
+        "neutral": 8
+      },
+      "pm_focus": "Secondary feature adoption, scan workflow",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "app stopped loading. there's no way for me to scan anything unless the app opens. this is a huge issue. request immediate fix",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Useless. Took an age to set up. Wouldn't find printer. Printer wouldn't connect to network. When it finally did, the scanner wouldn't work. Manage to ",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "Great time saver with a document feeder",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "I have not used all the features available, but for my needs of an occasional document print, so far, it has worked excellent.",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "I like it. I can scan documents, and it's easy to understand, and it's straightforward. I'm glad I've found it.",
+          "sentiment": "positive"
+        }
+      ],
+      "subcategory_breakdown": {
+        "other": {
+          "name": "Other/Unspecified",
+          "count": 15,
+          "percentage_of_category": 93.8,
+          "severity": "low",
+          "sentiment": {
+            "positive": 5,
+            "negative": 2,
+            "neutral": 8
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "app stopped loading. there's no way for me to scan anything unless the app opens. this is a huge issue. request immediate fix",
+              "sentiment": "neutral"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Useless. Took an age to set up. Wouldn't find printer. Printer wouldn't connect to network. When it finally did, the scanner wouldn't work. Manage to print a single item off then app never loaded agai",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 5,
+              "title": "",
+              "snippet": "I have not used all the features available, but for my needs of an occasional document print, so far, it has worked excellent.",
+              "sentiment": "positive"
+            }
+          ]
+        },
+        "multipage_scanning": {
+          "name": "Multi-page/Batch Scanning",
+          "count": 1,
+          "percentage_of_category": 6.2,
+          "severity": "medium",
+          "sentiment": {
+            "positive": 1,
+            "negative": 0,
+            "neutral": 0
+          },
+          "sample_reviews": [
+            {
+              "rating": 5,
+              "title": "",
+              "snippet": "Great time saver with a document feeder",
+              "sentiment": "positive"
+            }
+          ]
+        }
+      }
+    },
+    "support": {
+      "name": "Customer Support & Help",
+      "mention_count": 14,
+      "percentage_of_total": 8.5,
+      "sentiment": {
+        "positive": 2,
+        "negative": 8,
+        "neutral": 4
+      },
+      "pm_focus": "Support deflection, self-service success",
+      "sample_reviews": [
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "After the latest update when I open the app only get a white screen nothing else. After upgrading to a newer printer this app works sporadically.",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "was ok, now soo bad defecting elsewhere... spending HOURS trying to get the app to talk to the printer is painful. Will print one item fine, the next ",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Very bad and utterly performance of the app. Looks like some kid had developed the app. No quick response, no proper printing, no ease of use. I regre",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Furious! My wifi was off because of service provider issues. I was out-of-town. Now, with instructions from HP, I can not enter the computer code to m",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "my 'printer is not listed' in the app, this text appears every time I try to connect my printer with this app and no appropriate response is given by ",
+          "sentiment": "neutral"
+        }
+      ],
+      "subcategory_breakdown": {
+        "support_quality": {
+          "name": "Support Quality/Experience",
+          "count": 7,
+          "percentage_of_category": 50.0,
+          "severity": "high",
+          "sentiment": {
+            "positive": 1,
+            "negative": 5,
+            "neutral": 1
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "HP has the worst wifi printers ever, I bought a Smart Tank 7002 printer and it will not connect to my wifi. I tried to call tech support, but they don't have one. I did get connected twice though TMob",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Worst after sales customer service.. I raised an issue with HP on 17th Feb for my printer and still the issue hasn't been resolved and the service centre people are not picking up the call.. Customer ",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "worst customer support",
+              "sentiment": "negative"
+            }
+          ]
+        },
+        "other": {
+          "name": "Other/Unspecified",
+          "count": 3,
+          "percentage_of_category": 21.4,
+          "severity": "low",
+          "sentiment": {
+            "positive": 1,
+            "negative": 1,
+            "neutral": 1
+          },
+          "sample_reviews": [
+            {
+              "rating": 5,
+              "title": "",
+              "snippet": "After the latest update when I open the app only get a white screen nothing else. After upgrading to a newer printer this app works sporadically.",
+              "sentiment": "neutral"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "was ok, now soo bad defecting elsewhere... spending HOURS trying to get the app to talk to the printer is painful. Will print one item fine, the next one will automatically cancel, or fail or just won",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Now it even won't open. Print/scan locally, but need to connect the internet. What a great idea. 👎",
+              "sentiment": "positive"
+            }
+          ]
+        },
+        "response_time": {
+          "name": "Support Response Time",
+          "count": 3,
+          "percentage_of_category": 21.4,
+          "severity": "medium",
+          "sentiment": {
+            "positive": 0,
+            "negative": 2,
+            "neutral": 1
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Very bad and utterly performance of the app. Looks like some kid had developed the app. No quick response, no proper printing, no ease of use. I regret the decision of buying the waste HP printer inst",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "my 'printer is not listed' in the app, this text appears every time I try to connect my printer with this app and no appropriate response is given by its AI.",
+              "sentiment": "neutral"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Worst after sales customer service.. I raised an issue with HP on 17th Feb for my printer and still the issue hasn't been resolved and the service centre people are not picking up the call.. Customer ",
+              "sentiment": "negative"
+            }
+          ]
+        },
+        "self_help": {
+          "name": "Self-Help/Documentation",
+          "count": 2,
+          "percentage_of_category": 14.3,
+          "severity": "low",
+          "sentiment": {
+            "positive": 0,
+            "negative": 1,
+            "neutral": 1
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Furious! My wifi was off because of service provider issues. I was out-of-town. Now, with instructions from HP, I can not enter the computer code to manage my printer. I tried multiple times to create",
+              "sentiment": "neutral"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "The most horrible app and experience ever. Never buy a hp printer for home use. Never connected. You have to manually sign in each time. I am legit scared of having to use the printer and useless app.",
+              "sentiment": "negative"
+            }
+          ]
+        },
+        "troubleshooting": {
+          "name": "Troubleshooting Effectiveness",
+          "count": 2,
+          "percentage_of_category": 14.3,
+          "severity": "medium",
+          "sentiment": {
+            "positive": 1,
+            "negative": 1,
+            "neutral": 0
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Worst after sales customer service.. I raised an issue with HP on 17th Feb for my printer and still the issue hasn't been resolved and the service centre people are not picking up the call.. Customer ",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 3,
+              "title": "",
+              "snippet": "When attempting to print DiscoverCard credit card email from my AOL app, I get an error message and cannot print, unless I select \"hide images\" in the AOL app. Please help with this. I've tried with A",
+              "sentiment": "positive"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
