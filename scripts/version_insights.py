@@ -10,11 +10,11 @@ from CustomerInsight_Review_Agent import (
     analyze_reviews, save_insights_json, INSIGHT_CATEGORIES
 )
 
-VERSION_PREFIX = ("26.0.0", "26.0.1", "26.0.2")
+VERSION_PREFIX = "20.2"
 
 FILES = {
-    "HP_App_v26.0.0_v26.0.1_v26.0.2_US": "data/HP_App_Android_US_Last30Days.json",
-    "HP_App_v26.0.0_v26.0.1_v26.0.2_AllCountries": "data/HP_App_Android_AllCountries_Last30Days.json",
+    "HP_App_v20.2_US": "data/HP_App_Android_US_Last30Days.json",
+    "HP_App_v20.2_AllCountries": "data/HP_App_Android_AllCountries_Last30Days.json",
 }
 
 PROJECT_ROOT = os.path.join(os.path.dirname(__file__), "..")
