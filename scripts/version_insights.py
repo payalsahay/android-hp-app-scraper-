@@ -10,11 +10,11 @@ from CustomerInsight_Review_Agent import (
     analyze_reviews, save_insights_json, INSIGHT_CATEGORIES
 )
 
-VERSION_PREFIX = "26.0.1"
+VERSION_PREFIX = ("26.0.0", "26.0.1", "26.0.2")
 
 FILES = {
-    "HP_App_v26.0.1_US": "data/HP_App_Android_US_Last30Days.json",
-    "HP_App_v26.0.1_AllCountries": "data/HP_App_Android_AllCountries_Last30Days.json",
+    "HP_App_v26.0.0_v26.0.1_v26.0.2_US": "data/HP_App_Android_US_Last30Days.json",
+    "HP_App_v26.0.0_v26.0.1_v26.0.2_AllCountries": "data/HP_App_Android_AllCountries_Last30Days.json",
 }
 
 PROJECT_ROOT = os.path.join(os.path.dirname(__file__), "..")
@@ -34,7 +34,8 @@ def generate_report(name, filtered, analysis):
     lines.append(f"# {name.replace('_', ' ')} — Top Issues Report")
     lines.append("")
     lines.append(f"**Generated:** {datetime.now().strftime('%Y-%m-%d %H:%M')}")
-    lines.append(f"**Version:** {VERSION_PREFIX}")
+    version_label = " + ".join(VERSION_PREFIX) if isinstance(VERSION_PREFIX, tuple) else VERSION_PREFIX
+    lines.append(f"**Version:** {version_label}")
     lines.append(f"**Reviews Analyzed:** {total}")
     lines.append(f"**Average Rating:** {avg_rating:.2f} / 5.0")
     lines.append(f"**Positive Sentiment:** {pos_pct:.1f}% | **Negative:** {neg_pct:.1f}%")
@@ -116,7 +117,8 @@ for name, filepath in FILES.items():
         data = json.load(f)
 
     filtered = [r for r in data if (r.get("version") or "").startswith(VERSION_PREFIX)]
-    print(f"\n{name}: {len(filtered)} reviews on v{VERSION_PREFIX}")
+    version_label = " + ".join(VERSION_PREFIX) if isinstance(VERSION_PREFIX, tuple) else VERSION_PREFIX
+    print(f"\n{name}: {len(filtered)} reviews on v{version_label}")
 
     analysis = analyze_reviews(filtered)
     save_insights_json(analysis, os.path.join(PROJECT_ROOT, f"output/reports/{name}_Insights.json"), silent=True)

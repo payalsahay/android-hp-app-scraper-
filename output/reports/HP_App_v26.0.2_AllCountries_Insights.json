@@ -1,0 +1,1037 @@
+{
+  "generated_at": "2026-03-19T14:02:37.758592",
+  "total_reviews": 40,
+  "sentiment_summary": {
+    "neutral": 31,
+    "negative": 6,
+    "positive": 3
+  },
+  "rating_distribution": {
+    "2": 6,
+    "1": 28,
+    "5": 2,
+    "3": 3,
+    "4": 1
+  },
+  "categories": {
+    "mobile_experience": {
+      "name": "Mobile App Experience",
+      "mention_count": 30,
+      "percentage_of_total": 75.0,
+      "sentiment": {
+        "positive": 3,
+        "negative": 6,
+        "neutral": 21
+      },
+      "pm_focus": "App usability, user satisfaction",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "unbelievable. im scanning photos and pressed the button to rotate them and the app gets stuck and refreshes. none of them were save and I have to star",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "This app was useful.But the data transfer was very slowly.pls update the transfer speed and modify some options",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "non funziona più, apre l'app ma carica a vuoto per delle ore Peccato, era utilissima",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Due to a bug on the HP Smart website, I wasn't able to update my payment method for my HP+ subscription. The HP app was even worse as it simply shows ",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Nach dem heutigen Update läuft sich die App quasi tod. Es dreht sich nur noch der Ladekreis. Ein Zugriff auf den Drucker ist nicht mehr möglich, von k",
+          "sentiment": "neutral"
+        }
+      ],
+      "subcategory_breakdown": {
+        "other": {
+          "name": "Other/Unspecified",
+          "count": 20,
+          "percentage_of_category": 66.7,
+          "severity": "low",
+          "sentiment": {
+            "positive": 1,
+            "negative": 4,
+            "neutral": 15
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "unbelievable. im scanning photos and pressed the button to rotate them and the app gets stuck and refreshes. none of them were save and I have to start again. and when ever I scan a photo it defaults ",
+              "sentiment": "neutral"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "This app was useful.But the data transfer was very slowly.pls update the transfer speed and modify some options",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "non funziona più, apre l'app ma carica a vuoto per delle ore Peccato, era utilissima",
+              "sentiment": "neutral"
+            }
+          ]
+        },
+        "ui_design": {
+          "name": "UI/Visual Design",
+          "count": 9,
+          "percentage_of_category": 30.0,
+          "severity": "medium",
+          "sentiment": {
+            "positive": 2,
+            "negative": 1,
+            "neutral": 6
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Due to a bug on the HP Smart website, I wasn't able to update my payment method for my HP+ subscription. The HP app was even worse as it simply shows an endless spinner. The support desk also could no",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 2,
+              "title": "",
+              "snippet": "Une application qu'on ne peut pas critiquer, d'ailleurs Microsoft a supprimé mon avis qui ne lui plaisait pas. C'est sûr, il était négatif. pourtant, je suis un vrai utilisateur d' HP et je suis déçu ",
+              "sentiment": "neutral"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Não! Usar esta aplicação é um completo sufoco. A maior parte das vezes simplesmente não arranca, fica apenas um cursor às voltinhas infenidamente. Para arrancar é necessário antes limpar a cache e ter",
+              "sentiment": "positive"
+            }
+          ]
+        },
+        "ease_of_use": {
+          "name": "Ease of Use",
+          "count": 3,
+          "percentage_of_category": 10.0,
+          "severity": "high",
+          "sentiment": {
+            "positive": 2,
+            "negative": 0,
+            "neutral": 1
+          },
+          "sample_reviews": [
+            {
+              "rating": 2,
+              "title": "",
+              "snippet": "Une application qu'on ne peut pas critiquer, d'ailleurs Microsoft a supprimé mon avis qui ne lui plaisait pas. C'est sûr, il était négatif. pourtant, je suis un vrai utilisateur d' HP et je suis déçu ",
+              "sentiment": "neutral"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Não! Usar esta aplicação é um completo sufoco. A maior parte das vezes simplesmente não arranca, fica apenas um cursor às voltinhas infenidamente. Para arrancar é necessário antes limpar a cache e ter",
+              "sentiment": "positive"
+            },
+            {
+              "rating": 3,
+              "title": "",
+              "snippet": "Es fehlen simple Tools, wie das Layout auf 2 oder 4 Seiten pro Blatt einzustellen. Nur eine Seite pro Blatt. Papierverschwendung, wo die meisten Laserdrucker eh schon kein Duplex können. Bearbeitet ma",
+              "sentiment": "positive"
+            }
+          ]
+        },
+        "navigation": {
+          "name": "Navigation/Menu Issues",
+          "count": 2,
+          "percentage_of_category": 6.7,
+          "severity": "high",
+          "sentiment": {
+            "positive": 0,
+            "negative": 2,
+            "neutral": 0
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Due to a bug on the HP Smart website, I wasn't able to update my payment method for my HP+ subscription. The HP app was even worse as it simply shows an endless spinner. The support desk also could no",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 2,
+              "title": "",
+              "snippet": "the app makes so many things convenient, but recently it just can't find my printer so it's now useless",
+              "sentiment": "negative"
+            }
+          ]
+        }
+      }
+    },
+    "printing": {
+      "name": "Print Quality & Functionality",
+      "mention_count": 10,
+      "percentage_of_total": 25.0,
+      "sentiment": {
+        "positive": 1,
+        "negative": 4,
+        "neutral": 5
+      },
+      "pm_focus": "Core value proposition, print reliability",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "unbelievable. im scanning photos and pressed the button to rotate them and the app gets stuck and refreshes. none of them were save and I have to star",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "O aplicativo não visualiza (e não permite imprimir) documentos PDF com senha. Corrijam isso por favor.",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Due to a bug on the HP Smart website, I wasn't able to update my payment method for my HP+ subscription. The HP app was even worse as it simply shows ",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 2,
+          "title": "",
+          "snippet": "the app makes so many things convenient, but recently it just can't find my printer so it's now useless",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "dont get an hp printer",
+          "sentiment": "neutral"
+        }
+      ],
+      "subcategory_breakdown": {
+        "document_types": {
+          "name": "Document Type Support",
+          "count": 5,
+          "percentage_of_category": 50.0,
+          "severity": "low",
+          "sentiment": {
+            "positive": 0,
+            "negative": 1,
+            "neutral": 4
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "unbelievable. im scanning photos and pressed the button to rotate them and the app gets stuck and refreshes. none of them were save and I have to start again. and when ever I scan a photo it defaults ",
+              "sentiment": "neutral"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "O aplicativo não visualiza (e não permite imprimir) documentos PDF com senha. Corrijam isso por favor.",
+              "sentiment": "neutral"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "HP deskjet 2028e stampante pessima! davvero penosa e app a dir poco assurda! non si riesce ad impostare le dimensioni del documento!! lenta come la quaresima! un pessimo acquisto",
+              "sentiment": "neutral"
+            }
+          ]
+        },
+        "paper_handling": {
+          "name": "Paper Handling/Jams",
+          "count": 3,
+          "percentage_of_category": 30.0,
+          "severity": "medium",
+          "sentiment": {
+            "positive": 0,
+            "negative": 1,
+            "neutral": 2
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "unbelievable. im scanning photos and pressed the button to rotate them and the app gets stuck and refreshes. none of them were save and I have to start again. and when ever I scan a photo it defaults ",
+              "sentiment": "neutral"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "O aplicativo não visualiza (e não permite imprimir) documentos PDF com senha. Corrijam isso por favor.",
+              "sentiment": "neutral"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "this app is horrible everytime I open it its just a loading screen and I cant print anything",
+              "sentiment": "negative"
+            }
+          ]
+        },
+        "other": {
+          "name": "Other/Unspecified",
+          "count": 3,
+          "percentage_of_category": 30.0,
+          "severity": "low",
+          "sentiment": {
+            "positive": 1,
+            "negative": 1,
+            "neutral": 1
+          },
+          "sample_reviews": [
+            {
+              "rating": 2,
+              "title": "",
+              "snippet": "the app makes so many things convenient, but recently it just can't find my printer so it's now useless",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "dont get an hp printer",
+              "sentiment": "neutral"
+            },
+            {
+              "rating": 3,
+              "title": "",
+              "snippet": "Es fehlen simple Tools, wie das Layout auf 2 oder 4 Seiten pro Blatt einzustellen. Nur eine Seite pro Blatt. Papierverschwendung, wo die meisten Laserdrucker eh schon kein Duplex können. Bearbeitet ma",
+              "sentiment": "positive"
+            }
+          ]
+        },
+        "ink_toner": {
+          "name": "Ink/Toner Issues",
+          "count": 2,
+          "percentage_of_category": 20.0,
+          "severity": "medium",
+          "sentiment": {
+            "positive": 0,
+            "negative": 2,
+            "neutral": 0
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Due to a bug on the HP Smart website, I wasn't able to update my payment method for my HP+ subscription. The HP app was even worse as it simply shows an endless spinner. The support desk also could no",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 2,
+              "title": "",
+              "snippet": "The App worked fine until the latest version released. The most recent version is a disaster of Epic proportion. It keeps thinking and never gets to the dashboard. I've had to uninstall and reinstall ",
+              "sentiment": "negative"
+            }
+          ]
+        }
+      }
+    },
+    "reliability": {
+      "name": "App Reliability & Stability",
+      "mention_count": 8,
+      "percentage_of_total": 20.0,
+      "sentiment": {
+        "positive": 1,
+        "negative": 3,
+        "neutral": 4
+      },
+      "pm_focus": "Technical debt, app stability metrics",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "unbelievable. im scanning photos and pressed the button to rotate them and the app gets stuck and refreshes. none of them were save and I have to star",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "This app was useful.But the data transfer was very slowly.pls update the transfer speed and modify some options",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Due to a bug on the HP Smart website, I wasn't able to update my payment method for my HP+ subscription. The HP app was even worse as it simply shows ",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "The app doesn't work",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 2,
+          "title": "",
+          "snippet": "Une application qu'on ne peut pas critiquer, d'ailleurs Microsoft a supprimé mon avis qui ne lui plaisait pas. C'est sûr, il était négatif. pourtant, ",
+          "sentiment": "neutral"
+        }
+      ],
+      "subcategory_breakdown": {
+        "freezing": {
+          "name": "App Freezing/Hanging",
+          "count": 3,
+          "percentage_of_category": 37.5,
+          "severity": "critical",
+          "sentiment": {
+            "positive": 0,
+            "negative": 0,
+            "neutral": 3
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "unbelievable. im scanning photos and pressed the button to rotate them and the app gets stuck and refreshes. none of them were save and I have to start again. and when ever I scan a photo it defaults ",
+              "sentiment": "neutral"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "My HP app is stuck on the spinning part every time I open it I installed it and reinstalled it twice are you sure there is no virus",
+              "sentiment": "neutral"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "depuis le changement de l'application a chaque fois que je l'ouvre sa reste figé page blanche. dommage je préférerais l'ancienne application.",
+              "sentiment": "neutral"
+            }
+          ]
+        },
+        "bugs_glitches": {
+          "name": "Bugs & Glitches",
+          "count": 2,
+          "percentage_of_category": 25.0,
+          "severity": "high",
+          "sentiment": {
+            "positive": 0,
+            "negative": 1,
+            "neutral": 1
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Due to a bug on the HP Smart website, I wasn't able to update my payment method for my HP+ subscription. The HP app was even worse as it simply shows an endless spinner. The support desk also could no",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 2,
+              "title": "",
+              "snippet": "Une application qu'on ne peut pas critiquer, d'ailleurs Microsoft a supprimé mon avis qui ne lui plaisait pas. C'est sûr, il était négatif. pourtant, je suis un vrai utilisateur d' HP et je suis déçu ",
+              "sentiment": "neutral"
+            }
+          ]
+        },
+        "performance": {
+          "name": "Performance/Speed Issues",
+          "count": 1,
+          "percentage_of_category": 12.5,
+          "severity": "high",
+          "sentiment": {
+            "positive": 0,
+            "negative": 1,
+            "neutral": 0
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "This app was useful.But the data transfer was very slowly.pls update the transfer speed and modify some options",
+              "sentiment": "negative"
+            }
+          ]
+        },
+        "other": {
+          "name": "Other/Unspecified",
+          "count": 1,
+          "percentage_of_category": 12.5,
+          "severity": "low",
+          "sentiment": {
+            "positive": 0,
+            "negative": 1,
+            "neutral": 0
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "The app doesn't work",
+              "sentiment": "negative"
+            }
+          ]
+        },
+        "crashes": {
+          "name": "App Crashes",
+          "count": 1,
+          "percentage_of_category": 12.5,
+          "severity": "critical",
+          "sentiment": {
+            "positive": 1,
+            "negative": 0,
+            "neutral": 0
+          },
+          "sample_reviews": [
+            {
+              "rating": 2,
+              "title": "",
+              "snippet": "Until a few weeks ago this app worked fine. Now it will not load. At first I tried restarting my Android tablet, but that didn't help. Then I Uninstalled the ap and reinstalled and it worked fine. The",
+              "sentiment": "positive"
+            }
+          ]
+        }
+      }
+    },
+    "updates": {
+      "name": "Updates & Compatibility",
+      "mention_count": 7,
+      "percentage_of_total": 17.5,
+      "sentiment": {
+        "positive": 1,
+        "negative": 3,
+        "neutral": 3
+      },
+      "pm_focus": "Release management, OS compatibility",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "This app was useful.But the data transfer was very slowly.pls update the transfer speed and modify some options",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Due to a bug on the HP Smart website, I wasn't able to update my payment method for my HP+ subscription. The HP app was even worse as it simply shows ",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Nach dem heutigen Update läuft sich die App quasi tod. Es dreht sich nur noch der Ladekreis. Ein Zugriff auf den Drucker ist nicht mehr möglich, von k",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 2,
+          "title": "",
+          "snippet": "The App worked fine until the latest version released. The most recent version is a disaster of Epic proportion. It keeps thinking and never gets to t",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 2,
+          "title": "",
+          "snippet": "Until a few weeks ago this app worked fine. Now it will not load. At first I tried restarting my Android tablet, but that didn't help. Then I Uninstal",
+          "sentiment": "positive"
+        }
+      ],
+      "subcategory_breakdown": {
+        "other": {
+          "name": "Other/Unspecified",
+          "count": 5,
+          "percentage_of_category": 71.4,
+          "severity": "low",
+          "sentiment": {
+            "positive": 0,
+            "negative": 3,
+            "neutral": 2
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "This app was useful.But the data transfer was very slowly.pls update the transfer speed and modify some options",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Due to a bug on the HP Smart website, I wasn't able to update my payment method for my HP+ subscription. The HP app was even worse as it simply shows an endless spinner. The support desk also could no",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Nach dem heutigen Update läuft sich die App quasi tod. Es dreht sich nur noch der Ladekreis. Ein Zugriff auf den Drucker ist nicht mehr möglich, von keinem meiner Geräte.",
+              "sentiment": "neutral"
+            }
+          ]
+        },
+        "android_compatibility": {
+          "name": "Android Version Compatibility",
+          "count": 2,
+          "percentage_of_category": 28.6,
+          "severity": "high",
+          "sentiment": {
+            "positive": 1,
+            "negative": 0,
+            "neutral": 1
+          },
+          "sample_reviews": [
+            {
+              "rating": 2,
+              "title": "",
+              "snippet": "Until a few weeks ago this app worked fine. Now it will not load. At first I tried restarting my Android tablet, but that didn't help. Then I Uninstalled the ap and reinstalled and it worked fine. The",
+              "sentiment": "positive"
+            },
+            {
+              "rating": 3,
+              "title": "",
+              "snippet": "La nuova Interfaccia è bella ma l'app è diventata lentissima persino sui top di gamma. Inoltre la stampa ci mette il doppio del tempo rispetto a a stampare da computer. Il mio dispositivo è Samsung Ga",
+              "sentiment": "neutral"
+            }
+          ]
+        },
+        "device_compatibility": {
+          "name": "Device-Specific Issues",
+          "count": 2,
+          "percentage_of_category": 28.6,
+          "severity": "medium",
+          "sentiment": {
+            "positive": 1,
+            "negative": 0,
+            "neutral": 1
+          },
+          "sample_reviews": [
+            {
+              "rating": 2,
+              "title": "",
+              "snippet": "Until a few weeks ago this app worked fine. Now it will not load. At first I tried restarting my Android tablet, but that didn't help. Then I Uninstalled the ap and reinstalled and it worked fine. The",
+              "sentiment": "positive"
+            },
+            {
+              "rating": 3,
+              "title": "",
+              "snippet": "La nuova Interfaccia è bella ma l'app è diventata lentissima persino sui top di gamma. Inoltre la stampa ci mette il doppio del tempo rispetto a a stampare da computer. Il mio dispositivo è Samsung Ga",
+              "sentiment": "neutral"
+            }
+          ]
+        }
+      }
+    },
+    "scanning": {
+      "name": "Scanning Features",
+      "mention_count": 6,
+      "percentage_of_total": 15.0,
+      "sentiment": {
+        "positive": 0,
+        "negative": 1,
+        "neutral": 5
+      },
+      "pm_focus": "Secondary feature adoption, scan workflow",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "unbelievable. im scanning photos and pressed the button to rotate them and the app gets stuck and refreshes. none of them were save and I have to star",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "O aplicativo não visualiza (e não permite imprimir) documentos PDF com senha. Corrijam isso por favor.",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "HP deskjet 2028e stampante pessima! davvero penosa e app a dir poco assurda! non si riesce ad impostare le dimensioni del documento!! lenta come la qu",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Faccio la scansione con la stampante per mandarla sul telefono, ma appena finita l'elaborazione della scansione l'applicazione fa ritornare sul menù e",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 2,
+          "title": "",
+          "snippet": "The App worked fine until the latest version released. The most recent version is a disaster of Epic proportion. It keeps thinking and never gets to t",
+          "sentiment": "negative"
+        }
+      ],
+      "subcategory_breakdown": {
+        "other": {
+          "name": "Other/Unspecified",
+          "count": 6,
+          "percentage_of_category": 100.0,
+          "severity": "low",
+          "sentiment": {
+            "positive": 0,
+            "negative": 1,
+            "neutral": 5
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "unbelievable. im scanning photos and pressed the button to rotate them and the app gets stuck and refreshes. none of them were save and I have to start again. and when ever I scan a photo it defaults ",
+              "sentiment": "neutral"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "O aplicativo não visualiza (e não permite imprimir) documentos PDF com senha. Corrijam isso por favor.",
+              "sentiment": "neutral"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "HP deskjet 2028e stampante pessima! davvero penosa e app a dir poco assurda! non si riesce ad impostare le dimensioni del documento!! lenta come la quaresima! un pessimo acquisto",
+              "sentiment": "neutral"
+            }
+          ]
+        }
+      }
+    },
+    "uncategorized": {
+      "name": "uncategorized",
+      "mention_count": 6,
+      "percentage_of_total": 15.0,
+      "sentiment": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 6
+      },
+      "pm_focus": "",
+      "sample_reviews": [
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "Très très pratique.",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "waardeloos",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "не працює вже пару днів. прошу вирішити проблему",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "user-friendly and very useful tools for all types of people",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "rubbish",
+          "sentiment": "neutral"
+        }
+      ],
+      "subcategory_breakdown": {}
+    },
+    "connectivity": {
+      "name": "Connectivity & Setup",
+      "mention_count": 3,
+      "percentage_of_total": 7.5,
+      "sentiment": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 3
+      },
+      "pm_focus": "First-time user experience, connectivity reliability",
+      "sample_reviews": [
+        {
+          "rating": 2,
+          "title": "",
+          "snippet": "Últimamente demora en abrir la aplicación. estando conectado al wifi o datos.",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "depuis le changement de l'application a chaque fois que je l'ouvre sa reste figé page blanche. dommage je préférerais l'ancienne application.",
+          "sentiment": "neutral"
+        },
+        {
+          "rating": 2,
+          "title": "",
+          "snippet": "Verbindung zum Drucker trotz gleichen WLAN war unterbrochen",
+          "sentiment": "neutral"
+        }
+      ],
+      "subcategory_breakdown": {
+        "other": {
+          "name": "Other/Unspecified",
+          "count": 2,
+          "percentage_of_category": 66.7,
+          "severity": "low",
+          "sentiment": {
+            "positive": 0,
+            "negative": 0,
+            "neutral": 2
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "depuis le changement de l'application a chaque fois que je l'ouvre sa reste figé page blanche. dommage je préférerais l'ancienne application.",
+              "sentiment": "neutral"
+            },
+            {
+              "rating": 2,
+              "title": "",
+              "snippet": "Verbindung zum Drucker trotz gleichen WLAN war unterbrochen",
+              "sentiment": "neutral"
+            }
+          ]
+        },
+        "wifi_issues": {
+          "name": "WiFi Connection Problems",
+          "count": 1,
+          "percentage_of_category": 33.3,
+          "severity": "critical",
+          "sentiment": {
+            "positive": 0,
+            "negative": 0,
+            "neutral": 1
+          },
+          "sample_reviews": [
+            {
+              "rating": 2,
+              "title": "",
+              "snippet": "Últimamente demora en abrir la aplicación. estando conectado al wifi o datos.",
+              "sentiment": "neutral"
+            }
+          ]
+        }
+      }
+    },
+    "features": {
+      "name": "Feature Requests & Missing Features",
+      "mention_count": 3,
+      "percentage_of_total": 7.5,
+      "sentiment": {
+        "positive": 0,
+        "negative": 3,
+        "neutral": 0
+      },
+      "pm_focus": "Product roadmap, feature prioritization",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "This app was useful.But the data transfer was very slowly.pls update the transfer speed and modify some options",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Due to a bug on the HP Smart website, I wasn't able to update my payment method for my HP+ subscription. The HP app was even worse as it simply shows ",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 2,
+          "title": "",
+          "snippet": "The App worked fine until the latest version released. The most recent version is a disaster of Epic proportion. It keeps thinking and never gets to t",
+          "sentiment": "negative"
+        }
+      ],
+      "subcategory_breakdown": {
+        "other": {
+          "name": "Other/Unspecified",
+          "count": 3,
+          "percentage_of_category": 100.0,
+          "severity": "low",
+          "sentiment": {
+            "positive": 0,
+            "negative": 3,
+            "neutral": 0
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "This app was useful.But the data transfer was very slowly.pls update the transfer speed and modify some options",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Due to a bug on the HP Smart website, I wasn't able to update my payment method for my HP+ subscription. The HP app was even worse as it simply shows an endless spinner. The support desk also could no",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 2,
+              "title": "",
+              "snippet": "The App worked fine until the latest version released. The most recent version is a disaster of Epic proportion. It keeps thinking and never gets to the dashboard. I've had to uninstall and reinstall ",
+              "sentiment": "negative"
+            }
+          ]
+        }
+      }
+    },
+    "value": {
+      "name": "Value & Pricing",
+      "mention_count": 3,
+      "percentage_of_total": 7.5,
+      "sentiment": {
+        "positive": 1,
+        "negative": 2,
+        "neutral": 0
+      },
+      "pm_focus": "Monetization, value perception",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Due to a bug on the HP Smart website, I wasn't able to update my payment method for my HP+ subscription. The HP app was even worse as it simply shows ",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 2,
+          "title": "",
+          "snippet": "The App worked fine until the latest version released. The most recent version is a disaster of Epic proportion. It keeps thinking and never gets to t",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 3,
+          "title": "",
+          "snippet": "Es fehlen simple Tools, wie das Layout auf 2 oder 4 Seiten pro Blatt einzustellen. Nur eine Seite pro Blatt. Papierverschwendung, wo die meisten Laser",
+          "sentiment": "positive"
+        }
+      ],
+      "subcategory_breakdown": {
+        "free_vs_paid": {
+          "name": "Free vs Paid Feature Gaps",
+          "count": 2,
+          "percentage_of_category": 66.7,
+          "severity": "medium",
+          "sentiment": {
+            "positive": 1,
+            "negative": 1,
+            "neutral": 0
+          },
+          "sample_reviews": [
+            {
+              "rating": 2,
+              "title": "",
+              "snippet": "The App worked fine until the latest version released. The most recent version is a disaster of Epic proportion. It keeps thinking and never gets to the dashboard. I've had to uninstall and reinstall ",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 3,
+              "title": "",
+              "snippet": "Es fehlen simple Tools, wie das Layout auf 2 oder 4 Seiten pro Blatt einzustellen. Nur eine Seite pro Blatt. Papierverschwendung, wo die meisten Laserdrucker eh schon kein Duplex können. Bearbeitet ma",
+              "sentiment": "positive"
+            }
+          ]
+        },
+        "subscription_model": {
+          "name": "Subscription Complaints",
+          "count": 1,
+          "percentage_of_category": 33.3,
+          "severity": "high",
+          "sentiment": {
+            "positive": 0,
+            "negative": 1,
+            "neutral": 0
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Due to a bug on the HP Smart website, I wasn't able to update my payment method for my HP+ subscription. The HP app was even worse as it simply shows an endless spinner. The support desk also could no",
+              "sentiment": "negative"
+            }
+          ]
+        }
+      }
+    },
+    "support": {
+      "name": "Customer Support & Help",
+      "mention_count": 2,
+      "percentage_of_total": 5.0,
+      "sentiment": {
+        "positive": 1,
+        "negative": 1,
+        "neutral": 0
+      },
+      "pm_focus": "Support deflection, self-service success",
+      "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "Due to a bug on the HP Smart website, I wasn't able to update my payment method for my HP+ subscription. The HP app was even worse as it simply shows ",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 2,
+          "title": "",
+          "snippet": "Until a few weeks ago this app worked fine. Now it will not load. At first I tried restarting my Android tablet, but that didn't help. Then I Uninstal",
+          "sentiment": "positive"
+        }
+      ],
+      "subcategory_breakdown": {
+        "support_quality": {
+          "name": "Support Quality/Experience",
+          "count": 2,
+          "percentage_of_category": 100.0,
+          "severity": "high",
+          "sentiment": {
+            "positive": 1,
+            "negative": 1,
+            "neutral": 0
+          },
+          "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "Due to a bug on the HP Smart website, I wasn't able to update my payment method for my HP+ subscription. The HP app was even worse as it simply shows an endless spinner. The support desk also could no",
+              "sentiment": "negative"
+            },
+            {
+              "rating": 2,
+              "title": "",
+              "snippet": "Until a few weeks ago this app worked fine. Now it will not load. At first I tried restarting my Android tablet, but that didn't help. Then I Uninstalled the ap and reinstalled and it worked fine. The",
+              "sentiment": "positive"
+            }
+          ]
+        },
+        "troubleshooting": {
+          "name": "Troubleshooting Effectiveness",
+          "count": 1,
+          "percentage_of_category": 50.0,
+          "severity": "medium",
+          "sentiment": {
+            "positive": 1,
+            "negative": 0,
+            "neutral": 0
+          },
+          "sample_reviews": [
+            {
+              "rating": 2,
+              "title": "",
+              "snippet": "Until a few weeks ago this app worked fine. Now it will not load. At first I tried restarting my Android tablet, but that didn't help. Then I Uninstalled the ap and reinstalled and it worked fine. The",
+              "sentiment": "positive"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
