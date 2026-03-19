@@ -1,9 +1,9 @@
 # HP_App_Android_AllCountries_Last30Days - Customer Insights Report
 
-**Generated:** 2026-03-02 10:54
+**Generated:** 2026-03-19 12:17
 **Source:** HP_App_Android_AllCountries_Last30Days.json
 **Platform:** Google Play Store
-**Total Reviews:** 1086
+**Total Reviews:** 1341
 
 ---
 
@@ -11,12 +11,12 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Reviews | 1086 |
-| Average Rating | 2.51 / 5.0 |
-| Positive Sentiment | 13.6% |
-| Negative Sentiment | 17.1% |
-| 1-Star Reviews | 593 (54.6%) |
-| 5-Star Reviews | 334 (30.8%) |
+| Total Reviews | 1341 |
+| Average Rating | 2.26 / 5.0 |
+| Positive Sentiment | 10.3% |
+| Negative Sentiment | 17.4% |
+| 1-Star Reviews | 810 (60.4%) |
+| 5-Star Reviews | 336 (25.1%) |
 
 ---
 
@@ -24,11 +24,11 @@
 
 | Stars | Count | Percentage |
 |-------|-------|------------|
-| 5 | 334 | 30.8% |
-| 4 | 50 | 4.6% |
-| 3 | 44 | 4.1% |
-| 2 | 65 | 6.0% |
-| 1 | 593 | 54.6% |
+| 5 | 336 | 25.1% |
+| 4 | 49 | 3.7% |
+| 3 | 52 | 3.9% |
+| 2 | 94 | 7.0% |
+| 1 | 810 | 60.4% |
 
 ---
 
@@ -36,22 +36,22 @@
 
 | Rank | Category | Mentions | % of Reviews |
 |------|----------|----------|--------------|
-| 1 | Mobile App Experience | 444 | 40.9% |
-| 2 | Other | 384 | 35.4% |
-| 3 | Print Quality & Functionality | 282 | 26.0% |
-| 4 | Value & Pricing | 163 | 15.0% |
-| 5 | Connectivity & Setup | 151 | 13.9% |
-| 6 | Updates & Compatibility | 137 | 12.6% |
-| 7 | Feature Requests & Missing Features | 122 | 11.2% |
-| 8 | Scanning Features | 99 | 9.1% |
-| 9 | App Reliability & Stability | 98 | 9.0% |
-| 10 | Customer Support & Help | 58 | 5.3% |
+| 1 | Mobile App Experience | 614 | 45.8% |
+| 2 | Other | 439 | 32.7% |
+| 3 | Print Quality & Functionality | 331 | 24.7% |
+| 4 | Value & Pricing | 199 | 14.8% |
+| 5 | Connectivity & Setup | 195 | 14.5% |
+| 6 | Updates & Compatibility | 165 | 12.3% |
+| 7 | App Reliability & Stability | 147 | 11.0% |
+| 8 | Feature Requests & Missing Features | 144 | 10.7% |
+| 9 | Scanning Features | 127 | 9.5% |
+| 10 | Account & Cloud Services | 74 | 5.5% |
 
 ---
 
 ## Critical Pain Points
 
-- **App Reliability & Stability**: 66% negative sentiment (98 mentions)
+- **App Reliability & Stability**: 65% negative sentiment (147 mentions)
 
 ---
 

@@ -1,116 +1,116 @@
 {
-  "generated_at": "2026-01-23T14:38:29.420265",
+  "generated_at": "2026-03-19T12:17:53.138379",
   "global_app_data": {
     "app_name": "HP",
     "app_id": "com.hp.printercontrol",
-    "fetched_at": "2026-01-23T14:38:29.417895",
-    "overall_rating": 4.192715,
-    "total_ratings": 867204,
-    "total_reviews": 34225,
+    "fetched_at": "2026-03-19T12:17:53.133135",
+    "overall_rating": 4.1597123,
+    "total_ratings": 883444,
+    "total_reviews": 34707,
     "histogram": [
-      129607,
-      19849,
-      26015,
-      70047,
-      621672
+      140083,
+      20118,
+      25283,
+      71052,
+      626889
     ],
     "installs": "100,000,000+",
     "version": "20.2.0.6076",
-    "updated": 1765306071,
+    "updated": 1773342440,
     "developer": "HP Inc.",
     "histogram_pct": [
-      14.9,
+      15.9,
       2.3,
-      3.0,
-      8.1,
-      71.7
+      2.9,
+      8.0,
+      71.0
     ]
   },
   "recent_reviews_data": {
     "source_file": "/Users/payal/android-hp-app-scraper/data/HP_App_Android_US_Last30Days.json",
-    "loaded_at": "2026-01-23T14:38:29.420150",
-    "total_reviews": 417,
-    "average_rating": 2.29,
+    "loaded_at": "2026-03-19T12:17:53.138034",
+    "total_reviews": 600,
+    "average_rating": 1.98,
     "histogram": [
-      246,
-      30,
-      20,
-      15,
-      106
+      412,
+      33,
+      22,
+      22,
+      111
     ],
     "histogram_pct": [
-      59.0,
-      7.2,
-      4.8,
-      3.6,
-      25.4
+      68.7,
+      5.5,
+      3.7,
+      3.7,
+      18.5
     ],
     "date_range": {
-      "earliest": "2025-12-24",
-      "latest": "2026-01-22"
+      "earliest": "2026-02-17",
+      "latest": "2026-03-18"
     },
     "rating_counts": {
-      "1": 246,
-      "5": 106,
-      "2": 30,
-      "3": 20,
-      "4": 15
+      "1": 412,
+      "3": 22,
+      "5": 111,
+      "2": 33,
+      "4": 22
     }
   },
   "analysis": {
-    "generated_at": "2026-01-23T14:38:29.420190",
+    "generated_at": "2026-03-19T12:17:53.138196",
     "comparison_period": "Last 30 Days vs All-Time",
     "rating_comparison": {
-      "global_rating": 4.192715,
-      "recent_rating": 2.29,
-      "delta": -1.9,
+      "global_rating": 4.1597123,
+      "recent_rating": 1.98,
+      "delta": -2.18,
       "trend": "declining"
     },
     "distribution_comparison": {
       "5_star": {
-        "global": 71.7,
-        "recent": 25.4,
-        "delta": -46.3
+        "global": 71.0,
+        "recent": 18.5,
+        "delta": -52.5
       },
       "4_star": {
-        "global": 8.1,
-        "recent": 3.6,
-        "delta": -4.5
+        "global": 8.0,
+        "recent": 3.7,
+        "delta": -4.3
       },
       "3_star": {
-        "global": 3.0,
-        "recent": 4.8,
-        "delta": 1.8
+        "global": 2.9,
+        "recent": 3.7,
+        "delta": 0.8
       },
       "2_star": {
         "global": 2.3,
-        "recent": 7.2,
-        "delta": 4.9
+        "recent": 5.5,
+        "delta": 3.2
       },
       "1_star": {
-        "global": 14.9,
-        "recent": 59.0,
-        "delta": 44.1
+        "global": 15.9,
+        "recent": 68.7,
+        "delta": 52.8
       }
     },
     "sentiment_summary": {
-      "global_positive_pct": 79.8,
-      "global_negative_pct": 17.2,
-      "recent_positive_pct": 29.0,
-      "recent_negative_pct": 66.2,
-      "positive_delta": -50.8,
-      "negative_delta": 49.0
+      "global_positive_pct": 79.0,
+      "global_negative_pct": 18.2,
+      "recent_positive_pct": 22.2,
+      "recent_negative_pct": 74.2,
+      "positive_delta": -56.8,
+      "negative_delta": 56.0
     },
     "engagement": {
-      "total_ratings": 867204,
-      "total_reviews": 34225,
-      "review_rate_pct": 3.95,
-      "silent_raters_pct": 96.05
+      "total_ratings": 883444,
+      "total_reviews": 34707,
+      "review_rate_pct": 3.93,
+      "silent_raters_pct": 96.07
     },
     "trend": {
       "status": "critical_decline",
       "icon": "🔴",
-      "message": "Recent reviews 1.9 stars LOWER than global average - Critical attention needed"
+      "message": "Recent reviews 2.2 stars LOWER than global average - Critical attention needed"
     }
   }
 }
