@@ -1,6 +1,6 @@
 # HP App — v20.2 vs v26.0 Comparison (US)
 
-**Generated:** 2026-03-22 22:37
+**Generated:** 2026-03-23 08:55
 **Scope:** US
 
 ---

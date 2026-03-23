@@ -1,6 +1,6 @@
 # HP Smart App - Combined Sentiment View
 
-**Generated:** 2026-03-22 22:37
+**Generated:** 2026-03-23 08:55
 **App:** HP (com.hp.printercontrol)
 
 ---
@@ -18,7 +18,7 @@
 | **Average Rating** | 4.16 ⭐ | 2.03 ⭐ | -2.13 |
 | **Positive (4-5★)** | 78.9% | 23.2% | -55.7% |
 | **Negative (1-2★)** | 18.2% | 73.0% | +54.8% |
-| **Total Count** | 884,301 ratings | 599 reviews | - |
+| **Total Count** | 884,369 ratings | 599 reviews | - |
 
 ---
 
@@ -58,8 +58,8 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Ratings (All-Time) | 884,301 |
-| Total Written Reviews | 34,745 |
+| Total Ratings (All-Time) | 884,369 |
+| Total Written Reviews | 34,744 |
 | Review Rate | 3.9% |
 | Silent Raters | 96.1% |
 
@@ -92,7 +92,7 @@
 
 ## Data Sources
 
-- **Global Data:** Google Play Store API (fetched 2026-03-22)
+- **Global Data:** Google Play Store API (fetched 2026-03-23)
 - **Recent Reviews:** 2026-02-20 to 2026-03-21 (US)
 
 ---

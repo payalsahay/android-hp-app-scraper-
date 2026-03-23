@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-03-22T22:37:24.828159",
+  "generated_at": "2026-03-23T08:55:40.051850",
   "global_app_data": {
     "app_name": "HP",
     "app_id": "com.hp.printercontrol",
-    "fetched_at": "2026-03-22T22:37:24.824939",
-    "overall_rating": 4.158526,
-    "total_ratings": 884301,
-    "total_reviews": 34745,
+    "fetched_at": "2026-03-23T08:55:40.048134",
+    "overall_rating": 4.157711,
+    "total_ratings": 884369,
+    "total_reviews": 34744,
     "histogram": [
-      140597,
-      20021,
-      25354,
-      70918,
-      627392
+      140660,
+      20135,
+      25360,
+      71098,
+      627097
     ],
     "installs": "100,000,000+",
     "version": "20.2.0.6076",
@@ -28,7 +28,7 @@
   },
   "recent_reviews_data": {
     "source_file": "/Users/payal/android-hp-app-scraper/data/HP_App_Android_US_Last30Days.json",
-    "loaded_at": "2026-03-22T22:37:24.827906",
+    "loaded_at": "2026-03-23T08:55:40.051501",
     "total_reviews": 599,
     "average_rating": 2.03,
     "histogram": [
@@ -58,10 +58,10 @@
     }
   },
   "analysis": {
-    "generated_at": "2026-03-22T22:37:24.828011",
+    "generated_at": "2026-03-23T08:55:40.051667",
     "comparison_period": "Last 30 Days vs All-Time",
     "rating_comparison": {
-      "global_rating": 4.158526,
+      "global_rating": 4.157711,
       "recent_rating": 2.03,
       "delta": -2.13,
       "trend": "declining"
@@ -102,8 +102,8 @@
       "negative_delta": 54.8
     },
     "engagement": {
-      "total_ratings": 884301,
-      "total_reviews": 34745,
+      "total_ratings": 884369,
+      "total_reviews": 34744,
       "review_rate_pct": 3.93,
       "silent_raters_pct": 96.07
     },
