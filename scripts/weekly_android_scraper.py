@@ -506,6 +506,25 @@ def run_weekly_scrape():
         run_insights_agent(android_us_500_file, "HP_App_Android_US_Last500")
 
     # -------------------------------------------------------------------------
+    # 5. Update Deep Files (no date filter — used for version comparisons)
+    # -------------------------------------------------------------------------
+    print("\n" + "-"*70)
+    print("  [5/5] Updating Deep Files")
+    print("-"*70)
+
+    deep_us_file = os.path.join(DATA_DIR, "HP_App_Android_US_Deep.json")
+    if new_android_us:
+        existing_deep_us = load_existing_reviews(deep_us_file)
+        merged_deep_us = deduplicate_reviews(existing_deep_us, new_android_us)
+        save_reviews(merged_deep_us, deep_us_file)
+
+    deep_all_file = os.path.join(DATA_DIR, "HP_App_Android_AllCountries_Deep.json")
+    if new_android_all:
+        existing_deep_all = load_existing_reviews(deep_all_file)
+        merged_deep_all = deduplicate_reviews(existing_deep_all, new_android_all)
+        save_reviews(merged_deep_all, deep_all_file)
+
+    # -------------------------------------------------------------------------
     # Summary
     # -------------------------------------------------------------------------
     print("\n" + "="*70)
