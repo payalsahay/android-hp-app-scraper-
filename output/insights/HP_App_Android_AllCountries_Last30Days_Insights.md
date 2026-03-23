@@ -1,9 +1,9 @@
 # HP_App_Android_AllCountries_Last30Days - Customer Insights Report
 
-**Generated:** 2026-03-23 08:55
+**Generated:** 2026-03-23 09:07
 **Source:** HP_App_Android_AllCountries_Last30Days.json
 **Platform:** Google Play Store
-**Total Reviews:** 1343
+**Total Reviews:** 1348
 
 ---
 
@@ -11,12 +11,12 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Reviews | 1343 |
+| Total Reviews | 1348 |
 | Average Rating | 2.24 / 5.0 |
-| Positive Sentiment | 10.6% |
+| Positive Sentiment | 10.7% |
 | Negative Sentiment | 17.1% |
-| 1-Star Reviews | 813 (60.5%) |
-| 5-Star Reviews | 328 (24.4%) |
+| 1-Star Reviews | 815 (60.5%) |
+| 5-Star Reviews | 329 (24.4%) |
 
 ---
 
@@ -24,11 +24,11 @@
 
 | Stars | Count | Percentage |
 |-------|-------|------------|
-| 5 | 328 | 24.4% |
+| 5 | 329 | 24.4% |
 | 4 | 47 | 3.5% |
 | 3 | 55 | 4.1% |
-| 2 | 100 | 7.4% |
-| 1 | 813 | 60.5% |
+| 2 | 102 | 7.6% |
+| 1 | 815 | 60.5% |
 
 ---
 
@@ -36,16 +36,16 @@
 
 | Rank | Category | Mentions | % of Reviews |
 |------|----------|----------|--------------|
-| 1 | Mobile App Experience | 625 | 46.5% |
-| 2 | Other | 428 | 31.9% |
-| 3 | Print Quality & Functionality | 339 | 25.2% |
-| 4 | Value & Pricing | 209 | 15.6% |
-| 5 | Connectivity & Setup | 197 | 14.7% |
-| 6 | Updates & Compatibility | 166 | 12.4% |
-| 7 | App Reliability & Stability | 154 | 11.5% |
-| 8 | Feature Requests & Missing Features | 145 | 10.8% |
+| 1 | Mobile App Experience | 631 | 46.8% |
+| 2 | Other | 425 | 31.5% |
+| 3 | Print Quality & Functionality | 341 | 25.3% |
+| 4 | Value & Pricing | 208 | 15.4% |
+| 5 | Connectivity & Setup | 200 | 14.8% |
+| 6 | Updates & Compatibility | 165 | 12.2% |
+| 7 | App Reliability & Stability | 154 | 11.4% |
+| 8 | Feature Requests & Missing Features | 147 | 10.9% |
 | 9 | Scanning Features | 129 | 9.6% |
-| 10 | Account & Cloud Services | 72 | 5.4% |
+| 10 | Account & Cloud Services | 73 | 5.4% |
 
 ---
 

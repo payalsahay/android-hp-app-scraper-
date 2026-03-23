@@ -1,10 +1,10 @@
 # HP App v20.2 AllCountries — Top Issues Report
 
-**Generated:** 2026-03-23 08:55
+**Generated:** 2026-03-23 09:08
 **Version:** 20.2
-**Reviews Analyzed:** 442
-**Average Rating:** 2.74 / 5.0
-**Positive Sentiment:** 13.1% | **Negative:** 13.1%
+**Reviews Analyzed:** 440
+**Average Rating:** 2.76 / 5.0
+**Positive Sentiment:** 13.4% | **Negative:** 13.4%
 
 ---
 
@@ -12,11 +12,11 @@
 
 | Stars | Count | % |
 |-------|-------|---|
-| ⭐⭐⭐⭐⭐ | 161 | 36.4% |
+| ⭐⭐⭐⭐⭐ | 162 | 36.8% |
 | ⭐⭐⭐⭐ | 22 | 5.0% |
-| ⭐⭐⭐ | 17 | 3.8% |
+| ⭐⭐⭐ | 17 | 3.9% |
 | ⭐⭐ | 25 | 5.7% |
-| ⭐ | 217 | 49.1% |
+| ⭐ | 214 | 48.6% |
 
 ---
 
@@ -24,14 +24,14 @@
 
 | Rank | Category | Mentions | % of Reviews | Neg % |
 |------|----------|----------|--------------|-------|
-| 1 | Mobile App Experience | 174 | 39.4% | 17% |
-| 2 | Other | 170 | 38.5% | 3% |
-| 3 | Print Quality & Functionality | 120 | 27.1% | 28% |
-| 4 | Connectivity & Setup | 74 | 16.7% | 19% |
-| 5 | Value & Pricing | 71 | 16.1% | 25% |
-| 6 | Feature Requests & Missing Features | 59 | 13.3% | 31% |
-| 7 | Updates & Compatibility | 47 | 10.6% | 34% |
-| 8 | Scanning Features | 43 | 9.7% | 14% |
+| 1 | Mobile App Experience | 175 | 39.8% | 17% |
+| 2 | Other | 166 | 37.7% | 3% |
+| 3 | Print Quality & Functionality | 121 | 27.5% | 29% |
+| 4 | Connectivity & Setup | 75 | 17.0% | 20% |
+| 5 | Value & Pricing | 72 | 16.4% | 25% |
+| 6 | Feature Requests & Missing Features | 59 | 13.4% | 31% |
+| 7 | Updates & Compatibility | 47 | 10.7% | 34% |
+| 8 | Scanning Features | 43 | 9.8% | 14% |
 | 9 | App Reliability & Stability | 41 | 9.3% | 54% |
 | 10 | Account & Cloud Services | 34 | 7.7% | 18% |
 

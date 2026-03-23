@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-03-23T08:55:40.051850",
+  "generated_at": "2026-03-23T09:08:00.942172",
   "global_app_data": {
     "app_name": "HP",
     "app_id": "com.hp.printercontrol",
-    "fetched_at": "2026-03-23T08:55:40.048134",
+    "fetched_at": "2026-03-23T09:08:00.940241",
     "overall_rating": 4.157711,
-    "total_ratings": 884369,
+    "total_ratings": 884382,
     "total_reviews": 34744,
     "histogram": [
-      140660,
+      140662,
       20135,
       25360,
-      71098,
-      627097
+      71099,
+      627107
     ],
     "installs": "100,000,000+",
     "version": "20.2.0.6076",
@@ -28,37 +28,37 @@
   },
   "recent_reviews_data": {
     "source_file": "/Users/payal/android-hp-app-scraper/data/HP_App_Android_US_Last30Days.json",
-    "loaded_at": "2026-03-23T08:55:40.051501",
-    "total_reviews": 599,
+    "loaded_at": "2026-03-23T09:08:00.942019",
+    "total_reviews": 604,
     "average_rating": 2.03,
     "histogram": [
-      400,
-      37,
+      402,
+      38,
       23,
       23,
-      116
+      118
     ],
     "histogram_pct": [
-      66.8,
-      6.2,
+      66.6,
+      6.3,
       3.8,
       3.8,
-      19.4
+      19.5
     ],
     "date_range": {
-      "earliest": "2026-02-20",
-      "latest": "2026-03-21"
+      "earliest": "2026-02-21",
+      "latest": "2026-03-22"
     },
     "rating_counts": {
-      "5": 116,
-      "1": 400,
-      "2": 37,
+      "2": 38,
+      "1": 402,
+      "5": 118,
       "3": 23,
       "4": 23
     }
   },
   "analysis": {
-    "generated_at": "2026-03-23T08:55:40.051667",
+    "generated_at": "2026-03-23T09:08:00.942075",
     "comparison_period": "Last 30 Days vs All-Time",
     "rating_comparison": {
       "global_rating": 4.157711,
@@ -69,8 +69,8 @@
     "distribution_comparison": {
       "5_star": {
         "global": 70.9,
-        "recent": 19.4,
-        "delta": -51.5
+        "recent": 19.5,
+        "delta": -51.4
       },
       "4_star": {
         "global": 8.0,
@@ -84,25 +84,25 @@
       },
       "2_star": {
         "global": 2.3,
-        "recent": 6.2,
-        "delta": 3.9
+        "recent": 6.3,
+        "delta": 4.0
       },
       "1_star": {
         "global": 15.9,
-        "recent": 66.8,
-        "delta": 50.9
+        "recent": 66.6,
+        "delta": 50.7
       }
     },
     "sentiment_summary": {
       "global_positive_pct": 78.9,
       "global_negative_pct": 18.2,
-      "recent_positive_pct": 23.2,
-      "recent_negative_pct": 73.0,
-      "positive_delta": -55.7,
-      "negative_delta": 54.8
+      "recent_positive_pct": 23.3,
+      "recent_negative_pct": 72.9,
+      "positive_delta": -55.6,
+      "negative_delta": 54.7
     },
     "engagement": {
-      "total_ratings": 884369,
+      "total_ratings": 884382,
       "total_reviews": 34744,
       "review_rate_pct": 3.93,
       "silent_raters_pct": 96.07

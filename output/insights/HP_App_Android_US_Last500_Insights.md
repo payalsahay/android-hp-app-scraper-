@@ -1,6 +1,6 @@
 # HP_App_Android_US_Last500 - Customer Insights Report
 
-**Generated:** 2026-03-23 08:55
+**Generated:** 2026-03-23 09:07
 **Source:** HP_App_Android_US_Last500.json
 **Platform:** Google Play Store
 **Total Reviews:** 500
@@ -12,11 +12,11 @@
 | Metric | Value |
 |--------|-------|
 | Total Reviews | 500 |
-| Average Rating | 2.07 / 5.0 |
-| Positive Sentiment | 19.8% |
-| Negative Sentiment | 34.6% |
-| 1-Star Reviews | 326 (65.2%) |
-| 5-Star Reviews | 101 (20.2%) |
+| Average Rating | 2.08 / 5.0 |
+| Positive Sentiment | 20.0% |
+| Negative Sentiment | 34.4% |
+| 1-Star Reviews | 325 (65.0%) |
+| 5-Star Reviews | 102 (20.4%) |
 
 ---
 
@@ -24,11 +24,11 @@
 
 | Stars | Count | Percentage |
 |-------|-------|------------|
-| 5 | 101 | 20.2% |
-| 4 | 19 | 3.8% |
+| 5 | 102 | 20.4% |
+| 4 | 18 | 3.6% |
 | 3 | 21 | 4.2% |
-| 2 | 33 | 6.6% |
-| 1 | 326 | 65.2% |
+| 2 | 34 | 6.8% |
+| 1 | 325 | 65.0% |
 
 ---
 
@@ -36,22 +36,22 @@
 
 | Rank | Category | Mentions | % of Reviews |
 |------|----------|----------|--------------|
-| 1 | Mobile App Experience | 259 | 51.8% |
-| 2 | Print Quality & Functionality | 227 | 45.4% |
-| 3 | Feature Requests & Missing Features | 119 | 23.8% |
-| 4 | Value & Pricing | 106 | 21.2% |
+| 1 | Mobile App Experience | 262 | 52.4% |
+| 2 | Print Quality & Functionality | 226 | 45.2% |
+| 3 | Feature Requests & Missing Features | 120 | 24.0% |
+| 4 | Value & Pricing | 105 | 21.0% |
 | 5 | App Reliability & Stability | 99 | 19.8% |
 | 6 | Connectivity & Setup | 95 | 19.0% |
-| 7 | Other | 95 | 19.0% |
-| 8 | Updates & Compatibility | 87 | 17.4% |
-| 9 | Scanning Features | 54 | 10.8% |
+| 7 | Other | 93 | 18.6% |
+| 8 | Updates & Compatibility | 85 | 17.0% |
+| 9 | Scanning Features | 55 | 11.0% |
 | 10 | Customer Support & Help | 46 | 9.2% |
 
 ---
 
 ## Critical Pain Points
 
-- **Value & Pricing**: 42% negative sentiment (106 mentions)
+- **Value & Pricing**: 41% negative sentiment (105 mentions)
 - **App Reliability & Stability**: 68% negative sentiment (99 mentions)
 - **Customer Support & Help**: 41% negative sentiment (46 mentions)
 

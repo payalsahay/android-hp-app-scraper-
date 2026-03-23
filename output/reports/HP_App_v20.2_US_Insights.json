@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-03-23T08:55:39.436162",
-  "total_reviews": 200,
+  "generated_at": "2026-03-23T09:08:00.421656",
+  "total_reviews": 202,
   "sentiment_summary": {
-    "negative": 51,
-    "neutral": 101,
-    "positive": 48
+    "positive": 49,
+    "negative": 52,
+    "neutral": 101
   },
   "rating_distribution": {
-    "5": 55,
+    "5": 57,
     "1": 117,
     "2": 6,
     "4": 13,
@@ -16,15 +16,21 @@
   "categories": {
     "printing": {
       "name": "Print Quality & Functionality",
-      "mention_count": 102,
+      "mention_count": 103,
       "percentage_of_total": 51.0,
       "sentiment": {
         "positive": 14,
-        "negative": 33,
+        "negative": 34,
         "neutral": 55
       },
       "pm_focus": "Core value proposition, print reliability",
       "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "The app is frustrating. The app offers basics and is not as automated as the HPSmart app. The HP smart app was the only way that we were able to get o",
+          "sentiment": "negative"
+        },
         {
           "rating": 5,
           "title": "",
@@ -48,19 +54,13 @@
           "title": "",
           "snippet": "Can not connect a print via USB cable. Only has options for wifi and either net connections. I understand the wifi option but what phone/tablet has an",
           "sentiment": "neutral"
-        },
-        {
-          "rating": 1,
-          "title": "",
-          "snippet": "not able to print from ANY device",
-          "sentiment": "neutral"
         }
       ],
       "subcategory_breakdown": {
         "other": {
           "name": "Other/Unspecified",
           "count": 52,
-          "percentage_of_category": 51.0,
+          "percentage_of_category": 50.5,
           "severity": "low",
           "sentiment": {
             "positive": 5,
@@ -91,7 +91,7 @@
         "document_types": {
           "name": "Document Type Support",
           "count": 25,
-          "percentage_of_category": 24.5,
+          "percentage_of_category": 24.3,
           "severity": "low",
           "sentiment": {
             "positive": 6,
@@ -122,7 +122,7 @@
         "ink_toner": {
           "name": "Ink/Toner Issues",
           "count": 18,
-          "percentage_of_category": 17.6,
+          "percentage_of_category": 17.5,
           "severity": "medium",
           "sentiment": {
             "positive": 4,
@@ -152,15 +152,21 @@
         },
         "paper_handling": {
           "name": "Paper Handling/Jams",
-          "count": 14,
-          "percentage_of_category": 13.7,
+          "count": 15,
+          "percentage_of_category": 14.6,
           "severity": "medium",
           "sentiment": {
             "positive": 2,
-            "negative": 6,
+            "negative": 7,
             "neutral": 6
           },
           "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "The app is frustrating. The app offers basics and is not as automated as the HPSmart app. The HP smart app was the only way that we were able to get our HP printer to connect to our devices. Without i",
+              "sentiment": "negative"
+            },
             {
               "rating": 1,
               "title": "",
@@ -172,12 +178,6 @@
               "title": "",
               "snippet": "App on my computer not allowing me to scan and stopped recognizing the printer and won't allow me to add it. Just set up the app on my phone, again scanner won't work and app doesn't allow me to set a",
               "sentiment": "negative"
-            },
-            {
-              "rating": 3,
-              "title": "",
-              "snippet": "As mentioned earlier, the app never loads. After a few restarts I got into the printer setup, but it’s stuck and the next screen never loads. Is the setup normally fast?",
-              "sentiment": "positive"
             }
           ]
         },
@@ -246,7 +246,7 @@
         "print_jobs": {
           "name": "Print Job Management",
           "count": 2,
-          "percentage_of_category": 2.0,
+          "percentage_of_category": 1.9,
           "severity": "medium",
           "sentiment": {
             "positive": 0,
@@ -272,15 +272,33 @@
     },
     "mobile_experience": {
       "name": "Mobile App Experience",
-      "mention_count": 94,
-      "percentage_of_total": 47.0,
+      "mention_count": 97,
+      "percentage_of_total": 48.0,
       "sentiment": {
-        "positive": 22,
-        "negative": 28,
+        "positive": 24,
+        "negative": 29,
         "neutral": 44
       },
       "pm_focus": "App usability, user satisfaction",
       "sample_reviews": [
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "Love the ease of use of this app. I use it several times a week and it's flawless every time.",
+          "sentiment": "positive"
+        },
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "The app is frustrating. The app offers basics and is not as automated as the HPSmart app. The HP smart app was the only way that we were able to get o",
+          "sentiment": "negative"
+        },
+        {
+          "rating": 5,
+          "title": "",
+          "snippet": "nice application",
+          "sentiment": "positive"
+        },
         {
           "rating": 5,
           "title": "",
@@ -292,54 +310,36 @@
           "title": "",
           "snippet": "this app can make me print my photos using wifi",
           "sentiment": "neutral"
-        },
-        {
-          "rating": 2,
-          "title": "",
-          "snippet": "Setting up the printer is very difficult, cannot get help. h if ffgxgxhxhxhxhxhxhxjfj",
-          "sentiment": "negative"
-        },
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "Great printer for what I need it for. Just needed something I could print documents or scan that wasn't gonna cost a bunch. Happy with with this one. ",
-          "sentiment": "positive"
-        },
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "i have been using HP for years with the only problems being the updates with the 'rent' program where the wifi update NEVER works. but i have printed ",
-          "sentiment": "negative"
         }
       ],
       "subcategory_breakdown": {
         "other": {
           "name": "Other/Unspecified",
-          "count": 63,
-          "percentage_of_category": 67.0,
+          "count": 66,
+          "percentage_of_category": 68.0,
           "severity": "low",
           "sentiment": {
-            "positive": 8,
-            "negative": 21,
+            "positive": 10,
+            "negative": 22,
             "neutral": 34
           },
           "sample_reviews": [
             {
               "rating": 5,
               "title": "",
-              "snippet": "Every time I start my phone up, I get an error report saying that the printer's not working, with an exclamation point, even though it is. it does eventually go to the app, and I'm able to print it, a",
+              "snippet": "Love the ease of use of this app. I use it several times a week and it's flawless every time.",
+              "sentiment": "positive"
+            },
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "The app is frustrating. The app offers basics and is not as automated as the HPSmart app. The HP smart app was the only way that we were able to get our HP printer to connect to our devices. Without i",
               "sentiment": "negative"
             },
             {
               "rating": 5,
               "title": "",
-              "snippet": "this app can make me print my photos using wifi",
-              "sentiment": "neutral"
-            },
-            {
-              "rating": 5,
-              "title": "",
-              "snippet": "Great printer for what I need it for. Just needed something I could print documents or scan that wasn't gonna cost a bunch. Happy with with this one. And getting free ink for 3 months was a great bonu",
+              "snippet": "nice application",
               "sentiment": "positive"
             }
           ]
@@ -347,7 +347,7 @@
         "ease_of_use": {
           "name": "Ease of Use",
           "count": 16,
-          "percentage_of_category": 17.0,
+          "percentage_of_category": 16.5,
           "severity": "high",
           "sentiment": {
             "positive": 11,
@@ -378,7 +378,7 @@
         "ui_design": {
           "name": "UI/Visual Design",
           "count": 9,
-          "percentage_of_category": 9.6,
+          "percentage_of_category": 9.3,
           "severity": "medium",
           "sentiment": {
             "positive": 2,
@@ -409,7 +409,7 @@
         "responsiveness": {
           "name": "App Responsiveness",
           "count": 6,
-          "percentage_of_category": 6.4,
+          "percentage_of_category": 6.2,
           "severity": "medium",
           "sentiment": {
             "positive": 2,
@@ -440,7 +440,7 @@
         "navigation": {
           "name": "Navigation/Menu Issues",
           "count": 5,
-          "percentage_of_category": 5.3,
+          "percentage_of_category": 5.2,
           "severity": "high",
           "sentiment": {
             "positive": 1,
@@ -473,7 +473,7 @@
     "features": {
       "name": "Feature Requests & Missing Features",
       "mention_count": 56,
-      "percentage_of_total": 28.0,
+      "percentage_of_total": 27.7,
       "sentiment": {
         "positive": 6,
         "negative": 17,
@@ -667,7 +667,7 @@
     "value": {
       "name": "Value & Pricing",
       "mention_count": 47,
-      "percentage_of_total": 23.5,
+      "percentage_of_total": 23.3,
       "sentiment": {
         "positive": 6,
         "negative": 17,
@@ -891,15 +891,21 @@
     },
     "connectivity": {
       "name": "Connectivity & Setup",
-      "mention_count": 44,
-      "percentage_of_total": 22.0,
+      "mention_count": 45,
+      "percentage_of_total": 22.3,
       "sentiment": {
         "positive": 5,
-        "negative": 13,
+        "negative": 14,
         "neutral": 26
       },
       "pm_focus": "First-time user experience, connectivity reliability",
       "sample_reviews": [
+        {
+          "rating": 1,
+          "title": "",
+          "snippet": "The app is frustrating. The app offers basics and is not as automated as the HPSmart app. The HP smart app was the only way that we were able to get o",
+          "sentiment": "negative"
+        },
         {
           "rating": 1,
           "title": "",
@@ -923,26 +929,26 @@
           "title": "",
           "snippet": "having a really hard time reconnecting even after following the instructions",
           "sentiment": "neutral"
-        },
-        {
-          "rating": 5,
-          "title": "",
-          "snippet": "i have been using HP for years with the only problems being the updates with the 'rent' program where the wifi update NEVER works. but i have printed ",
-          "sentiment": "negative"
         }
       ],
       "subcategory_breakdown": {
         "other": {
           "name": "Other/Unspecified",
-          "count": 17,
-          "percentage_of_category": 38.6,
+          "count": 18,
+          "percentage_of_category": 40.0,
           "severity": "low",
           "sentiment": {
             "positive": 1,
-            "negative": 5,
+            "negative": 6,
             "neutral": 11
           },
           "sample_reviews": [
+            {
+              "rating": 1,
+              "title": "",
+              "snippet": "The app is frustrating. The app offers basics and is not as automated as the HPSmart app. The HP smart app was the only way that we were able to get our HP printer to connect to our devices. Without i",
+              "sentiment": "negative"
+            },
             {
               "rating": 4,
               "title": "",
@@ -954,19 +960,13 @@
               "title": "",
               "snippet": "I'm switching to another printer. HP is a garbage company. I've had this printer for over 4 years. HP won't get another dollar from me once my new printer arrives. It works when it wants to. Printing ",
               "sentiment": "negative"
-            },
-            {
-              "rating": 1,
-              "title": "",
-              "snippet": "not able to print and scan from hp smart tank 580 printer connect only through cloud",
-              "sentiment": "neutral"
             }
           ]
         },
         "initial_setup": {
           "name": "First-Time Setup Issues",
           "count": 14,
-          "percentage_of_category": 31.8,
+          "percentage_of_category": 31.1,
           "severity": "high",
           "sentiment": {
             "positive": 2,
@@ -997,7 +997,7 @@
         "wifi_issues": {
           "name": "WiFi Connection Problems",
           "count": 13,
-          "percentage_of_category": 29.5,
+          "percentage_of_category": 28.9,
           "severity": "critical",
           "sentiment": {
             "positive": 2,
@@ -1028,7 +1028,7 @@
         "connection_drops": {
           "name": "Connection Drops/Unstable",
           "count": 2,
-          "percentage_of_category": 4.5,
+          "percentage_of_category": 4.4,
           "severity": "high",
           "sentiment": {
             "positive": 0,
@@ -1053,7 +1053,7 @@
         "bluetooth_issues": {
           "name": "Bluetooth Pairing Issues",
           "count": 1,
-          "percentage_of_category": 2.3,
+          "percentage_of_category": 2.2,
           "severity": "high",
           "sentiment": {
             "positive": 0,
@@ -1072,7 +1072,7 @@
         "printer_discovery": {
           "name": "Printer Not Found/Discovery",
           "count": 1,
-          "percentage_of_category": 2.3,
+          "percentage_of_category": 2.2,
           "severity": "critical",
           "sentiment": {
             "positive": 0,
@@ -1092,10 +1092,10 @@
     },
     "uncategorized": {
       "name": "uncategorized",
-      "mention_count": 42,
-      "percentage_of_total": 21.0,
+      "mention_count": 41,
+      "percentage_of_total": 20.3,
       "sentiment": {
-        "positive": 18,
+        "positive": 17,
         "negative": 4,
         "neutral": 20
       },
@@ -1137,7 +1137,7 @@
     "updates": {
       "name": "Updates & Compatibility",
       "mention_count": 39,
-      "percentage_of_total": 19.5,
+      "percentage_of_total": 19.3,
       "sentiment": {
         "positive": 6,
         "negative": 15,
@@ -1325,7 +1325,7 @@
     "reliability": {
       "name": "App Reliability & Stability",
       "mention_count": 30,
-      "percentage_of_total": 15.0,
+      "percentage_of_total": 14.9,
       "sentiment": {
         "positive": 2,
         "negative": 19,
@@ -1519,7 +1519,7 @@
     "scanning": {
       "name": "Scanning Features",
       "mention_count": 29,
-      "percentage_of_total": 14.5,
+      "percentage_of_total": 14.4,
       "sentiment": {
         "positive": 8,
         "negative": 6,
@@ -1614,7 +1614,7 @@
     "account_cloud": {
       "name": "Account & Cloud Services",
       "mention_count": 24,
-      "percentage_of_total": 12.0,
+      "percentage_of_total": 11.9,
       "sentiment": {
         "positive": 2,
         "negative": 6,
