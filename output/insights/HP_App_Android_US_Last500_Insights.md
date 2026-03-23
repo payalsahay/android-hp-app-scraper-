@@ -1,6 +1,6 @@
 # HP_App_Android_US_Last500 - Customer Insights Report
 
-**Generated:** 2026-03-19 12:17
+**Generated:** 2026-03-22 22:37
 **Source:** HP_App_Android_US_Last500.json
 **Platform:** Google Play Store
 **Total Reviews:** 500
@@ -12,11 +12,11 @@
 | Metric | Value |
 |--------|-------|
 | Total Reviews | 500 |
-| Average Rating | 2.02 / 5.0 |
-| Positive Sentiment | 18.8% |
-| Negative Sentiment | 33.8% |
-| 1-Star Reviews | 336 (67.2%) |
-| 5-Star Reviews | 95 (19.0%) |
+| Average Rating | 2.07 / 5.0 |
+| Positive Sentiment | 19.8% |
+| Negative Sentiment | 34.6% |
+| 1-Star Reviews | 326 (65.2%) |
+| 5-Star Reviews | 101 (20.2%) |
 
 ---
 
@@ -24,11 +24,11 @@
 
 | Stars | Count | Percentage |
 |-------|-------|------------|
-| 5 | 95 | 19.0% |
-| 4 | 20 | 4.0% |
-| 3 | 19 | 3.8% |
-| 2 | 30 | 6.0% |
-| 1 | 336 | 67.2% |
+| 5 | 101 | 20.2% |
+| 4 | 19 | 3.8% |
+| 3 | 21 | 4.2% |
+| 2 | 33 | 6.6% |
+| 1 | 326 | 65.2% |
 
 ---
 
@@ -36,24 +36,24 @@
 
 | Rank | Category | Mentions | % of Reviews |
 |------|----------|----------|--------------|
-| 1 | Mobile App Experience | 257 | 51.4% |
-| 2 | Print Quality & Functionality | 226 | 45.2% |
-| 3 | Feature Requests & Missing Features | 114 | 22.8% |
-| 4 | Value & Pricing | 100 | 20.0% |
-| 5 | App Reliability & Stability | 95 | 19.0% |
-| 6 | Other | 93 | 18.6% |
-| 7 | Connectivity & Setup | 92 | 18.4% |
-| 8 | Updates & Compatibility | 86 | 17.2% |
-| 9 | Scanning Features | 55 | 11.0% |
-| 10 | Customer Support & Help | 43 | 8.6% |
+| 1 | Mobile App Experience | 259 | 51.8% |
+| 2 | Print Quality & Functionality | 227 | 45.4% |
+| 3 | Feature Requests & Missing Features | 119 | 23.8% |
+| 4 | Value & Pricing | 106 | 21.2% |
+| 5 | App Reliability & Stability | 99 | 19.8% |
+| 6 | Connectivity & Setup | 95 | 19.0% |
+| 7 | Other | 95 | 19.0% |
+| 8 | Updates & Compatibility | 87 | 17.4% |
+| 9 | Scanning Features | 54 | 10.8% |
+| 10 | Customer Support & Help | 46 | 9.2% |
 
 ---
 
 ## Critical Pain Points
 
-- **Value & Pricing**: 42% negative sentiment (100 mentions)
-- **App Reliability & Stability**: 68% negative sentiment (95 mentions)
-- **Customer Support & Help**: 42% negative sentiment (43 mentions)
+- **Value & Pricing**: 42% negative sentiment (106 mentions)
+- **App Reliability & Stability**: 68% negative sentiment (99 mentions)
+- **Customer Support & Help**: 41% negative sentiment (46 mentions)
 
 ---
 

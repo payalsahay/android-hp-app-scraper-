@@ -1,17 +1,17 @@
 # HP App v26.x — Cross-Version Issue Comparison (US)
 
-**Generated:** 2026-03-19 14:48
+**Generated:** 2026-03-22 22:37
 **Scope:** US
 
 ## Overview
 
 | Metric | v26.0.0 | v26.0.1 | v26.0.2 |
 |--------|---------|---------|---------|
-| Reviews | 75 | 164 | 13 |
-| Avg Rating | 2.07⭐ | 1.78⭐ | 1.69⭐ |
-| Positive % | 17.3% | 17.7% | 7.7% |
-| Negative % | 33.3% | 44.5% | 38.5% |
-| 1-Star % | 64.0% | 74.4% | 61.5% |
+| Reviews | 54 | 173 | 30 |
+| Avg Rating | 2.22⭐ | 1.77⭐ | 2.10⭐ |
+| Positive % | 20.4% | 17.9% | 13.3% |
+| Negative % | 29.6% | 44.5% | 36.7% |
+| 1-Star % | 59.3% | 74.0% | 63.3% |
 
 ---
 
@@ -19,17 +19,17 @@
 
 | Category | v26.0.0 | v26.0.1 | v26.0.2 | Trend |
 |----------|---------|---------|---------|-------|
-| Connectivity & Setup | 17.3% | 20.7% | 0.0% | 📉 |
-| Print Quality & Functionality | 49.3% | 44.5% | 38.5% | 📉 |
-| Scanning Features | 9.3% | 9.8% | 15.4% | 📈 |
-| Mobile App Experience | 53.3% | 55.5% | 76.9% | 📈 |
-| App Reliability & Stability | 18.7% | 23.8% | 38.5% | 📈 |
-| Updates & Compatibility | 17.3% | 20.1% | 30.8% | 📈 |
-| Feature Requests & Missing Features | 26.7% | 20.7% | 15.4% | 📉 |
-| Account & Cloud Services | 1.3% | 7.3% | 0.0% | ➡️ |
-| Customer Support & Help | 4.0% | 8.5% | 7.7% | 📈 |
-| Value & Pricing | 16.0% | 19.5% | 7.7% | 📉 |
-| Other | 14.7% | 15.9% | 15.4% | ➡️ |
+| Connectivity & Setup | 16.7% | 19.7% | 6.7% | 📉 |
+| Print Quality & Functionality | 50.0% | 44.5% | 36.7% | 📉 |
+| Scanning Features | 9.3% | 9.2% | 20.0% | 📈 |
+| Mobile App Experience | 55.6% | 56.1% | 63.3% | 📈 |
+| App Reliability & Stability | 14.8% | 24.3% | 36.7% | 📈 |
+| Updates & Compatibility | 11.1% | 19.1% | 26.7% | 📈 |
+| Feature Requests & Missing Features | 25.9% | 19.7% | 20.0% | 📉 |
+| Account & Cloud Services | 0.0% | 6.9% | 13.3% | 📈 |
+| Customer Support & Help | 3.7% | 8.7% | 10.0% | 📈 |
+| Value & Pricing | 18.5% | 19.7% | 6.7% | 📉 |
+| Other | 14.8% | 15.0% | 13.3% | ➡️ |
 
 ---
 
@@ -37,45 +37,46 @@
 
 | Sub-Issue | Category | v26.0.0 | v26.0.1 | v26.0.2 | Trend |
 |-----------|----------|---------|---------|---------|-------|
-| 🔴 App Freezing/Hanging | App Reliability & Stability | 8.0% | 7.9% | 15.4% | 📈 |
-| 🔴 WiFi Connection Problems | Connectivity & Setup | 6.7% | 6.7% | 0.0% | 📉 |
-| 🔴 App Crashes | App Reliability & Stability | 1.3% | 1.8% | 7.7% | 📈 |
-| 🔴 Updates Breaking Functionality | Updates & Compatibility | 2.7% | 1.2% | 0.0% | 📉 |
-| 🔴 Printer Not Found/Discovery | Connectivity & Setup | 1.3% | 2.4% | 0.0% | 📉 |
-| 🔴 Login/Authentication Problems | Account & Cloud Services | 0.0% | 3.0% | 0.0% | ➡️ |
-| 🟠 Performance/Speed Issues | App Reliability & Stability | 5.3% | 6.7% | 7.7% | 📈 |
-| 🟠 Navigation/Menu Issues | Mobile App Experience | 4.0% | 3.7% | 7.7% | 📈 |
-| 🟠 Support Quality/Experience | Customer Support & Help | 1.3% | 4.3% | 7.7% | 📈 |
-| 🟠 Ease of Use | Mobile App Experience | 8.0% | 4.9% | 0.0% | 📉 |
-| 🟠 Android Version Compatibility | Updates & Compatibility | 0.0% | 1.2% | 7.7% | 📈 |
-| 🟠 Bugs & Glitches | App Reliability & Stability | 4.0% | 3.7% | 0.0% | 📉 |
-| 🟠 Removed/Deprecated Features | Feature Requests & Missing Features | 1.3% | 4.3% | 0.0% | 📉 |
-| 🟠 Account Management | Account & Cloud Services | 1.3% | 3.7% | 0.0% | 📉 |
-| 🟠 Subscription Complaints | Value & Pricing | 1.3% | 3.0% | 0.0% | 📉 |
-| 🟠 First-Time Setup Issues | Connectivity & Setup | 2.7% | 1.2% | 0.0% | 📉 |
-| 🟠 Printer Model Compatibility | Updates & Compatibility | 0.0% | 3.7% | 0.0% | ➡️ |
-| 🟠 Connection Drops/Unstable | Connectivity & Setup | 1.3% | 1.8% | 0.0% | 📉 |
-| 🟠 HP+ / Instant Ink Issues | Account & Cloud Services | 1.3% | 1.2% | 0.0% | 📉 |
-| 🟠 Pricing Too High | Value & Pricing | 1.3% | 0.6% | 0.0% | 📉 |
-| 🟠 Print Quality Issues | Print Quality & Functionality | 0.0% | 1.8% | 0.0% | ➡️ |
-| 🟠 Missing Core Features | Feature Requests & Missing Features | 0.0% | 1.8% | 0.0% | ➡️ |
-| 🟡 Paper Handling/Jams | Print Quality & Functionality | 6.7% | 9.1% | 15.4% | 📈 |
-| 🟡 Free vs Paid Feature Gaps | Value & Pricing | 9.3% | 12.2% | 7.7% | 📉 |
-| 🟡 Ink/Toner Issues | Print Quality & Functionality | 8.0% | 7.9% | 7.7% | ➡️ |
-| 🟡 Device-Specific Issues | Updates & Compatibility | 8.0% | 7.9% | 7.7% | ➡️ |
-| 🟡 UI/Visual Design | Mobile App Experience | 8.0% | 6.7% | 0.0% | 📉 |
-| 🟡 Troubleshooting Effectiveness | Customer Support & Help | 1.3% | 1.2% | 7.7% | 📈 |
-| 🟡 Print Job Management | Print Quality & Functionality | 2.7% | 2.4% | 0.0% | 📉 |
-| 🟡 Value for Money | Value & Pricing | 2.7% | 1.2% | 0.0% | 📉 |
-| 🟡 App Responsiveness | Mobile App Experience | 2.7% | 0.6% | 0.0% | 📉 |
-| 🟡 Excessive Ads | Value & Pricing | 2.7% | 0.6% | 0.0% | 📉 |
-| 🟡 New Feature Requests | Feature Requests & Missing Features | 0.0% | 3.0% | 0.0% | ➡️ |
-| 🟡 Enhancement/Improvement Requests | Feature Requests & Missing Features | 2.7% | 0.0% | 0.0% | 📉 |
-| 🟡 Print Speed/Performance | Print Quality & Functionality | 1.3% | 1.2% | 0.0% | 📉 |
-| 🟡 Multi-page/Batch Scanning | Scanning Features | 1.3% | 0.6% | 0.0% | 📉 |
-| 🟡 Support Response Time | Customer Support & Help | 0.0% | 1.8% | 0.0% | ➡️ |
-| 🟡 Document Type Support | Print Quality & Functionality | 6.7% | 4.9% | 15.4% | 📈 |
-| 🟡 Self-Help/Documentation | Customer Support & Help | 1.3% | 1.2% | 0.0% | 📉 |
+| 🔴 App Freezing/Hanging | App Reliability & Stability | 5.6% | 8.1% | 10.0% | 📈 |
+| 🔴 WiFi Connection Problems | Connectivity & Setup | 3.7% | 6.4% | 0.0% | 📉 |
+| 🔴 App Crashes | App Reliability & Stability | 0.0% | 1.7% | 6.7% | 📈 |
+| 🔴 Updates Breaking Functionality | Updates & Compatibility | 1.9% | 1.2% | 3.3% | 📈 |
+| 🔴 Login/Authentication Problems | Account & Cloud Services | 0.0% | 2.9% | 3.3% | 📈 |
+| 🔴 Printer Not Found/Discovery | Connectivity & Setup | 0.0% | 2.3% | 0.0% | ➡️ |
+| 🟠 Performance/Speed Issues | App Reliability & Stability | 5.6% | 8.1% | 10.0% | 📈 |
+| 🟠 Ease of Use | Mobile App Experience | 9.3% | 5.8% | 3.3% | 📉 |
+| 🟠 Support Quality/Experience | Customer Support & Help | 1.9% | 4.6% | 6.7% | 📈 |
+| 🟠 Navigation/Menu Issues | Mobile App Experience | 5.6% | 4.0% | 3.3% | 📉 |
+| 🟠 Bugs & Glitches | App Reliability & Stability | 5.6% | 3.5% | 3.3% | 📉 |
+| 🟠 Account Management | Account & Cloud Services | 0.0% | 3.5% | 6.7% | 📈 |
+| 🟠 Removed/Deprecated Features | Feature Requests & Missing Features | 1.9% | 4.0% | 3.3% | 📈 |
+| 🟠 Missing Core Features | Feature Requests & Missing Features | 0.0% | 1.7% | 3.3% | 📈 |
+| 🟠 Subscription Complaints | Value & Pricing | 1.9% | 2.9% | 0.0% | 📉 |
+| 🟠 Android Version Compatibility | Updates & Compatibility | 0.0% | 1.2% | 3.3% | 📈 |
+| 🟠 HP+ / Instant Ink Issues | Account & Cloud Services | 0.0% | 1.2% | 3.3% | 📈 |
+| 🟠 Connection Drops/Unstable | Connectivity & Setup | 1.9% | 1.7% | 0.0% | 📉 |
+| 🟠 Printer Model Compatibility | Updates & Compatibility | 0.0% | 3.5% | 0.0% | ➡️ |
+| 🟠 Print Quality Issues | Print Quality & Functionality | 0.0% | 1.7% | 0.0% | ➡️ |
+| 🟠 First-Time Setup Issues | Connectivity & Setup | 0.0% | 1.2% | 0.0% | ➡️ |
+| 🟡 Paper Handling/Jams | Print Quality & Functionality | 9.3% | 9.2% | 16.7% | 📈 |
+| 🟡 Free vs Paid Feature Gaps | Value & Pricing | 11.1% | 12.7% | 3.3% | 📉 |
+| 🟡 Ink/Toner Issues | Print Quality & Functionality | 9.3% | 7.5% | 6.7% | 📉 |
+| 🟡 UI/Visual Design | Mobile App Experience | 9.3% | 6.4% | 0.0% | 📉 |
+| 🟡 Device-Specific Issues | Updates & Compatibility | 3.7% | 7.5% | 3.3% | ➡️ |
+| 🟡 New Feature Requests | Feature Requests & Missing Features | 0.0% | 2.9% | 6.7% | 📈 |
+| 🟡 Excessive Ads | Value & Pricing | 3.7% | 0.6% | 3.3% | ➡️ |
+| 🟡 Troubleshooting Effectiveness | Customer Support & Help | 1.9% | 1.7% | 3.3% | 📈 |
+| 🟡 Print Job Management | Print Quality & Functionality | 3.7% | 2.3% | 0.0% | 📉 |
+| 🟡 Sync/Data Issues | Account & Cloud Services | 0.0% | 0.6% | 3.3% | 📈 |
+| 🟡 Enhancement/Improvement Requests | Feature Requests & Missing Features | 3.7% | 0.0% | 0.0% | 📉 |
+| 🟡 Battery/Memory Usage | App Reliability & Stability | 0.0% | 0.0% | 3.3% | 📈 |
+| 🟡 Print Speed/Performance | Print Quality & Functionality | 1.9% | 1.2% | 0.0% | 📉 |
+| 🟡 Value for Money | Value & Pricing | 1.9% | 1.2% | 0.0% | 📉 |
+| 🟡 Multi-page/Batch Scanning | Scanning Features | 1.9% | 0.6% | 0.0% | 📉 |
+| 🟡 App Responsiveness | Mobile App Experience | 1.9% | 0.6% | 0.0% | 📉 |
+| 🟡 Support Response Time | Customer Support & Help | 0.0% | 1.7% | 0.0% | ➡️ |
+| 🟡 Document Type Support | Print Quality & Functionality | 7.4% | 4.6% | 13.3% | 📈 |
+| 🟡 Self-Help/Documentation | Customer Support & Help | 0.0% | 1.2% | 0.0% | ➡️ |
 
 ---
 *📈 increased >1% | 📉 decreased >1% | ➡️ stable across versions*
