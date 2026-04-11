@@ -1,0 +1,4169 @@
+{
+  "version": "20.2.0.6076",
+  "generated_at": "2026-04-10T23:16:41.259004",
+  "scenarios": [
+    "all_time",
+    "last_30d",
+    "apr_2026",
+    "mar_2026",
+    "feb_2026",
+    "jan_2026",
+    "dec_2025"
+  ],
+  "scenario_labels": {
+    "all_time": "All Time",
+    "last_30d": "Last 30 Days",
+    "apr_2026": "Apr 2026",
+    "mar_2026": "Mar 2026",
+    "feb_2026": "Feb 2026",
+    "jan_2026": "Jan 2026",
+    "dec_2025": "Dec 2025"
+  },
+  "summary": [
+    {
+      "scenario_id": "all_time",
+      "scenario_label": "All Time",
+      "us": {
+        "total": 1074,
+        "avg_rating": 2.39,
+        "one_star_pct": 57.6
+      },
+      "global": {
+        "total": 2307,
+        "avg_rating": 2.67,
+        "one_star_pct": 50.8
+      }
+    },
+    {
+      "scenario_id": "last_30d",
+      "scenario_label": "Last 30 Days",
+      "us": {
+        "total": 215,
+        "avg_rating": 2.38,
+        "one_star_pct": 58.1
+      },
+      "global": {
+        "total": 450,
+        "avg_rating": 2.58,
+        "one_star_pct": 53.3
+      }
+    },
+    {
+      "scenario_id": "apr_2026",
+      "scenario_label": "Apr 2026",
+      "us": {
+        "total": 89,
+        "avg_rating": 2.35,
+        "one_star_pct": 61.8
+      },
+      "global": {
+        "total": 166,
+        "avg_rating": 2.42,
+        "one_star_pct": 57.8
+      }
+    },
+    {
+      "scenario_id": "mar_2026",
+      "scenario_label": "Mar 2026",
+      "us": {
+        "total": 185,
+        "avg_rating": 2.45,
+        "one_star_pct": 55.7
+      },
+      "global": {
+        "total": 423,
+        "avg_rating": 2.71,
+        "one_star_pct": 49.4
+      }
+    },
+    {
+      "scenario_id": "feb_2026",
+      "scenario_label": "Feb 2026",
+      "us": {
+        "total": 307,
+        "avg_rating": 2.4,
+        "one_star_pct": 57.3
+      },
+      "global": {
+        "total": 628,
+        "avg_rating": 2.74,
+        "one_star_pct": 48.4
+      }
+    },
+    {
+      "scenario_id": "jan_2026",
+      "scenario_label": "Jan 2026",
+      "us": {
+        "total": 348,
+        "avg_rating": 2.44,
+        "one_star_pct": 55.7
+      },
+      "global": {
+        "total": 783,
+        "avg_rating": 2.73,
+        "one_star_pct": 49.6
+      }
+    },
+    {
+      "scenario_id": "dec_2025",
+      "scenario_label": "Dec 2025",
+      "us": {
+        "total": 145,
+        "avg_rating": 2.21,
+        "one_star_pct": 62.8
+      },
+      "global": {
+        "total": 307,
+        "avg_rating": 2.49,
+        "one_star_pct": 56.7
+      }
+    }
+  ],
+  "categories_comparison": [
+    {
+      "id": "connectivity",
+      "name": "Connectivity & Setup",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 239,
+            "pct": 22.3,
+            "neg_pct": 40.2
+          },
+          "last_30d": {
+            "count": 58,
+            "pct": 27.0,
+            "neg_pct": 39.7
+          },
+          "apr_2026": {
+            "count": 22,
+            "pct": 24.7,
+            "neg_pct": 50.0
+          },
+          "mar_2026": {
+            "count": 45,
+            "pct": 24.3,
+            "neg_pct": 33.3
+          },
+          "feb_2026": {
+            "count": 54,
+            "pct": 17.6,
+            "neg_pct": 42.6
+          },
+          "jan_2026": {
+            "count": 88,
+            "pct": 25.3,
+            "neg_pct": 38.6
+          },
+          "dec_2025": {
+            "count": 30,
+            "pct": 20.7,
+            "neg_pct": 43.3
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 371,
+            "pct": 16.1,
+            "neg_pct": 27.0
+          },
+          "last_30d": {
+            "count": 82,
+            "pct": 18.2,
+            "neg_pct": 28.0
+          },
+          "apr_2026": {
+            "count": 28,
+            "pct": 16.9,
+            "neg_pct": 39.3
+          },
+          "mar_2026": {
+            "count": 74,
+            "pct": 17.5,
+            "neg_pct": 21.6
+          },
+          "feb_2026": {
+            "count": 86,
+            "pct": 13.7,
+            "neg_pct": 27.9
+          },
+          "jan_2026": {
+            "count": 137,
+            "pct": 17.5,
+            "neg_pct": 25.5
+          },
+          "dec_2025": {
+            "count": 46,
+            "pct": 15.0,
+            "neg_pct": 30.4
+          }
+        }
+      }
+    },
+    {
+      "id": "printing",
+      "name": "Print Quality & Functionality",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 521,
+            "pct": 48.5,
+            "neg_pct": 34.7
+          },
+          "last_30d": {
+            "count": 108,
+            "pct": 50.2,
+            "neg_pct": 37.0
+          },
+          "apr_2026": {
+            "count": 44,
+            "pct": 49.4,
+            "neg_pct": 40.9
+          },
+          "mar_2026": {
+            "count": 95,
+            "pct": 51.4,
+            "neg_pct": 31.6
+          },
+          "feb_2026": {
+            "count": 139,
+            "pct": 45.3,
+            "neg_pct": 36.7
+          },
+          "jan_2026": {
+            "count": 167,
+            "pct": 48.0,
+            "neg_pct": 32.9
+          },
+          "dec_2025": {
+            "count": 76,
+            "pct": 52.4,
+            "neg_pct": 35.5
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 598,
+            "pct": 25.9,
+            "neg_pct": 30.8
+          },
+          "last_30d": {
+            "count": 125,
+            "pct": 27.8,
+            "neg_pct": 34.4
+          },
+          "apr_2026": {
+            "count": 49,
+            "pct": 29.5,
+            "neg_pct": 40.8
+          },
+          "mar_2026": {
+            "count": 110,
+            "pct": 26.0,
+            "neg_pct": 28.2
+          },
+          "feb_2026": {
+            "count": 162,
+            "pct": 25.8,
+            "neg_pct": 31.5
+          },
+          "jan_2026": {
+            "count": 188,
+            "pct": 24.0,
+            "neg_pct": 29.3
+          },
+          "dec_2025": {
+            "count": 89,
+            "pct": 29.0,
+            "neg_pct": 30.3
+          }
+        }
+      }
+    },
+    {
+      "id": "scanning",
+      "name": "Scanning Features",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 155,
+            "pct": 14.4,
+            "neg_pct": 21.9
+          },
+          "last_30d": {
+            "count": 37,
+            "pct": 17.2,
+            "neg_pct": 29.7
+          },
+          "apr_2026": {
+            "count": 16,
+            "pct": 18.0,
+            "neg_pct": 18.8
+          },
+          "mar_2026": {
+            "count": 31,
+            "pct": 16.8,
+            "neg_pct": 29.0
+          },
+          "feb_2026": {
+            "count": 46,
+            "pct": 15.0,
+            "neg_pct": 21.7
+          },
+          "jan_2026": {
+            "count": 41,
+            "pct": 11.8,
+            "neg_pct": 17.1
+          },
+          "dec_2025": {
+            "count": 21,
+            "pct": 14.5,
+            "neg_pct": 23.8
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 257,
+            "pct": 11.1,
+            "neg_pct": 13.6
+          },
+          "last_30d": {
+            "count": 55,
+            "pct": 12.2,
+            "neg_pct": 20.0
+          },
+          "apr_2026": {
+            "count": 22,
+            "pct": 13.3,
+            "neg_pct": 13.6
+          },
+          "mar_2026": {
+            "count": 48,
+            "pct": 11.3,
+            "neg_pct": 18.8
+          },
+          "feb_2026": {
+            "count": 68,
+            "pct": 10.8,
+            "neg_pct": 14.7
+          },
+          "jan_2026": {
+            "count": 80,
+            "pct": 10.2,
+            "neg_pct": 8.8
+          },
+          "dec_2025": {
+            "count": 39,
+            "pct": 12.7,
+            "neg_pct": 15.4
+          }
+        }
+      }
+    },
+    {
+      "id": "mobile_experience",
+      "name": "Mobile App Experience",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 503,
+            "pct": 46.8,
+            "neg_pct": 38.0
+          },
+          "last_30d": {
+            "count": 110,
+            "pct": 51.2,
+            "neg_pct": 37.3
+          },
+          "apr_2026": {
+            "count": 48,
+            "pct": 53.9,
+            "neg_pct": 39.6
+          },
+          "mar_2026": {
+            "count": 96,
+            "pct": 51.9,
+            "neg_pct": 32.3
+          },
+          "feb_2026": {
+            "count": 133,
+            "pct": 43.3,
+            "neg_pct": 45.1
+          },
+          "jan_2026": {
+            "count": 155,
+            "pct": 44.5,
+            "neg_pct": 35.5
+          },
+          "dec_2025": {
+            "count": 71,
+            "pct": 49.0,
+            "neg_pct": 36.6
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 929,
+            "pct": 40.3,
+            "neg_pct": 22.1
+          },
+          "last_30d": {
+            "count": 186,
+            "pct": 41.3,
+            "neg_pct": 23.7
+          },
+          "apr_2026": {
+            "count": 77,
+            "pct": 46.4,
+            "neg_pct": 27.3
+          },
+          "mar_2026": {
+            "count": 169,
+            "pct": 40.0,
+            "neg_pct": 19.5
+          },
+          "feb_2026": {
+            "count": 245,
+            "pct": 39.0,
+            "neg_pct": 25.7
+          },
+          "jan_2026": {
+            "count": 300,
+            "pct": 38.3,
+            "neg_pct": 20.0
+          },
+          "dec_2025": {
+            "count": 138,
+            "pct": 45.0,
+            "neg_pct": 20.3
+          }
+        }
+      }
+    },
+    {
+      "id": "reliability",
+      "name": "App Reliability & Stability",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 145,
+            "pct": 13.5,
+            "neg_pct": 66.9
+          },
+          "last_30d": {
+            "count": 19,
+            "pct": 8.8,
+            "neg_pct": 63.2
+          },
+          "apr_2026": {
+            "count": 7,
+            "pct": 7.9,
+            "neg_pct": 100.0
+          },
+          "mar_2026": {
+            "count": 22,
+            "pct": 11.9,
+            "neg_pct": 50.0
+          },
+          "feb_2026": {
+            "count": 42,
+            "pct": 13.7,
+            "neg_pct": 71.4
+          },
+          "jan_2026": {
+            "count": 54,
+            "pct": 15.5,
+            "neg_pct": 64.8
+          },
+          "dec_2025": {
+            "count": 20,
+            "pct": 13.8,
+            "neg_pct": 70.0
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 186,
+            "pct": 8.1,
+            "neg_pct": 59.1
+          },
+          "last_30d": {
+            "count": 30,
+            "pct": 6.7,
+            "neg_pct": 50.0
+          },
+          "apr_2026": {
+            "count": 10,
+            "pct": 6.0,
+            "neg_pct": 90.0
+          },
+          "mar_2026": {
+            "count": 35,
+            "pct": 8.3,
+            "neg_pct": 40.0
+          },
+          "feb_2026": {
+            "count": 50,
+            "pct": 8.0,
+            "neg_pct": 66.0
+          },
+          "jan_2026": {
+            "count": 64,
+            "pct": 8.2,
+            "neg_pct": 59.4
+          },
+          "dec_2025": {
+            "count": 27,
+            "pct": 8.8,
+            "neg_pct": 59.3
+          }
+        }
+      }
+    },
+    {
+      "id": "updates",
+      "name": "Updates & Compatibility",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 188,
+            "pct": 17.5,
+            "neg_pct": 38.3
+          },
+          "last_30d": {
+            "count": 33,
+            "pct": 15.3,
+            "neg_pct": 30.3
+          },
+          "apr_2026": {
+            "count": 9,
+            "pct": 10.1,
+            "neg_pct": 11.1
+          },
+          "mar_2026": {
+            "count": 37,
+            "pct": 20.0,
+            "neg_pct": 35.1
+          },
+          "feb_2026": {
+            "count": 51,
+            "pct": 16.6,
+            "neg_pct": 52.9
+          },
+          "jan_2026": {
+            "count": 62,
+            "pct": 17.8,
+            "neg_pct": 37.1
+          },
+          "dec_2025": {
+            "count": 29,
+            "pct": 20.0,
+            "neg_pct": 27.6
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 272,
+            "pct": 11.8,
+            "neg_pct": 27.6
+          },
+          "last_30d": {
+            "count": 41,
+            "pct": 9.1,
+            "neg_pct": 26.8
+          },
+          "apr_2026": {
+            "count": 13,
+            "pct": 7.8,
+            "neg_pct": 7.7
+          },
+          "mar_2026": {
+            "count": 44,
+            "pct": 10.4,
+            "neg_pct": 31.8
+          },
+          "feb_2026": {
+            "count": 73,
+            "pct": 11.6,
+            "neg_pct": 38.4
+          },
+          "jan_2026": {
+            "count": 94,
+            "pct": 12.0,
+            "neg_pct": 25.5
+          },
+          "dec_2025": {
+            "count": 48,
+            "pct": 15.6,
+            "neg_pct": 16.7
+          }
+        }
+      }
+    },
+    {
+      "id": "features",
+      "name": "Feature Requests & Missing Features",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 254,
+            "pct": 23.6,
+            "neg_pct": 33.1
+          },
+          "last_30d": {
+            "count": 57,
+            "pct": 26.5,
+            "neg_pct": 33.3
+          },
+          "apr_2026": {
+            "count": 18,
+            "pct": 20.2,
+            "neg_pct": 27.8
+          },
+          "mar_2026": {
+            "count": 52,
+            "pct": 28.1,
+            "neg_pct": 32.7
+          },
+          "feb_2026": {
+            "count": 64,
+            "pct": 20.8,
+            "neg_pct": 37.5
+          },
+          "jan_2026": {
+            "count": 84,
+            "pct": 24.1,
+            "neg_pct": 32.1
+          },
+          "dec_2025": {
+            "count": 36,
+            "pct": 24.8,
+            "neg_pct": 30.6
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 268,
+            "pct": 11.6,
+            "neg_pct": 32.1
+          },
+          "last_30d": {
+            "count": 61,
+            "pct": 13.6,
+            "neg_pct": 34.4
+          },
+          "apr_2026": {
+            "count": 18,
+            "pct": 10.8,
+            "neg_pct": 27.8
+          },
+          "mar_2026": {
+            "count": 56,
+            "pct": 13.2,
+            "neg_pct": 33.9
+          },
+          "feb_2026": {
+            "count": 70,
+            "pct": 11.1,
+            "neg_pct": 34.3
+          },
+          "jan_2026": {
+            "count": 87,
+            "pct": 11.1,
+            "neg_pct": 31.0
+          },
+          "dec_2025": {
+            "count": 37,
+            "pct": 12.1,
+            "neg_pct": 29.7
+          }
+        }
+      }
+    },
+    {
+      "id": "account_cloud",
+      "name": "Account & Cloud Services",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 109,
+            "pct": 10.1,
+            "neg_pct": 37.6
+          },
+          "last_30d": {
+            "count": 22,
+            "pct": 10.2,
+            "neg_pct": 31.8
+          },
+          "apr_2026": {
+            "count": 5,
+            "pct": 5.6,
+            "neg_pct": 20.0
+          },
+          "mar_2026": {
+            "count": 23,
+            "pct": 12.4,
+            "neg_pct": 26.1
+          },
+          "feb_2026": {
+            "count": 34,
+            "pct": 11.1,
+            "neg_pct": 38.2
+          },
+          "jan_2026": {
+            "count": 27,
+            "pct": 7.8,
+            "neg_pct": 40.7
+          },
+          "dec_2025": {
+            "count": 20,
+            "pct": 13.8,
+            "neg_pct": 50.0
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 141,
+            "pct": 6.1,
+            "neg_pct": 30.5
+          },
+          "last_30d": {
+            "count": 30,
+            "pct": 6.7,
+            "neg_pct": 30.0
+          },
+          "apr_2026": {
+            "count": 8,
+            "pct": 4.8,
+            "neg_pct": 25.0
+          },
+          "mar_2026": {
+            "count": 32,
+            "pct": 7.6,
+            "neg_pct": 21.9
+          },
+          "feb_2026": {
+            "count": 41,
+            "pct": 6.5,
+            "neg_pct": 31.7
+          },
+          "jan_2026": {
+            "count": 37,
+            "pct": 4.7,
+            "neg_pct": 29.7
+          },
+          "dec_2025": {
+            "count": 23,
+            "pct": 7.5,
+            "neg_pct": 43.5
+          }
+        }
+      }
+    },
+    {
+      "id": "support",
+      "name": "Customer Support & Help",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 111,
+            "pct": 10.3,
+            "neg_pct": 36.0
+          },
+          "last_30d": {
+            "count": 21,
+            "pct": 9.8,
+            "neg_pct": 28.6
+          },
+          "apr_2026": {
+            "count": 8,
+            "pct": 9.0,
+            "neg_pct": 25.0
+          },
+          "mar_2026": {
+            "count": 18,
+            "pct": 9.7,
+            "neg_pct": 38.9
+          },
+          "feb_2026": {
+            "count": 30,
+            "pct": 9.8,
+            "neg_pct": 36.7
+          },
+          "jan_2026": {
+            "count": 40,
+            "pct": 11.5,
+            "neg_pct": 32.5
+          },
+          "dec_2025": {
+            "count": 15,
+            "pct": 10.3,
+            "neg_pct": 46.7
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 133,
+            "pct": 5.8,
+            "neg_pct": 31.6
+          },
+          "last_30d": {
+            "count": 25,
+            "pct": 5.6,
+            "neg_pct": 24.0
+          },
+          "apr_2026": {
+            "count": 10,
+            "pct": 6.0,
+            "neg_pct": 20.0
+          },
+          "mar_2026": {
+            "count": 21,
+            "pct": 5.0,
+            "neg_pct": 33.3
+          },
+          "feb_2026": {
+            "count": 37,
+            "pct": 5.9,
+            "neg_pct": 32.4
+          },
+          "jan_2026": {
+            "count": 45,
+            "pct": 5.7,
+            "neg_pct": 31.1
+          },
+          "dec_2025": {
+            "count": 20,
+            "pct": 6.5,
+            "neg_pct": 35.0
+          }
+        }
+      }
+    },
+    {
+      "id": "value",
+      "name": "Value & Pricing",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 233,
+            "pct": 21.7,
+            "neg_pct": 41.2
+          },
+          "last_30d": {
+            "count": 60,
+            "pct": 27.9,
+            "neg_pct": 38.3
+          },
+          "apr_2026": {
+            "count": 25,
+            "pct": 28.1,
+            "neg_pct": 48.0
+          },
+          "mar_2026": {
+            "count": 43,
+            "pct": 23.2,
+            "neg_pct": 34.9
+          },
+          "feb_2026": {
+            "count": 67,
+            "pct": 21.8,
+            "neg_pct": 46.3
+          },
+          "jan_2026": {
+            "count": 74,
+            "pct": 21.3,
+            "neg_pct": 36.5
+          },
+          "dec_2025": {
+            "count": 24,
+            "pct": 16.6,
+            "neg_pct": 45.8
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 350,
+            "pct": 15.2,
+            "neg_pct": 28.6
+          },
+          "last_30d": {
+            "count": 85,
+            "pct": 18.9,
+            "neg_pct": 28.2
+          },
+          "apr_2026": {
+            "count": 32,
+            "pct": 19.3,
+            "neg_pct": 37.5
+          },
+          "mar_2026": {
+            "count": 70,
+            "pct": 16.5,
+            "neg_pct": 24.3
+          },
+          "feb_2026": {
+            "count": 96,
+            "pct": 15.3,
+            "neg_pct": 33.3
+          },
+          "jan_2026": {
+            "count": 113,
+            "pct": 14.4,
+            "neg_pct": 24.8
+          },
+          "dec_2025": {
+            "count": 39,
+            "pct": 12.7,
+            "neg_pct": 28.2
+          }
+        }
+      }
+    }
+  ],
+  "sub_issues_comparison": [
+    {
+      "id": "account_management",
+      "name": "Account Management",
+      "category_id": "account_cloud",
+      "category_name": "Account & Cloud Services",
+      "severity": "high",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 57,
+            "pct": 5.3
+          },
+          "last_30d": {
+            "count": 13,
+            "pct": 6.0
+          },
+          "apr_2026": {
+            "count": 2,
+            "pct": 2.2
+          },
+          "mar_2026": {
+            "count": 16,
+            "pct": 8.6
+          },
+          "feb_2026": {
+            "count": 15,
+            "pct": 4.9
+          },
+          "jan_2026": {
+            "count": 15,
+            "pct": 4.3
+          },
+          "dec_2025": {
+            "count": 9,
+            "pct": 6.2
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 69,
+            "pct": 3.0
+          },
+          "last_30d": {
+            "count": 17,
+            "pct": 3.8
+          },
+          "apr_2026": {
+            "count": 3,
+            "pct": 1.8
+          },
+          "mar_2026": {
+            "count": 20,
+            "pct": 4.7
+          },
+          "feb_2026": {
+            "count": 18,
+            "pct": 2.9
+          },
+          "jan_2026": {
+            "count": 18,
+            "pct": 2.3
+          },
+          "dec_2025": {
+            "count": 10,
+            "pct": 3.3
+          }
+        }
+      }
+    },
+    {
+      "id": "cloud_integration",
+      "name": "Cloud Storage Integration",
+      "category_id": "account_cloud",
+      "category_name": "Account & Cloud Services",
+      "severity": "medium",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 3,
+            "pct": 0.3
+          },
+          "last_30d": {
+            "count": 1,
+            "pct": 0.5
+          },
+          "apr_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "mar_2026": {
+            "count": 1,
+            "pct": 0.5
+          },
+          "feb_2026": {
+            "count": 2,
+            "pct": 0.7
+          },
+          "jan_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "dec_2025": {
+            "count": 0,
+            "pct": 0.0
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 7,
+            "pct": 0.3
+          },
+          "last_30d": {
+            "count": 1,
+            "pct": 0.2
+          },
+          "apr_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "mar_2026": {
+            "count": 2,
+            "pct": 0.5
+          },
+          "feb_2026": {
+            "count": 4,
+            "pct": 0.6
+          },
+          "jan_2026": {
+            "count": 1,
+            "pct": 0.1
+          },
+          "dec_2025": {
+            "count": 0,
+            "pct": 0.0
+          }
+        }
+      }
+    },
+    {
+      "id": "hp_services",
+      "name": "HP+ / Instant Ink Issues",
+      "category_id": "account_cloud",
+      "category_name": "Account & Cloud Services",
+      "severity": "high",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 23,
+            "pct": 2.1
+          },
+          "last_30d": {
+            "count": 5,
+            "pct": 2.3
+          },
+          "apr_2026": {
+            "count": 1,
+            "pct": 1.1
+          },
+          "mar_2026": {
+            "count": 5,
+            "pct": 2.7
+          },
+          "feb_2026": {
+            "count": 9,
+            "pct": 2.9
+          },
+          "jan_2026": {
+            "count": 3,
+            "pct": 0.9
+          },
+          "dec_2025": {
+            "count": 5,
+            "pct": 3.4
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 31,
+            "pct": 1.3
+          },
+          "last_30d": {
+            "count": 8,
+            "pct": 1.8
+          },
+          "apr_2026": {
+            "count": 3,
+            "pct": 1.8
+          },
+          "mar_2026": {
+            "count": 7,
+            "pct": 1.7
+          },
+          "feb_2026": {
+            "count": 11,
+            "pct": 1.8
+          },
+          "jan_2026": {
+            "count": 5,
+            "pct": 0.6
+          },
+          "dec_2025": {
+            "count": 5,
+            "pct": 1.6
+          }
+        }
+      }
+    },
+    {
+      "id": "login_issues",
+      "name": "Login/Authentication Problems",
+      "category_id": "account_cloud",
+      "category_name": "Account & Cloud Services",
+      "severity": "critical",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 39,
+            "pct": 3.6
+          },
+          "last_30d": {
+            "count": 4,
+            "pct": 1.9
+          },
+          "apr_2026": {
+            "count": 2,
+            "pct": 2.2
+          },
+          "mar_2026": {
+            "count": 5,
+            "pct": 2.7
+          },
+          "feb_2026": {
+            "count": 14,
+            "pct": 4.6
+          },
+          "jan_2026": {
+            "count": 10,
+            "pct": 2.9
+          },
+          "dec_2025": {
+            "count": 8,
+            "pct": 5.5
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 47,
+            "pct": 2.0
+          },
+          "last_30d": {
+            "count": 5,
+            "pct": 1.1
+          },
+          "apr_2026": {
+            "count": 2,
+            "pct": 1.2
+          },
+          "mar_2026": {
+            "count": 7,
+            "pct": 1.7
+          },
+          "feb_2026": {
+            "count": 15,
+            "pct": 2.4
+          },
+          "jan_2026": {
+            "count": 12,
+            "pct": 1.5
+          },
+          "dec_2025": {
+            "count": 11,
+            "pct": 3.6
+          }
+        }
+      }
+    },
+    {
+      "id": "sync_issues",
+      "name": "Sync/Data Issues",
+      "category_id": "account_cloud",
+      "category_name": "Account & Cloud Services",
+      "severity": "medium",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 7,
+            "pct": 0.7
+          },
+          "last_30d": {
+            "count": 3,
+            "pct": 1.4
+          },
+          "apr_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "mar_2026": {
+            "count": 3,
+            "pct": 1.6
+          },
+          "feb_2026": {
+            "count": 1,
+            "pct": 0.3
+          },
+          "jan_2026": {
+            "count": 3,
+            "pct": 0.9
+          },
+          "dec_2025": {
+            "count": 0,
+            "pct": 0.0
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 8,
+            "pct": 0.3
+          },
+          "last_30d": {
+            "count": 4,
+            "pct": 0.9
+          },
+          "apr_2026": {
+            "count": 1,
+            "pct": 0.6
+          },
+          "mar_2026": {
+            "count": 3,
+            "pct": 0.7
+          },
+          "feb_2026": {
+            "count": 1,
+            "pct": 0.2
+          },
+          "jan_2026": {
+            "count": 3,
+            "pct": 0.4
+          },
+          "dec_2025": {
+            "count": 0,
+            "pct": 0.0
+          }
+        }
+      }
+    },
+    {
+      "id": "bluetooth_issues",
+      "name": "Bluetooth Pairing Issues",
+      "category_id": "connectivity",
+      "category_name": "Connectivity & Setup",
+      "severity": "high",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 9,
+            "pct": 0.8
+          },
+          "last_30d": {
+            "count": 3,
+            "pct": 1.4
+          },
+          "apr_2026": {
+            "count": 1,
+            "pct": 1.1
+          },
+          "mar_2026": {
+            "count": 2,
+            "pct": 1.1
+          },
+          "feb_2026": {
+            "count": 2,
+            "pct": 0.7
+          },
+          "jan_2026": {
+            "count": 4,
+            "pct": 1.1
+          },
+          "dec_2025": {
+            "count": 0,
+            "pct": 0.0
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 18,
+            "pct": 0.8
+          },
+          "last_30d": {
+            "count": 5,
+            "pct": 1.1
+          },
+          "apr_2026": {
+            "count": 2,
+            "pct": 1.2
+          },
+          "mar_2026": {
+            "count": 4,
+            "pct": 0.9
+          },
+          "feb_2026": {
+            "count": 6,
+            "pct": 1.0
+          },
+          "jan_2026": {
+            "count": 6,
+            "pct": 0.8
+          },
+          "dec_2025": {
+            "count": 0,
+            "pct": 0.0
+          }
+        }
+      }
+    },
+    {
+      "id": "connection_drops",
+      "name": "Connection Drops/Unstable",
+      "category_id": "connectivity",
+      "category_name": "Connectivity & Setup",
+      "severity": "high",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 14,
+            "pct": 1.3
+          },
+          "last_30d": {
+            "count": 2,
+            "pct": 0.9
+          },
+          "apr_2026": {
+            "count": 1,
+            "pct": 1.1
+          },
+          "mar_2026": {
+            "count": 1,
+            "pct": 0.5
+          },
+          "feb_2026": {
+            "count": 4,
+            "pct": 1.3
+          },
+          "jan_2026": {
+            "count": 7,
+            "pct": 2.0
+          },
+          "dec_2025": {
+            "count": 1,
+            "pct": 0.7
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 17,
+            "pct": 0.7
+          },
+          "last_30d": {
+            "count": 3,
+            "pct": 0.7
+          },
+          "apr_2026": {
+            "count": 1,
+            "pct": 0.6
+          },
+          "mar_2026": {
+            "count": 3,
+            "pct": 0.7
+          },
+          "feb_2026": {
+            "count": 4,
+            "pct": 0.6
+          },
+          "jan_2026": {
+            "count": 7,
+            "pct": 0.9
+          },
+          "dec_2025": {
+            "count": 2,
+            "pct": 0.7
+          }
+        }
+      }
+    },
+    {
+      "id": "initial_setup",
+      "name": "First-Time Setup Issues",
+      "category_id": "connectivity",
+      "category_name": "Connectivity & Setup",
+      "severity": "high",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 47,
+            "pct": 4.4
+          },
+          "last_30d": {
+            "count": 12,
+            "pct": 5.6
+          },
+          "apr_2026": {
+            "count": 2,
+            "pct": 2.2
+          },
+          "mar_2026": {
+            "count": 14,
+            "pct": 7.6
+          },
+          "feb_2026": {
+            "count": 11,
+            "pct": 3.6
+          },
+          "jan_2026": {
+            "count": 15,
+            "pct": 4.3
+          },
+          "dec_2025": {
+            "count": 5,
+            "pct": 3.4
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 49,
+            "pct": 2.1
+          },
+          "last_30d": {
+            "count": 12,
+            "pct": 2.7
+          },
+          "apr_2026": {
+            "count": 2,
+            "pct": 1.2
+          },
+          "mar_2026": {
+            "count": 14,
+            "pct": 3.3
+          },
+          "feb_2026": {
+            "count": 11,
+            "pct": 1.8
+          },
+          "jan_2026": {
+            "count": 16,
+            "pct": 2.0
+          },
+          "dec_2025": {
+            "count": 6,
+            "pct": 2.0
+          }
+        }
+      }
+    },
+    {
+      "id": "printer_discovery",
+      "name": "Printer Not Found/Discovery",
+      "category_id": "connectivity",
+      "category_name": "Connectivity & Setup",
+      "severity": "critical",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 12,
+            "pct": 1.1
+          },
+          "last_30d": {
+            "count": 3,
+            "pct": 1.4
+          },
+          "apr_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "mar_2026": {
+            "count": 3,
+            "pct": 1.6
+          },
+          "feb_2026": {
+            "count": 3,
+            "pct": 1.0
+          },
+          "jan_2026": {
+            "count": 5,
+            "pct": 1.4
+          },
+          "dec_2025": {
+            "count": 1,
+            "pct": 0.7
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 12,
+            "pct": 0.5
+          },
+          "last_30d": {
+            "count": 3,
+            "pct": 0.7
+          },
+          "apr_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "mar_2026": {
+            "count": 3,
+            "pct": 0.7
+          },
+          "feb_2026": {
+            "count": 3,
+            "pct": 0.5
+          },
+          "jan_2026": {
+            "count": 5,
+            "pct": 0.6
+          },
+          "dec_2025": {
+            "count": 1,
+            "pct": 0.3
+          }
+        }
+      }
+    },
+    {
+      "id": "wifi_issues",
+      "name": "WiFi Connection Problems",
+      "category_id": "connectivity",
+      "category_name": "Connectivity & Setup",
+      "severity": "critical",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 77,
+            "pct": 7.2
+          },
+          "last_30d": {
+            "count": 19,
+            "pct": 8.8
+          },
+          "apr_2026": {
+            "count": 10,
+            "pct": 11.2
+          },
+          "mar_2026": {
+            "count": 13,
+            "pct": 7.0
+          },
+          "feb_2026": {
+            "count": 18,
+            "pct": 5.9
+          },
+          "jan_2026": {
+            "count": 29,
+            "pct": 8.3
+          },
+          "dec_2025": {
+            "count": 7,
+            "pct": 4.8
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 124,
+            "pct": 5.4
+          },
+          "last_30d": {
+            "count": 25,
+            "pct": 5.6
+          },
+          "apr_2026": {
+            "count": 11,
+            "pct": 6.6
+          },
+          "mar_2026": {
+            "count": 21,
+            "pct": 5.0
+          },
+          "feb_2026": {
+            "count": 33,
+            "pct": 5.3
+          },
+          "jan_2026": {
+            "count": 46,
+            "pct": 5.9
+          },
+          "dec_2025": {
+            "count": 13,
+            "pct": 4.2
+          }
+        }
+      }
+    },
+    {
+      "id": "enhancement_requests",
+      "name": "Enhancement/Improvement Requests",
+      "category_id": "features",
+      "category_name": "Feature Requests & Missing Features",
+      "severity": "medium",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 21,
+            "pct": 2.0
+          },
+          "last_30d": {
+            "count": 2,
+            "pct": 0.9
+          },
+          "apr_2026": {
+            "count": 1,
+            "pct": 1.1
+          },
+          "mar_2026": {
+            "count": 2,
+            "pct": 1.1
+          },
+          "feb_2026": {
+            "count": 4,
+            "pct": 1.3
+          },
+          "jan_2026": {
+            "count": 11,
+            "pct": 3.2
+          },
+          "dec_2025": {
+            "count": 3,
+            "pct": 2.1
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 21,
+            "pct": 0.9
+          },
+          "last_30d": {
+            "count": 2,
+            "pct": 0.4
+          },
+          "apr_2026": {
+            "count": 1,
+            "pct": 0.6
+          },
+          "mar_2026": {
+            "count": 2,
+            "pct": 0.5
+          },
+          "feb_2026": {
+            "count": 4,
+            "pct": 0.6
+          },
+          "jan_2026": {
+            "count": 11,
+            "pct": 1.4
+          },
+          "dec_2025": {
+            "count": 3,
+            "pct": 1.0
+          }
+        }
+      }
+    },
+    {
+      "id": "feature_requests",
+      "name": "New Feature Requests",
+      "category_id": "features",
+      "category_name": "Feature Requests & Missing Features",
+      "severity": "medium",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 69,
+            "pct": 6.4
+          },
+          "last_30d": {
+            "count": 19,
+            "pct": 8.8
+          },
+          "apr_2026": {
+            "count": 7,
+            "pct": 7.9
+          },
+          "mar_2026": {
+            "count": 14,
+            "pct": 7.6
+          },
+          "feb_2026": {
+            "count": 17,
+            "pct": 5.5
+          },
+          "jan_2026": {
+            "count": 22,
+            "pct": 6.3
+          },
+          "dec_2025": {
+            "count": 9,
+            "pct": 6.2
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 71,
+            "pct": 3.1
+          },
+          "last_30d": {
+            "count": 19,
+            "pct": 4.2
+          },
+          "apr_2026": {
+            "count": 7,
+            "pct": 4.2
+          },
+          "mar_2026": {
+            "count": 14,
+            "pct": 3.3
+          },
+          "feb_2026": {
+            "count": 18,
+            "pct": 2.9
+          },
+          "jan_2026": {
+            "count": 23,
+            "pct": 2.9
+          },
+          "dec_2025": {
+            "count": 9,
+            "pct": 2.9
+          }
+        }
+      }
+    },
+    {
+      "id": "missing_features",
+      "name": "Missing Core Features",
+      "category_id": "features",
+      "category_name": "Feature Requests & Missing Features",
+      "severity": "high",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 23,
+            "pct": 2.1
+          },
+          "last_30d": {
+            "count": 2,
+            "pct": 0.9
+          },
+          "apr_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "mar_2026": {
+            "count": 5,
+            "pct": 2.7
+          },
+          "feb_2026": {
+            "count": 4,
+            "pct": 1.3
+          },
+          "jan_2026": {
+            "count": 9,
+            "pct": 2.6
+          },
+          "dec_2025": {
+            "count": 5,
+            "pct": 3.4
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 23,
+            "pct": 1.0
+          },
+          "last_30d": {
+            "count": 2,
+            "pct": 0.4
+          },
+          "apr_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "mar_2026": {
+            "count": 5,
+            "pct": 1.2
+          },
+          "feb_2026": {
+            "count": 4,
+            "pct": 0.6
+          },
+          "jan_2026": {
+            "count": 9,
+            "pct": 1.1
+          },
+          "dec_2025": {
+            "count": 5,
+            "pct": 1.6
+          }
+        }
+      }
+    },
+    {
+      "id": "removed_features",
+      "name": "Removed/Deprecated Features",
+      "category_id": "features",
+      "category_name": "Feature Requests & Missing Features",
+      "severity": "high",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 19,
+            "pct": 1.8
+          },
+          "last_30d": {
+            "count": 3,
+            "pct": 1.4
+          },
+          "apr_2026": {
+            "count": 1,
+            "pct": 1.1
+          },
+          "mar_2026": {
+            "count": 2,
+            "pct": 1.1
+          },
+          "feb_2026": {
+            "count": 2,
+            "pct": 0.7
+          },
+          "jan_2026": {
+            "count": 9,
+            "pct": 2.6
+          },
+          "dec_2025": {
+            "count": 5,
+            "pct": 3.4
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 19,
+            "pct": 0.8
+          },
+          "last_30d": {
+            "count": 3,
+            "pct": 0.7
+          },
+          "apr_2026": {
+            "count": 1,
+            "pct": 0.6
+          },
+          "mar_2026": {
+            "count": 2,
+            "pct": 0.5
+          },
+          "feb_2026": {
+            "count": 2,
+            "pct": 0.3
+          },
+          "jan_2026": {
+            "count": 9,
+            "pct": 1.1
+          },
+          "dec_2025": {
+            "count": 5,
+            "pct": 1.6
+          }
+        }
+      }
+    },
+    {
+      "id": "accessibility",
+      "name": "Accessibility Issues",
+      "category_id": "mobile_experience",
+      "category_name": "Mobile App Experience",
+      "severity": "low",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "last_30d": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "apr_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "mar_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "feb_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "jan_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "dec_2025": {
+            "count": 0,
+            "pct": 0.0
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "last_30d": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "apr_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "mar_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "feb_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "jan_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "dec_2025": {
+            "count": 0,
+            "pct": 0.0
+          }
+        }
+      }
+    },
+    {
+      "id": "ease_of_use",
+      "name": "Ease of Use",
+      "category_id": "mobile_experience",
+      "category_name": "Mobile App Experience",
+      "severity": "high",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 126,
+            "pct": 11.7
+          },
+          "last_30d": {
+            "count": 26,
+            "pct": 12.1
+          },
+          "apr_2026": {
+            "count": 13,
+            "pct": 14.6
+          },
+          "mar_2026": {
+            "count": 19,
+            "pct": 10.3
+          },
+          "feb_2026": {
+            "count": 27,
+            "pct": 8.8
+          },
+          "jan_2026": {
+            "count": 48,
+            "pct": 13.8
+          },
+          "dec_2025": {
+            "count": 19,
+            "pct": 13.1
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 153,
+            "pct": 6.6
+          },
+          "last_30d": {
+            "count": 31,
+            "pct": 6.9
+          },
+          "apr_2026": {
+            "count": 16,
+            "pct": 9.6
+          },
+          "mar_2026": {
+            "count": 24,
+            "pct": 5.7
+          },
+          "feb_2026": {
+            "count": 36,
+            "pct": 5.7
+          },
+          "jan_2026": {
+            "count": 54,
+            "pct": 6.9
+          },
+          "dec_2025": {
+            "count": 23,
+            "pct": 7.5
+          }
+        }
+      }
+    },
+    {
+      "id": "navigation",
+      "name": "Navigation/Menu Issues",
+      "category_id": "mobile_experience",
+      "category_name": "Mobile App Experience",
+      "severity": "high",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 39,
+            "pct": 3.6
+          },
+          "last_30d": {
+            "count": 8,
+            "pct": 3.7
+          },
+          "apr_2026": {
+            "count": 3,
+            "pct": 3.4
+          },
+          "mar_2026": {
+            "count": 7,
+            "pct": 3.8
+          },
+          "feb_2026": {
+            "count": 8,
+            "pct": 2.6
+          },
+          "jan_2026": {
+            "count": 16,
+            "pct": 4.6
+          },
+          "dec_2025": {
+            "count": 5,
+            "pct": 3.4
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 50,
+            "pct": 2.2
+          },
+          "last_30d": {
+            "count": 9,
+            "pct": 2.0
+          },
+          "apr_2026": {
+            "count": 4,
+            "pct": 2.4
+          },
+          "mar_2026": {
+            "count": 8,
+            "pct": 1.9
+          },
+          "feb_2026": {
+            "count": 10,
+            "pct": 1.6
+          },
+          "jan_2026": {
+            "count": 19,
+            "pct": 2.4
+          },
+          "dec_2025": {
+            "count": 9,
+            "pct": 2.9
+          }
+        }
+      }
+    },
+    {
+      "id": "responsiveness",
+      "name": "App Responsiveness",
+      "category_id": "mobile_experience",
+      "category_name": "Mobile App Experience",
+      "severity": "medium",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 13,
+            "pct": 1.2
+          },
+          "last_30d": {
+            "count": 3,
+            "pct": 1.4
+          },
+          "apr_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "mar_2026": {
+            "count": 3,
+            "pct": 1.6
+          },
+          "feb_2026": {
+            "count": 5,
+            "pct": 1.6
+          },
+          "jan_2026": {
+            "count": 5,
+            "pct": 1.4
+          },
+          "dec_2025": {
+            "count": 0,
+            "pct": 0.0
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 17,
+            "pct": 0.7
+          },
+          "last_30d": {
+            "count": 3,
+            "pct": 0.7
+          },
+          "apr_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "mar_2026": {
+            "count": 4,
+            "pct": 0.9
+          },
+          "feb_2026": {
+            "count": 6,
+            "pct": 1.0
+          },
+          "jan_2026": {
+            "count": 6,
+            "pct": 0.8
+          },
+          "dec_2025": {
+            "count": 1,
+            "pct": 0.3
+          }
+        }
+      }
+    },
+    {
+      "id": "ui_design",
+      "name": "UI/Visual Design",
+      "category_id": "mobile_experience",
+      "category_name": "Mobile App Experience",
+      "severity": "medium",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 66,
+            "pct": 6.1
+          },
+          "last_30d": {
+            "count": 7,
+            "pct": 3.3
+          },
+          "apr_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "mar_2026": {
+            "count": 9,
+            "pct": 4.9
+          },
+          "feb_2026": {
+            "count": 20,
+            "pct": 6.5
+          },
+          "jan_2026": {
+            "count": 24,
+            "pct": 6.9
+          },
+          "dec_2025": {
+            "count": 13,
+            "pct": 9.0
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 225,
+            "pct": 9.8
+          },
+          "last_30d": {
+            "count": 31,
+            "pct": 6.9
+          },
+          "apr_2026": {
+            "count": 11,
+            "pct": 6.6
+          },
+          "mar_2026": {
+            "count": 35,
+            "pct": 8.3
+          },
+          "feb_2026": {
+            "count": 70,
+            "pct": 11.1
+          },
+          "jan_2026": {
+            "count": 77,
+            "pct": 9.8
+          },
+          "dec_2025": {
+            "count": 32,
+            "pct": 10.4
+          }
+        }
+      }
+    },
+    {
+      "id": "document_types",
+      "name": "Document Type Support",
+      "category_id": "printing",
+      "category_name": "Print Quality & Functionality",
+      "severity": "low",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 88,
+            "pct": 8.2
+          },
+          "last_30d": {
+            "count": 15,
+            "pct": 7.0
+          },
+          "apr_2026": {
+            "count": 4,
+            "pct": 4.5
+          },
+          "mar_2026": {
+            "count": 20,
+            "pct": 10.8
+          },
+          "feb_2026": {
+            "count": 24,
+            "pct": 7.8
+          },
+          "jan_2026": {
+            "count": 25,
+            "pct": 7.2
+          },
+          "dec_2025": {
+            "count": 15,
+            "pct": 10.3
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 125,
+            "pct": 5.4
+          },
+          "last_30d": {
+            "count": 20,
+            "pct": 4.4
+          },
+          "apr_2026": {
+            "count": 5,
+            "pct": 3.0
+          },
+          "mar_2026": {
+            "count": 25,
+            "pct": 5.9
+          },
+          "feb_2026": {
+            "count": 37,
+            "pct": 5.9
+          },
+          "jan_2026": {
+            "count": 37,
+            "pct": 4.7
+          },
+          "dec_2025": {
+            "count": 21,
+            "pct": 6.8
+          }
+        }
+      }
+    },
+    {
+      "id": "ink_toner",
+      "name": "Ink/Toner Issues",
+      "category_id": "printing",
+      "category_name": "Print Quality & Functionality",
+      "severity": "medium",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 80,
+            "pct": 7.4
+          },
+          "last_30d": {
+            "count": 21,
+            "pct": 9.8
+          },
+          "apr_2026": {
+            "count": 6,
+            "pct": 6.7
+          },
+          "mar_2026": {
+            "count": 19,
+            "pct": 10.3
+          },
+          "feb_2026": {
+            "count": 16,
+            "pct": 5.2
+          },
+          "jan_2026": {
+            "count": 31,
+            "pct": 8.9
+          },
+          "dec_2025": {
+            "count": 8,
+            "pct": 5.5
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 96,
+            "pct": 4.2
+          },
+          "last_30d": {
+            "count": 26,
+            "pct": 5.8
+          },
+          "apr_2026": {
+            "count": 9,
+            "pct": 5.4
+          },
+          "mar_2026": {
+            "count": 22,
+            "pct": 5.2
+          },
+          "feb_2026": {
+            "count": 19,
+            "pct": 3.0
+          },
+          "jan_2026": {
+            "count": 35,
+            "pct": 4.5
+          },
+          "dec_2025": {
+            "count": 11,
+            "pct": 3.6
+          }
+        }
+      }
+    },
+    {
+      "id": "paper_handling",
+      "name": "Paper Handling/Jams",
+      "category_id": "printing",
+      "category_name": "Print Quality & Functionality",
+      "severity": "medium",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 58,
+            "pct": 5.4
+          },
+          "last_30d": {
+            "count": 15,
+            "pct": 7.0
+          },
+          "apr_2026": {
+            "count": 6,
+            "pct": 6.7
+          },
+          "mar_2026": {
+            "count": 12,
+            "pct": 6.5
+          },
+          "feb_2026": {
+            "count": 15,
+            "pct": 4.9
+          },
+          "jan_2026": {
+            "count": 15,
+            "pct": 4.3
+          },
+          "dec_2025": {
+            "count": 10,
+            "pct": 6.9
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 66,
+            "pct": 2.9
+          },
+          "last_30d": {
+            "count": 18,
+            "pct": 4.0
+          },
+          "apr_2026": {
+            "count": 7,
+            "pct": 4.2
+          },
+          "mar_2026": {
+            "count": 14,
+            "pct": 3.3
+          },
+          "feb_2026": {
+            "count": 16,
+            "pct": 2.5
+          },
+          "jan_2026": {
+            "count": 17,
+            "pct": 2.2
+          },
+          "dec_2025": {
+            "count": 12,
+            "pct": 3.9
+          }
+        }
+      }
+    },
+    {
+      "id": "print_jobs",
+      "name": "Print Job Management",
+      "category_id": "printing",
+      "category_name": "Print Quality & Functionality",
+      "severity": "medium",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 17,
+            "pct": 1.6
+          },
+          "last_30d": {
+            "count": 4,
+            "pct": 1.9
+          },
+          "apr_2026": {
+            "count": 1,
+            "pct": 1.1
+          },
+          "mar_2026": {
+            "count": 4,
+            "pct": 2.2
+          },
+          "feb_2026": {
+            "count": 2,
+            "pct": 0.7
+          },
+          "jan_2026": {
+            "count": 8,
+            "pct": 2.3
+          },
+          "dec_2025": {
+            "count": 2,
+            "pct": 1.4
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 18,
+            "pct": 0.8
+          },
+          "last_30d": {
+            "count": 4,
+            "pct": 0.9
+          },
+          "apr_2026": {
+            "count": 1,
+            "pct": 0.6
+          },
+          "mar_2026": {
+            "count": 4,
+            "pct": 0.9
+          },
+          "feb_2026": {
+            "count": 2,
+            "pct": 0.3
+          },
+          "jan_2026": {
+            "count": 9,
+            "pct": 1.1
+          },
+          "dec_2025": {
+            "count": 2,
+            "pct": 0.7
+          }
+        }
+      }
+    },
+    {
+      "id": "print_quality",
+      "name": "Print Quality Issues",
+      "category_id": "printing",
+      "category_name": "Print Quality & Functionality",
+      "severity": "high",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 16,
+            "pct": 1.5
+          },
+          "last_30d": {
+            "count": 4,
+            "pct": 1.9
+          },
+          "apr_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "mar_2026": {
+            "count": 5,
+            "pct": 2.7
+          },
+          "feb_2026": {
+            "count": 7,
+            "pct": 2.3
+          },
+          "jan_2026": {
+            "count": 2,
+            "pct": 0.6
+          },
+          "dec_2025": {
+            "count": 2,
+            "pct": 1.4
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 19,
+            "pct": 0.8
+          },
+          "last_30d": {
+            "count": 5,
+            "pct": 1.1
+          },
+          "apr_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "mar_2026": {
+            "count": 6,
+            "pct": 1.4
+          },
+          "feb_2026": {
+            "count": 9,
+            "pct": 1.4
+          },
+          "jan_2026": {
+            "count": 2,
+            "pct": 0.3
+          },
+          "dec_2025": {
+            "count": 2,
+            "pct": 0.7
+          }
+        }
+      }
+    },
+    {
+      "id": "print_speed",
+      "name": "Print Speed/Performance",
+      "category_id": "printing",
+      "category_name": "Print Quality & Functionality",
+      "severity": "medium",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 12,
+            "pct": 1.1
+          },
+          "last_30d": {
+            "count": 2,
+            "pct": 0.9
+          },
+          "apr_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "mar_2026": {
+            "count": 3,
+            "pct": 1.6
+          },
+          "feb_2026": {
+            "count": 1,
+            "pct": 0.3
+          },
+          "jan_2026": {
+            "count": 6,
+            "pct": 1.7
+          },
+          "dec_2025": {
+            "count": 2,
+            "pct": 1.4
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 12,
+            "pct": 0.5
+          },
+          "last_30d": {
+            "count": 2,
+            "pct": 0.4
+          },
+          "apr_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "mar_2026": {
+            "count": 3,
+            "pct": 0.7
+          },
+          "feb_2026": {
+            "count": 1,
+            "pct": 0.2
+          },
+          "jan_2026": {
+            "count": 6,
+            "pct": 0.8
+          },
+          "dec_2025": {
+            "count": 2,
+            "pct": 0.7
+          }
+        }
+      }
+    },
+    {
+      "id": "bugs_glitches",
+      "name": "Bugs & Glitches",
+      "category_id": "reliability",
+      "category_name": "App Reliability & Stability",
+      "severity": "high",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 42,
+            "pct": 3.9
+          },
+          "last_30d": {
+            "count": 6,
+            "pct": 2.8
+          },
+          "apr_2026": {
+            "count": 1,
+            "pct": 1.1
+          },
+          "mar_2026": {
+            "count": 6,
+            "pct": 3.2
+          },
+          "feb_2026": {
+            "count": 12,
+            "pct": 3.9
+          },
+          "jan_2026": {
+            "count": 14,
+            "pct": 4.0
+          },
+          "dec_2025": {
+            "count": 9,
+            "pct": 6.2
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 68,
+            "pct": 2.9
+          },
+          "last_30d": {
+            "count": 15,
+            "pct": 3.3
+          },
+          "apr_2026": {
+            "count": 3,
+            "pct": 1.8
+          },
+          "mar_2026": {
+            "count": 15,
+            "pct": 3.5
+          },
+          "feb_2026": {
+            "count": 16,
+            "pct": 2.5
+          },
+          "jan_2026": {
+            "count": 20,
+            "pct": 2.6
+          },
+          "dec_2025": {
+            "count": 14,
+            "pct": 4.6
+          }
+        }
+      }
+    },
+    {
+      "id": "crashes",
+      "name": "App Crashes",
+      "category_id": "reliability",
+      "category_name": "App Reliability & Stability",
+      "severity": "critical",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 14,
+            "pct": 1.3
+          },
+          "last_30d": {
+            "count": 4,
+            "pct": 1.9
+          },
+          "apr_2026": {
+            "count": 2,
+            "pct": 2.2
+          },
+          "mar_2026": {
+            "count": 4,
+            "pct": 2.2
+          },
+          "feb_2026": {
+            "count": 4,
+            "pct": 1.3
+          },
+          "jan_2026": {
+            "count": 4,
+            "pct": 1.1
+          },
+          "dec_2025": {
+            "count": 0,
+            "pct": 0.0
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 15,
+            "pct": 0.7
+          },
+          "last_30d": {
+            "count": 4,
+            "pct": 0.9
+          },
+          "apr_2026": {
+            "count": 2,
+            "pct": 1.2
+          },
+          "mar_2026": {
+            "count": 5,
+            "pct": 1.2
+          },
+          "feb_2026": {
+            "count": 4,
+            "pct": 0.6
+          },
+          "jan_2026": {
+            "count": 4,
+            "pct": 0.5
+          },
+          "dec_2025": {
+            "count": 0,
+            "pct": 0.0
+          }
+        }
+      }
+    },
+    {
+      "id": "freezing",
+      "name": "App Freezing/Hanging",
+      "category_id": "reliability",
+      "category_name": "App Reliability & Stability",
+      "severity": "critical",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 38,
+            "pct": 3.5
+          },
+          "last_30d": {
+            "count": 5,
+            "pct": 2.3
+          },
+          "apr_2026": {
+            "count": 1,
+            "pct": 1.1
+          },
+          "mar_2026": {
+            "count": 7,
+            "pct": 3.8
+          },
+          "feb_2026": {
+            "count": 10,
+            "pct": 3.3
+          },
+          "jan_2026": {
+            "count": 16,
+            "pct": 4.6
+          },
+          "dec_2025": {
+            "count": 4,
+            "pct": 2.8
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 46,
+            "pct": 2.0
+          },
+          "last_30d": {
+            "count": 6,
+            "pct": 1.3
+          },
+          "apr_2026": {
+            "count": 2,
+            "pct": 1.2
+          },
+          "mar_2026": {
+            "count": 8,
+            "pct": 1.9
+          },
+          "feb_2026": {
+            "count": 12,
+            "pct": 1.9
+          },
+          "jan_2026": {
+            "count": 19,
+            "pct": 2.4
+          },
+          "dec_2025": {
+            "count": 5,
+            "pct": 1.6
+          }
+        }
+      }
+    },
+    {
+      "id": "performance",
+      "name": "Performance/Speed Issues",
+      "category_id": "reliability",
+      "category_name": "App Reliability & Stability",
+      "severity": "high",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 19,
+            "pct": 1.8
+          },
+          "last_30d": {
+            "count": 2,
+            "pct": 0.9
+          },
+          "apr_2026": {
+            "count": 2,
+            "pct": 2.2
+          },
+          "mar_2026": {
+            "count": 2,
+            "pct": 1.1
+          },
+          "feb_2026": {
+            "count": 2,
+            "pct": 0.7
+          },
+          "jan_2026": {
+            "count": 9,
+            "pct": 2.6
+          },
+          "dec_2025": {
+            "count": 4,
+            "pct": 2.8
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 26,
+            "pct": 1.1
+          },
+          "last_30d": {
+            "count": 3,
+            "pct": 0.7
+          },
+          "apr_2026": {
+            "count": 2,
+            "pct": 1.2
+          },
+          "mar_2026": {
+            "count": 5,
+            "pct": 1.2
+          },
+          "feb_2026": {
+            "count": 4,
+            "pct": 0.6
+          },
+          "jan_2026": {
+            "count": 10,
+            "pct": 1.3
+          },
+          "dec_2025": {
+            "count": 5,
+            "pct": 1.6
+          }
+        }
+      }
+    },
+    {
+      "id": "resource_usage",
+      "name": "Battery/Memory Usage",
+      "category_id": "reliability",
+      "category_name": "App Reliability & Stability",
+      "severity": "medium",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 1,
+            "pct": 0.1
+          },
+          "last_30d": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "apr_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "mar_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "feb_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "jan_2026": {
+            "count": 1,
+            "pct": 0.3
+          },
+          "dec_2025": {
+            "count": 0,
+            "pct": 0.0
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 1,
+            "pct": 0.0
+          },
+          "last_30d": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "apr_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "mar_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "feb_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "jan_2026": {
+            "count": 1,
+            "pct": 0.1
+          },
+          "dec_2025": {
+            "count": 0,
+            "pct": 0.0
+          }
+        }
+      }
+    },
+    {
+      "id": "multipage_scanning",
+      "name": "Multi-page/Batch Scanning",
+      "category_id": "scanning",
+      "category_name": "Scanning Features",
+      "severity": "medium",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 6,
+            "pct": 0.6
+          },
+          "last_30d": {
+            "count": 1,
+            "pct": 0.5
+          },
+          "apr_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "mar_2026": {
+            "count": 1,
+            "pct": 0.5
+          },
+          "feb_2026": {
+            "count": 1,
+            "pct": 0.3
+          },
+          "jan_2026": {
+            "count": 3,
+            "pct": 0.9
+          },
+          "dec_2025": {
+            "count": 1,
+            "pct": 0.7
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 6,
+            "pct": 0.3
+          },
+          "last_30d": {
+            "count": 1,
+            "pct": 0.2
+          },
+          "apr_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "mar_2026": {
+            "count": 1,
+            "pct": 0.2
+          },
+          "feb_2026": {
+            "count": 1,
+            "pct": 0.2
+          },
+          "jan_2026": {
+            "count": 3,
+            "pct": 0.4
+          },
+          "dec_2025": {
+            "count": 1,
+            "pct": 0.3
+          }
+        }
+      }
+    },
+    {
+      "id": "ocr_text",
+      "name": "OCR/Text Recognition",
+      "category_id": "scanning",
+      "category_name": "Scanning Features",
+      "severity": "low",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 2,
+            "pct": 0.2
+          },
+          "last_30d": {
+            "count": 1,
+            "pct": 0.5
+          },
+          "apr_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "mar_2026": {
+            "count": 1,
+            "pct": 0.5
+          },
+          "feb_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "jan_2026": {
+            "count": 1,
+            "pct": 0.3
+          },
+          "dec_2025": {
+            "count": 0,
+            "pct": 0.0
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 4,
+            "pct": 0.2
+          },
+          "last_30d": {
+            "count": 2,
+            "pct": 0.4
+          },
+          "apr_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "mar_2026": {
+            "count": 2,
+            "pct": 0.5
+          },
+          "feb_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "jan_2026": {
+            "count": 1,
+            "pct": 0.1
+          },
+          "dec_2025": {
+            "count": 1,
+            "pct": 0.3
+          }
+        }
+      }
+    },
+    {
+      "id": "scan_destinations",
+      "name": "Scan Destination Problems",
+      "category_id": "scanning",
+      "category_name": "Scanning Features",
+      "severity": "medium",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 1,
+            "pct": 0.1
+          },
+          "last_30d": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "apr_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "mar_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "feb_2026": {
+            "count": 1,
+            "pct": 0.3
+          },
+          "jan_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "dec_2025": {
+            "count": 0,
+            "pct": 0.0
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 1,
+            "pct": 0.0
+          },
+          "last_30d": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "apr_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "mar_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "feb_2026": {
+            "count": 1,
+            "pct": 0.2
+          },
+          "jan_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "dec_2025": {
+            "count": 0,
+            "pct": 0.0
+          }
+        }
+      }
+    },
+    {
+      "id": "scan_quality",
+      "name": "Scan Quality Issues",
+      "category_id": "scanning",
+      "category_name": "Scanning Features",
+      "severity": "high",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 2,
+            "pct": 0.2
+          },
+          "last_30d": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "apr_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "mar_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "feb_2026": {
+            "count": 2,
+            "pct": 0.7
+          },
+          "jan_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "dec_2025": {
+            "count": 0,
+            "pct": 0.0
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 2,
+            "pct": 0.1
+          },
+          "last_30d": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "apr_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "mar_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "feb_2026": {
+            "count": 2,
+            "pct": 0.3
+          },
+          "jan_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "dec_2025": {
+            "count": 0,
+            "pct": 0.0
+          }
+        }
+      }
+    },
+    {
+      "id": "response_time",
+      "name": "Support Response Time",
+      "category_id": "support",
+      "category_name": "Customer Support & Help",
+      "severity": "medium",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 1,
+            "pct": 0.1
+          },
+          "last_30d": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "apr_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "mar_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "feb_2026": {
+            "count": 1,
+            "pct": 0.3
+          },
+          "jan_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "dec_2025": {
+            "count": 0,
+            "pct": 0.0
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 1,
+            "pct": 0.0
+          },
+          "last_30d": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "apr_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "mar_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "feb_2026": {
+            "count": 1,
+            "pct": 0.2
+          },
+          "jan_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "dec_2025": {
+            "count": 0,
+            "pct": 0.0
+          }
+        }
+      }
+    },
+    {
+      "id": "self_help",
+      "name": "Self-Help/Documentation",
+      "category_id": "support",
+      "category_name": "Customer Support & Help",
+      "severity": "low",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 21,
+            "pct": 2.0
+          },
+          "last_30d": {
+            "count": 4,
+            "pct": 1.9
+          },
+          "apr_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "mar_2026": {
+            "count": 5,
+            "pct": 2.7
+          },
+          "feb_2026": {
+            "count": 4,
+            "pct": 1.3
+          },
+          "jan_2026": {
+            "count": 9,
+            "pct": 2.6
+          },
+          "dec_2025": {
+            "count": 3,
+            "pct": 2.1
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 26,
+            "pct": 1.1
+          },
+          "last_30d": {
+            "count": 5,
+            "pct": 1.1
+          },
+          "apr_2026": {
+            "count": 0,
+            "pct": 0.0
+          },
+          "mar_2026": {
+            "count": 6,
+            "pct": 1.4
+          },
+          "feb_2026": {
+            "count": 6,
+            "pct": 1.0
+          },
+          "jan_2026": {
+            "count": 10,
+            "pct": 1.3
+          },
+          "dec_2025": {
+            "count": 4,
+            "pct": 1.3
+          }
+        }
+      }
+    },
+    {
+      "id": "support_quality",
+      "name": "Support Quality/Experience",
+      "category_id": "support",
+      "category_name": "Customer Support & Help",
+      "severity": "high",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 69,
+            "pct": 6.4
+          },
+          "last_30d": {
+            "count": 13,
+            "pct": 6.0
+          },
+          "apr_2026": {
+            "count": 8,
+            "pct": 9.0
+          },
+          "mar_2026": {
+            "count": 7,
+            "pct": 3.8
+          },
+          "feb_2026": {
+            "count": 19,
+            "pct": 6.2
+          },
+          "jan_2026": {
+            "count": 26,
+            "pct": 7.5
+          },
+          "dec_2025": {
+            "count": 9,
+            "pct": 6.2
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 81,
+            "pct": 3.5
+          },
+          "last_30d": {
+            "count": 15,
+            "pct": 3.3
+          },
+          "apr_2026": {
+            "count": 10,
+            "pct": 6.0
+          },
+          "mar_2026": {
+            "count": 7,
+            "pct": 1.7
+          },
+          "feb_2026": {
+            "count": 22,
+            "pct": 3.5
+          },
+          "jan_2026": {
+            "count": 29,
+            "pct": 3.7
+          },
+          "dec_2025": {
+            "count": 13,
+            "pct": 4.2
+          }
+        }
+      }
+    },
+    {
+      "id": "troubleshooting",
+      "name": "Troubleshooting Effectiveness",
+      "category_id": "support",
+      "category_name": "Customer Support & Help",
+      "severity": "medium",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 18,
+            "pct": 1.7
+          },
+          "last_30d": {
+            "count": 3,
+            "pct": 1.4
+          },
+          "apr_2026": {
+            "count": 1,
+            "pct": 1.1
+          },
+          "mar_2026": {
+            "count": 2,
+            "pct": 1.1
+          },
+          "feb_2026": {
+            "count": 8,
+            "pct": 2.6
+          },
+          "jan_2026": {
+            "count": 4,
+            "pct": 1.1
+          },
+          "dec_2025": {
+            "count": 3,
+            "pct": 2.1
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 18,
+            "pct": 0.8
+          },
+          "last_30d": {
+            "count": 3,
+            "pct": 0.7
+          },
+          "apr_2026": {
+            "count": 1,
+            "pct": 0.6
+          },
+          "mar_2026": {
+            "count": 2,
+            "pct": 0.5
+          },
+          "feb_2026": {
+            "count": 8,
+            "pct": 1.3
+          },
+          "jan_2026": {
+            "count": 4,
+            "pct": 0.5
+          },
+          "dec_2025": {
+            "count": 3,
+            "pct": 1.0
+          }
+        }
+      }
+    },
+    {
+      "id": "android_compatibility",
+      "name": "Android Version Compatibility",
+      "category_id": "updates",
+      "category_name": "Updates & Compatibility",
+      "severity": "high",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 25,
+            "pct": 2.3
+          },
+          "last_30d": {
+            "count": 6,
+            "pct": 2.8
+          },
+          "apr_2026": {
+            "count": 2,
+            "pct": 2.2
+          },
+          "mar_2026": {
+            "count": 5,
+            "pct": 2.7
+          },
+          "feb_2026": {
+            "count": 8,
+            "pct": 2.6
+          },
+          "jan_2026": {
+            "count": 8,
+            "pct": 2.3
+          },
+          "dec_2025": {
+            "count": 2,
+            "pct": 1.4
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 36,
+            "pct": 1.6
+          },
+          "last_30d": {
+            "count": 8,
+            "pct": 1.8
+          },
+          "apr_2026": {
+            "count": 2,
+            "pct": 1.2
+          },
+          "mar_2026": {
+            "count": 7,
+            "pct": 1.7
+          },
+          "feb_2026": {
+            "count": 13,
+            "pct": 2.1
+          },
+          "jan_2026": {
+            "count": 11,
+            "pct": 1.4
+          },
+          "dec_2025": {
+            "count": 3,
+            "pct": 1.0
+          }
+        }
+      }
+    },
+    {
+      "id": "device_compatibility",
+      "name": "Device-Specific Issues",
+      "category_id": "updates",
+      "category_name": "Updates & Compatibility",
+      "severity": "medium",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 93,
+            "pct": 8.7
+          },
+          "last_30d": {
+            "count": 17,
+            "pct": 7.9
+          },
+          "apr_2026": {
+            "count": 4,
+            "pct": 4.5
+          },
+          "mar_2026": {
+            "count": 19,
+            "pct": 10.3
+          },
+          "feb_2026": {
+            "count": 25,
+            "pct": 8.1
+          },
+          "jan_2026": {
+            "count": 34,
+            "pct": 9.8
+          },
+          "dec_2025": {
+            "count": 11,
+            "pct": 7.6
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 133,
+            "pct": 5.8
+          },
+          "last_30d": {
+            "count": 22,
+            "pct": 4.9
+          },
+          "apr_2026": {
+            "count": 6,
+            "pct": 3.6
+          },
+          "mar_2026": {
+            "count": 24,
+            "pct": 5.7
+          },
+          "feb_2026": {
+            "count": 35,
+            "pct": 5.6
+          },
+          "jan_2026": {
+            "count": 51,
+            "pct": 6.5
+          },
+          "dec_2025": {
+            "count": 17,
+            "pct": 5.5
+          }
+        }
+      }
+    },
+    {
+      "id": "printer_compatibility",
+      "name": "Printer Model Compatibility",
+      "category_id": "updates",
+      "category_name": "Updates & Compatibility",
+      "severity": "high",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 25,
+            "pct": 2.3
+          },
+          "last_30d": {
+            "count": 3,
+            "pct": 1.4
+          },
+          "apr_2026": {
+            "count": 1,
+            "pct": 1.1
+          },
+          "mar_2026": {
+            "count": 3,
+            "pct": 1.6
+          },
+          "feb_2026": {
+            "count": 5,
+            "pct": 1.6
+          },
+          "jan_2026": {
+            "count": 14,
+            "pct": 4.0
+          },
+          "dec_2025": {
+            "count": 2,
+            "pct": 1.4
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 25,
+            "pct": 1.1
+          },
+          "last_30d": {
+            "count": 3,
+            "pct": 0.7
+          },
+          "apr_2026": {
+            "count": 1,
+            "pct": 0.6
+          },
+          "mar_2026": {
+            "count": 3,
+            "pct": 0.7
+          },
+          "feb_2026": {
+            "count": 5,
+            "pct": 0.8
+          },
+          "jan_2026": {
+            "count": 14,
+            "pct": 1.8
+          },
+          "dec_2025": {
+            "count": 2,
+            "pct": 0.7
+          }
+        }
+      }
+    },
+    {
+      "id": "update_breaks",
+      "name": "Updates Breaking Functionality",
+      "category_id": "updates",
+      "category_name": "Updates & Compatibility",
+      "severity": "critical",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 12,
+            "pct": 1.1
+          },
+          "last_30d": {
+            "count": 2,
+            "pct": 0.9
+          },
+          "apr_2026": {
+            "count": 1,
+            "pct": 1.1
+          },
+          "mar_2026": {
+            "count": 2,
+            "pct": 1.1
+          },
+          "feb_2026": {
+            "count": 2,
+            "pct": 0.7
+          },
+          "jan_2026": {
+            "count": 7,
+            "pct": 2.0
+          },
+          "dec_2025": {
+            "count": 0,
+            "pct": 0.0
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 12,
+            "pct": 0.5
+          },
+          "last_30d": {
+            "count": 2,
+            "pct": 0.4
+          },
+          "apr_2026": {
+            "count": 1,
+            "pct": 0.6
+          },
+          "mar_2026": {
+            "count": 2,
+            "pct": 0.5
+          },
+          "feb_2026": {
+            "count": 2,
+            "pct": 0.3
+          },
+          "jan_2026": {
+            "count": 7,
+            "pct": 0.9
+          },
+          "dec_2025": {
+            "count": 0,
+            "pct": 0.0
+          }
+        }
+      }
+    },
+    {
+      "id": "ads_complaints",
+      "name": "Excessive Ads",
+      "category_id": "value",
+      "category_name": "Value & Pricing",
+      "severity": "medium",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 9,
+            "pct": 0.8
+          },
+          "last_30d": {
+            "count": 5,
+            "pct": 2.3
+          },
+          "apr_2026": {
+            "count": 2,
+            "pct": 2.2
+          },
+          "mar_2026": {
+            "count": 3,
+            "pct": 1.6
+          },
+          "feb_2026": {
+            "count": 1,
+            "pct": 0.3
+          },
+          "jan_2026": {
+            "count": 3,
+            "pct": 0.9
+          },
+          "dec_2025": {
+            "count": 0,
+            "pct": 0.0
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 9,
+            "pct": 0.4
+          },
+          "last_30d": {
+            "count": 5,
+            "pct": 1.1
+          },
+          "apr_2026": {
+            "count": 2,
+            "pct": 1.2
+          },
+          "mar_2026": {
+            "count": 3,
+            "pct": 0.7
+          },
+          "feb_2026": {
+            "count": 1,
+            "pct": 0.2
+          },
+          "jan_2026": {
+            "count": 3,
+            "pct": 0.4
+          },
+          "dec_2025": {
+            "count": 0,
+            "pct": 0.0
+          }
+        }
+      }
+    },
+    {
+      "id": "free_vs_paid",
+      "name": "Free vs Paid Feature Gaps",
+      "category_id": "value",
+      "category_name": "Value & Pricing",
+      "severity": "medium",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 147,
+            "pct": 13.7
+          },
+          "last_30d": {
+            "count": 32,
+            "pct": 14.9
+          },
+          "apr_2026": {
+            "count": 12,
+            "pct": 13.5
+          },
+          "mar_2026": {
+            "count": 28,
+            "pct": 15.1
+          },
+          "feb_2026": {
+            "count": 42,
+            "pct": 13.7
+          },
+          "jan_2026": {
+            "count": 51,
+            "pct": 14.7
+          },
+          "dec_2025": {
+            "count": 14,
+            "pct": 9.7
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 261,
+            "pct": 11.3
+          },
+          "last_30d": {
+            "count": 57,
+            "pct": 12.7
+          },
+          "apr_2026": {
+            "count": 19,
+            "pct": 11.4
+          },
+          "mar_2026": {
+            "count": 55,
+            "pct": 13.0
+          },
+          "feb_2026": {
+            "count": 70,
+            "pct": 11.1
+          },
+          "jan_2026": {
+            "count": 88,
+            "pct": 11.2
+          },
+          "dec_2025": {
+            "count": 29,
+            "pct": 9.4
+          }
+        }
+      }
+    },
+    {
+      "id": "pricing_concerns",
+      "name": "Pricing Too High",
+      "category_id": "value",
+      "category_name": "Value & Pricing",
+      "severity": "high",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 17,
+            "pct": 1.6
+          },
+          "last_30d": {
+            "count": 3,
+            "pct": 1.4
+          },
+          "apr_2026": {
+            "count": 1,
+            "pct": 1.1
+          },
+          "mar_2026": {
+            "count": 3,
+            "pct": 1.6
+          },
+          "feb_2026": {
+            "count": 5,
+            "pct": 1.6
+          },
+          "jan_2026": {
+            "count": 6,
+            "pct": 1.7
+          },
+          "dec_2025": {
+            "count": 2,
+            "pct": 1.4
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 18,
+            "pct": 0.8
+          },
+          "last_30d": {
+            "count": 3,
+            "pct": 0.7
+          },
+          "apr_2026": {
+            "count": 1,
+            "pct": 0.6
+          },
+          "mar_2026": {
+            "count": 3,
+            "pct": 0.7
+          },
+          "feb_2026": {
+            "count": 5,
+            "pct": 0.8
+          },
+          "jan_2026": {
+            "count": 7,
+            "pct": 0.9
+          },
+          "dec_2025": {
+            "count": 2,
+            "pct": 0.7
+          }
+        }
+      }
+    },
+    {
+      "id": "subscription_model",
+      "name": "Subscription Complaints",
+      "category_id": "value",
+      "category_name": "Value & Pricing",
+      "severity": "high",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 21,
+            "pct": 2.0
+          },
+          "last_30d": {
+            "count": 6,
+            "pct": 2.8
+          },
+          "apr_2026": {
+            "count": 2,
+            "pct": 2.2
+          },
+          "mar_2026": {
+            "count": 5,
+            "pct": 2.7
+          },
+          "feb_2026": {
+            "count": 3,
+            "pct": 1.0
+          },
+          "jan_2026": {
+            "count": 10,
+            "pct": 2.9
+          },
+          "dec_2025": {
+            "count": 1,
+            "pct": 0.7
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 21,
+            "pct": 0.9
+          },
+          "last_30d": {
+            "count": 6,
+            "pct": 1.3
+          },
+          "apr_2026": {
+            "count": 2,
+            "pct": 1.2
+          },
+          "mar_2026": {
+            "count": 5,
+            "pct": 1.2
+          },
+          "feb_2026": {
+            "count": 3,
+            "pct": 0.5
+          },
+          "jan_2026": {
+            "count": 10,
+            "pct": 1.3
+          },
+          "dec_2025": {
+            "count": 1,
+            "pct": 0.3
+          }
+        }
+      }
+    },
+    {
+      "id": "value_perception",
+      "name": "Value for Money",
+      "category_id": "value",
+      "category_name": "Value & Pricing",
+      "severity": "medium",
+      "scenarios": {
+        "us": {
+          "all_time": {
+            "count": 33,
+            "pct": 3.1
+          },
+          "last_30d": {
+            "count": 8,
+            "pct": 3.7
+          },
+          "apr_2026": {
+            "count": 3,
+            "pct": 3.4
+          },
+          "mar_2026": {
+            "count": 6,
+            "pct": 3.2
+          },
+          "feb_2026": {
+            "count": 12,
+            "pct": 3.9
+          },
+          "jan_2026": {
+            "count": 5,
+            "pct": 1.4
+          },
+          "dec_2025": {
+            "count": 7,
+            "pct": 4.8
+          }
+        },
+        "global": {
+          "all_time": {
+            "count": 34,
+            "pct": 1.5
+          },
+          "last_30d": {
+            "count": 8,
+            "pct": 1.8
+          },
+          "apr_2026": {
+            "count": 3,
+            "pct": 1.8
+          },
+          "mar_2026": {
+            "count": 6,
+            "pct": 1.4
+          },
+          "feb_2026": {
+            "count": 12,
+            "pct": 1.9
+          },
+          "jan_2026": {
+            "count": 6,
+            "pct": 0.8
+          },
+          "dec_2025": {
+            "count": 7,
+            "pct": 2.3
+          }
+        }
+      }
+    }
+  ]
+}
