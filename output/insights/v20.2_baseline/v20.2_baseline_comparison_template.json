@@ -3,7 +3,7 @@
     "baseline_version": "20.2.0.6076",
     "baseline_type": "all_time",
     "note": "Baseline uses ALL reviews for this version (no date cap). This remains valid after the next release ships because version reviews don't age out of the Deep file.",
-    "generated_at": "2026-04-13T10:52:58.638187",
+    "generated_at": "2026-04-13T10:54:24.887023",
     "how_to_use": {
       "green": "next_release_value better than threshold",
       "yellow": "next_release_value within 5% of threshold",
@@ -42,12 +42,6 @@
       "1": {
         "count": 635,
         "pct": 58.0
-      }
-    },
-    "country_breakdown": {
-      "us": {
-        "count": 1095,
-        "pct": 100.0
       }
     },
     "thresholds": {
@@ -735,44 +729,6 @@
       "1": {
         "count": 1199,
         "pct": 50.9
-      }
-    },
-    "country_breakdown": {
-      "us": {
-        "count": 1095,
-        "pct": 46.5
-      },
-      "es": {
-        "count": 432,
-        "pct": 18.4
-      },
-      "de": {
-        "count": 232,
-        "pct": 9.9
-      },
-      "fr": {
-        "count": 215,
-        "pct": 9.1
-      },
-      "br": {
-        "count": 201,
-        "pct": 8.5
-      },
-      "it": {
-        "count": 139,
-        "pct": 5.9
-      },
-      "nl": {
-        "count": 30,
-        "pct": 1.3
-      },
-      "se": {
-        "count": 9,
-        "pct": 0.4
-      },
-      "jp": {
-        "count": 1,
-        "pct": 0.0
       }
     },
     "thresholds": {

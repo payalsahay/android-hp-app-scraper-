@@ -17,8 +17,6 @@ import json
 import os
 import sys
 from datetime import datetime
-from collections import Counter
-
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
 from CustomerInsight_Review_Agent import analyze_reviews, INSIGHT_CATEGORIES
 
@@ -57,15 +55,6 @@ def avg_rating(analysis):
     total = analysis["total_reviews"]
     dist  = analysis["rating_distribution"]
     return sum(r * dist.get(r, 0) for r in range(1, 6)) / total if total > 0 else 0
-
-
-def country_breakdown(reviews):
-    counts = Counter(r.get("country", "unknown") for r in reviews)
-    total  = len(reviews)
-    return {
-        country: {"count": count, "pct": round(count / total * 100, 1)}
-        for country, count in counts.most_common()
-    }
 
 
 def build_scope_block(reviews, analysis, scope_label):
@@ -161,7 +150,6 @@ def build_scope_block(reviews, analysis, scope_label):
             str(r): {"count": dist.get(r, 0), "pct": round(dist.get(r, 0) / total * 100, 1)}
             for r in range(5, 0, -1)
         },
-        "country_breakdown": country_breakdown(reviews),
         "thresholds":   thresholds,
         "categories":   categories,
         "sub_issues":   sub_issues,
@@ -243,7 +231,6 @@ def run():
         print(f"    Avg rating : {block['avg_rating']}⭐")
         print(f"    1-star %   : {block['one_star_pct']}%")
         print(f"    Negative % : {block['sentiment']['negative_pct']}%")
-        print(f"    Countries  : {list(block['country_breakdown'].keys())}")
     print("\n  Done.\n")
 
 
