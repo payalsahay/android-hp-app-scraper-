@@ -1,9 +1,9 @@
 # HP_App_Android_AllCountries_Last30Days - Customer Insights Report
 
-**Generated:** 2026-04-10 23:09
+**Generated:** 2026-04-13 09:37
 **Source:** HP_App_Android_AllCountries_Last30Days.json
 **Platform:** Google Play Store
-**Total Reviews:** 1389
+**Total Reviews:** 1359
 
 ---
 
@@ -11,12 +11,12 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Reviews | 1389 |
-| Average Rating | 2.13 / 5.0 |
-| Positive Sentiment | 10.7% |
-| Negative Sentiment | 16.1% |
-| 1-Star Reviews | 877 (63.1%) |
-| 5-Star Reviews | 303 (21.8%) |
+| Total Reviews | 1359 |
+| Average Rating | 2.11 / 5.0 |
+| Positive Sentiment | 10.9% |
+| Negative Sentiment | 15.7% |
+| 1-Star Reviews | 862 (63.4%) |
+| 5-Star Reviews | 289 (21.3%) |
 
 ---
 
@@ -24,11 +24,11 @@
 
 | Stars | Count | Percentage |
 |-------|-------|------------|
-| 5 | 303 | 21.8% |
-| 4 | 37 | 2.7% |
-| 3 | 68 | 4.9% |
-| 2 | 104 | 7.5% |
-| 1 | 877 | 63.1% |
+| 5 | 289 | 21.3% |
+| 4 | 38 | 2.8% |
+| 3 | 67 | 4.9% |
+| 2 | 103 | 7.6% |
+| 1 | 862 | 63.4% |
 
 ---
 
@@ -36,22 +36,22 @@
 
 | Rank | Category | Mentions | % of Reviews |
 |------|----------|----------|--------------|
-| 1 | Mobile App Experience | 665 | 47.9% |
-| 2 | Other | 421 | 30.3% |
-| 3 | Print Quality & Functionality | 328 | 23.6% |
-| 4 | Value & Pricing | 202 | 14.5% |
-| 5 | Connectivity & Setup | 184 | 13.2% |
-| 6 | App Reliability & Stability | 157 | 11.3% |
-| 7 | Feature Requests & Missing Features | 156 | 11.2% |
-| 8 | Updates & Compatibility | 147 | 10.6% |
-| 9 | Scanning Features | 143 | 10.3% |
-| 10 | Account & Cloud Services | 72 | 5.2% |
+| 1 | Mobile App Experience | 648 | 47.7% |
+| 2 | Other | 419 | 30.8% |
+| 3 | Print Quality & Functionality | 322 | 23.7% |
+| 4 | Value & Pricing | 201 | 14.8% |
+| 5 | Connectivity & Setup | 167 | 12.3% |
+| 6 | Feature Requests & Missing Features | 154 | 11.3% |
+| 7 | App Reliability & Stability | 151 | 11.1% |
+| 8 | Updates & Compatibility | 144 | 10.6% |
+| 9 | Scanning Features | 138 | 10.2% |
+| 10 | Account & Cloud Services | 78 | 5.7% |
 
 ---
 
 ## Critical Pain Points
 
-- **App Reliability & Stability**: 68% negative sentiment (157 mentions)
+- **App Reliability & Stability**: 68% negative sentiment (151 mentions)
 
 ---
 

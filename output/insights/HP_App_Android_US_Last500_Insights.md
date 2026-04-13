@@ -1,6 +1,6 @@
 # HP_App_Android_US_Last500 - Customer Insights Report
 
-**Generated:** 2026-04-10 23:09
+**Generated:** 2026-04-13 09:37
 **Source:** HP_App_Android_US_Last500.json
 **Platform:** Google Play Store
 **Total Reviews:** 500
@@ -12,11 +12,11 @@
 | Metric | Value |
 |--------|-------|
 | Total Reviews | 500 |
-| Average Rating | 2.03 / 5.0 |
-| Positive Sentiment | 19.6% |
-| Negative Sentiment | 29.6% |
-| 1-Star Reviews | 330 (66.0%) |
-| 5-Star Reviews | 96 (19.2%) |
+| Average Rating | 1.98 / 5.0 |
+| Positive Sentiment | 19.4% |
+| Negative Sentiment | 29.4% |
+| 1-Star Reviews | 338 (67.6%) |
+| 5-Star Reviews | 92 (18.4%) |
 
 ---
 
@@ -24,11 +24,11 @@
 
 | Stars | Count | Percentage |
 |-------|-------|------------|
-| 5 | 96 | 19.2% |
+| 5 | 92 | 18.4% |
 | 4 | 14 | 2.8% |
-| 3 | 28 | 5.6% |
-| 2 | 32 | 6.4% |
-| 1 | 330 | 66.0% |
+| 3 | 25 | 5.0% |
+| 2 | 31 | 6.2% |
+| 1 | 338 | 67.6% |
 
 ---
 
@@ -36,23 +36,23 @@
 
 | Rank | Category | Mentions | % of Reviews |
 |------|----------|----------|--------------|
-| 1 | Mobile App Experience | 265 | 53.0% |
+| 1 | Mobile App Experience | 261 | 52.2% |
 | 2 | Print Quality & Functionality | 213 | 42.6% |
-| 3 | Feature Requests & Missing Features | 115 | 23.0% |
-| 4 | Connectivity & Setup | 99 | 19.8% |
-| 5 | App Reliability & Stability | 98 | 19.6% |
-| 6 | Value & Pricing | 89 | 17.8% |
-| 7 | Updates & Compatibility | 88 | 17.6% |
-| 8 | Other | 77 | 15.4% |
-| 9 | Scanning Features | 62 | 12.4% |
-| 10 | Account & Cloud Services | 41 | 8.2% |
+| 3 | Feature Requests & Missing Features | 116 | 23.2% |
+| 4 | Connectivity & Setup | 96 | 19.2% |
+| 5 | Value & Pricing | 89 | 17.8% |
+| 6 | App Reliability & Stability | 89 | 17.8% |
+| 7 | Updates & Compatibility | 85 | 17.0% |
+| 8 | Other | 78 | 15.6% |
+| 9 | Scanning Features | 63 | 12.6% |
+| 10 | Account & Cloud Services | 45 | 9.0% |
 
 ---
 
 ## Critical Pain Points
 
-- **Connectivity & Setup**: 41% negative sentiment (99 mentions)
-- **App Reliability & Stability**: 70% negative sentiment (98 mentions)
+- **Connectivity & Setup**: 42% negative sentiment (96 mentions)
+- **App Reliability & Stability**: 72% negative sentiment (89 mentions)
 
 ---
 

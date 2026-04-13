@@ -1,9 +1,9 @@
 {
-  "scrape_date": "2026-04-10T23:09:57.706540",
+  "scrape_date": "2026-04-13T09:37:05.356985",
   "results": {
-    "android_us_30d": 626,
-    "android_all_30d": 1389,
+    "android_us_30d": 612,
+    "android_all_30d": 1359,
     "android_us_500": 500
   },
-  "total_reviews": 2515
+  "total_reviews": 2471
 }
