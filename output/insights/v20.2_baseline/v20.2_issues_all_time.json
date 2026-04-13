@@ -1,1133 +1,1424 @@
 {
   "version": "20.2.0.6076",
   "scenario_id": "all_time",
-  "scenario_label": "All Time",
-  "generated_at": "2026-04-10T23:16:41.085420",
+  "scenario_label": "All Time (full version lifecycle)",
+  "baseline_type": "all_time",
+  "generated_at": "2026-04-13T10:52:58.640205",
   "us": {
     "scope": "US",
-    "total_reviews": 1074,
-    "avg_rating": 2.39,
-    "one_star_pct": 57.6,
-    "five_star_pct": 27.8,
+    "total_reviews": 1095,
+    "date_range": "All-time (no date cap — full version lifecycle)",
+    "avg_rating": 2.38,
+    "one_star_pct": 58.0,
+    "five_star_pct": 27.7,
     "sentiment": {
-      "positive_pct": 27.4,
-      "negative_pct": 28.2,
-      "neutral_pct": 44.4
+      "positive_pct": 27.3,
+      "negative_pct": 28.1,
+      "neutral_pct": 44.6
     },
     "rating_distribution": {
       "5": {
-        "count": 299,
-        "pct": 27.8
+        "count": 303,
+        "pct": 27.7
       },
       "4": {
         "count": 50,
-        "pct": 4.7
+        "pct": 4.6
       },
       "3": {
         "count": 42,
-        "pct": 3.9
+        "pct": 3.8
       },
       "2": {
-        "count": 64,
-        "pct": 6.0
+        "count": 65,
+        "pct": 5.9
       },
       "1": {
-        "count": 619,
-        "pct": 57.6
+        "count": 635,
+        "pct": 58.0
+      }
+    },
+    "country_breakdown": {
+      "us": {
+        "count": 1095,
+        "pct": 100.0
+      }
+    },
+    "thresholds": {
+      "avg_rating_must_exceed": 2.38,
+      "one_star_pct_must_be_below": 58.0,
+      "negative_pct_must_be_below": 28.1,
+      "improvement_target": {
+        "avg_rating": 2.53,
+        "one_star_pct": 53.0,
+        "negative_pct": 23.1
+      },
+      "category_thresholds": {
+        "printing": {
+          "name": "Print Quality & Functionality",
+          "pct_must_be_below": 51.2,
+          "neg_pct_must_be_below": 40.0
+        },
+        "mobile_experience": {
+          "name": "Mobile App Experience",
+          "pct_must_be_below": 49.9,
+          "neg_pct_must_be_below": 42.9
+        },
+        "features": {
+          "name": "Feature Requests & Missing Features",
+          "pct_must_be_below": 26.7,
+          "neg_pct_must_be_below": 38.2
+        },
+        "connectivity": {
+          "name": "Connectivity & Setup",
+          "pct_must_be_below": 25.0,
+          "neg_pct_must_be_below": 44.8
+        },
+        "value": {
+          "name": "Value & Pricing",
+          "pct_must_be_below": 24.7,
+          "neg_pct_must_be_below": 46.2
+        },
+        "updates": {
+          "name": "Updates & Compatibility",
+          "pct_must_be_below": 20.4,
+          "neg_pct_must_be_below": 43.4
+        },
+        "scanning": {
+          "name": "Scanning Features",
+          "pct_must_be_below": 17.3,
+          "neg_pct_must_be_below": 26.7
+        },
+        "reliability": {
+          "name": "App Reliability & Stability",
+          "pct_must_be_below": 16.4,
+          "neg_pct_must_be_below": 71.7
+        },
+        "support": {
+          "name": "Customer Support & Help",
+          "pct_must_be_below": 13.2,
+          "neg_pct_must_be_below": 40.7
+        },
+        "account_cloud": {
+          "name": "Account & Cloud Services",
+          "pct_must_be_below": 13.1,
+          "neg_pct_must_be_below": 42.8
+        }
       }
     },
     "categories": [
       {
         "id": "printing",
         "name": "Print Quality & Functionality",
-        "count": 521,
-        "pct": 48.5,
-        "neg_pct": 34.7,
+        "count": 528,
+        "pct": 48.2,
+        "neg_pct": 35.0,
         "pos_pct": 14.4
       },
       {
         "id": "mobile_experience",
         "name": "Mobile App Experience",
-        "count": 503,
-        "pct": 46.8,
-        "neg_pct": 38.0,
-        "pos_pct": 26.6
+        "count": 514,
+        "pct": 46.9,
+        "neg_pct": 37.9,
+        "pos_pct": 26.3
       },
       {
         "id": "features",
         "name": "Feature Requests & Missing Features",
-        "count": 254,
-        "pct": 23.6,
-        "neg_pct": 33.1,
-        "pos_pct": 14.6
+        "count": 259,
+        "pct": 23.7,
+        "neg_pct": 33.2,
+        "pos_pct": 15.1
       },
       {
         "id": "connectivity",
         "name": "Connectivity & Setup",
-        "count": 239,
-        "pct": 22.3,
-        "neg_pct": 40.2,
-        "pos_pct": 9.2
+        "count": 241,
+        "pct": 22.0,
+        "neg_pct": 39.8,
+        "pos_pct": 9.5
       },
       {
         "id": "value",
         "name": "Value & Pricing",
-        "count": 233,
+        "count": 238,
         "pct": 21.7,
         "neg_pct": 41.2,
-        "pos_pct": 14.6
+        "pos_pct": 14.3
       },
       {
         "id": "updates",
         "name": "Updates & Compatibility",
-        "count": 188,
-        "pct": 17.5,
-        "neg_pct": 38.3,
-        "pos_pct": 14.4
-      },
-      {
-        "id": "scanning",
-        "name": "Scanning Features",
-        "count": 155,
-        "pct": 14.4,
-        "neg_pct": 21.9,
-        "pos_pct": 25.8
-      },
-      {
-        "id": "reliability",
-        "name": "App Reliability & Stability",
-        "count": 145,
-        "pct": 13.5,
-        "neg_pct": 66.9,
-        "pos_pct": 6.9
-      },
-      {
-        "id": "support",
-        "name": "Customer Support & Help",
-        "count": 111,
-        "pct": 10.3,
-        "neg_pct": 36.0,
-        "pos_pct": 21.6
-      },
-      {
-        "id": "account_cloud",
-        "name": "Account & Cloud Services",
-        "count": 109,
-        "pct": 10.1,
-        "neg_pct": 37.6,
-        "pos_pct": 7.3
-      }
-    ],
-    "sub_issues": [
-      {
-        "id": "free_vs_paid",
-        "name": "Free vs Paid Feature Gaps",
-        "category_id": "value",
-        "category_name": "Value & Pricing",
-        "severity": "medium",
-        "count": 147,
-        "pct": 13.7
-      },
-      {
-        "id": "ease_of_use",
-        "name": "Ease of Use",
-        "category_id": "mobile_experience",
-        "category_name": "Mobile App Experience",
-        "severity": "high",
-        "count": 126,
-        "pct": 11.7
-      },
-      {
-        "id": "device_compatibility",
-        "name": "Device-Specific Issues",
-        "category_id": "updates",
-        "category_name": "Updates & Compatibility",
-        "severity": "medium",
-        "count": 93,
-        "pct": 8.7
-      },
-      {
-        "id": "document_types",
-        "name": "Document Type Support",
-        "category_id": "printing",
-        "category_name": "Print Quality & Functionality",
-        "severity": "low",
-        "count": 88,
-        "pct": 8.2
-      },
-      {
-        "id": "ink_toner",
-        "name": "Ink/Toner Issues",
-        "category_id": "printing",
-        "category_name": "Print Quality & Functionality",
-        "severity": "medium",
-        "count": 80,
-        "pct": 7.4
-      },
-      {
-        "id": "wifi_issues",
-        "name": "WiFi Connection Problems",
-        "category_id": "connectivity",
-        "category_name": "Connectivity & Setup",
-        "severity": "critical",
-        "count": 77,
-        "pct": 7.2
-      },
-      {
-        "id": "feature_requests",
-        "name": "New Feature Requests",
-        "category_id": "features",
-        "category_name": "Feature Requests & Missing Features",
-        "severity": "medium",
-        "count": 69,
-        "pct": 6.4
-      },
-      {
-        "id": "support_quality",
-        "name": "Support Quality/Experience",
-        "category_id": "support",
-        "category_name": "Customer Support & Help",
-        "severity": "high",
-        "count": 69,
-        "pct": 6.4
-      },
-      {
-        "id": "ui_design",
-        "name": "UI/Visual Design",
-        "category_id": "mobile_experience",
-        "category_name": "Mobile App Experience",
-        "severity": "medium",
-        "count": 66,
-        "pct": 6.1
-      },
-      {
-        "id": "paper_handling",
-        "name": "Paper Handling/Jams",
-        "category_id": "printing",
-        "category_name": "Print Quality & Functionality",
-        "severity": "medium",
-        "count": 58,
-        "pct": 5.4
-      },
-      {
-        "id": "account_management",
-        "name": "Account Management",
-        "category_id": "account_cloud",
-        "category_name": "Account & Cloud Services",
-        "severity": "high",
-        "count": 57,
-        "pct": 5.3
-      },
-      {
-        "id": "initial_setup",
-        "name": "First-Time Setup Issues",
-        "category_id": "connectivity",
-        "category_name": "Connectivity & Setup",
-        "severity": "high",
-        "count": 47,
-        "pct": 4.4
-      },
-      {
-        "id": "bugs_glitches",
-        "name": "Bugs & Glitches",
-        "category_id": "reliability",
-        "category_name": "App Reliability & Stability",
-        "severity": "high",
-        "count": 42,
-        "pct": 3.9
-      },
-      {
-        "id": "navigation",
-        "name": "Navigation/Menu Issues",
-        "category_id": "mobile_experience",
-        "category_name": "Mobile App Experience",
-        "severity": "high",
-        "count": 39,
-        "pct": 3.6
-      },
-      {
-        "id": "login_issues",
-        "name": "Login/Authentication Problems",
-        "category_id": "account_cloud",
-        "category_name": "Account & Cloud Services",
-        "severity": "critical",
-        "count": 39,
-        "pct": 3.6
-      },
-      {
-        "id": "freezing",
-        "name": "App Freezing/Hanging",
-        "category_id": "reliability",
-        "category_name": "App Reliability & Stability",
-        "severity": "critical",
-        "count": 38,
-        "pct": 3.5
-      },
-      {
-        "id": "value_perception",
-        "name": "Value for Money",
-        "category_id": "value",
-        "category_name": "Value & Pricing",
-        "severity": "medium",
-        "count": 33,
-        "pct": 3.1
-      },
-      {
-        "id": "android_compatibility",
-        "name": "Android Version Compatibility",
-        "category_id": "updates",
-        "category_name": "Updates & Compatibility",
-        "severity": "high",
-        "count": 25,
-        "pct": 2.3
-      },
-      {
-        "id": "printer_compatibility",
-        "name": "Printer Model Compatibility",
-        "category_id": "updates",
-        "category_name": "Updates & Compatibility",
-        "severity": "high",
-        "count": 25,
-        "pct": 2.3
-      },
-      {
-        "id": "missing_features",
-        "name": "Missing Core Features",
-        "category_id": "features",
-        "category_name": "Feature Requests & Missing Features",
-        "severity": "high",
-        "count": 23,
-        "pct": 2.1
-      },
-      {
-        "id": "hp_services",
-        "name": "HP+ / Instant Ink Issues",
-        "category_id": "account_cloud",
-        "category_name": "Account & Cloud Services",
-        "severity": "high",
-        "count": 23,
-        "pct": 2.1
-      },
-      {
-        "id": "enhancement_requests",
-        "name": "Enhancement/Improvement Requests",
-        "category_id": "features",
-        "category_name": "Feature Requests & Missing Features",
-        "severity": "medium",
-        "count": 21,
-        "pct": 2.0
-      },
-      {
-        "id": "self_help",
-        "name": "Self-Help/Documentation",
-        "category_id": "support",
-        "category_name": "Customer Support & Help",
-        "severity": "low",
-        "count": 21,
-        "pct": 2.0
-      },
-      {
-        "id": "subscription_model",
-        "name": "Subscription Complaints",
-        "category_id": "value",
-        "category_name": "Value & Pricing",
-        "severity": "high",
-        "count": 21,
-        "pct": 2.0
-      },
-      {
-        "id": "performance",
-        "name": "Performance/Speed Issues",
-        "category_id": "reliability",
-        "category_name": "App Reliability & Stability",
-        "severity": "high",
-        "count": 19,
-        "pct": 1.8
-      },
-      {
-        "id": "removed_features",
-        "name": "Removed/Deprecated Features",
-        "category_id": "features",
-        "category_name": "Feature Requests & Missing Features",
-        "severity": "high",
-        "count": 19,
-        "pct": 1.8
-      },
-      {
-        "id": "troubleshooting",
-        "name": "Troubleshooting Effectiveness",
-        "category_id": "support",
-        "category_name": "Customer Support & Help",
-        "severity": "medium",
-        "count": 18,
-        "pct": 1.7
-      },
-      {
-        "id": "print_jobs",
-        "name": "Print Job Management",
-        "category_id": "printing",
-        "category_name": "Print Quality & Functionality",
-        "severity": "medium",
-        "count": 17,
-        "pct": 1.6
-      },
-      {
-        "id": "pricing_concerns",
-        "name": "Pricing Too High",
-        "category_id": "value",
-        "category_name": "Value & Pricing",
-        "severity": "high",
-        "count": 17,
-        "pct": 1.6
-      },
-      {
-        "id": "print_quality",
-        "name": "Print Quality Issues",
-        "category_id": "printing",
-        "category_name": "Print Quality & Functionality",
-        "severity": "high",
-        "count": 16,
-        "pct": 1.5
-      },
-      {
-        "id": "connection_drops",
-        "name": "Connection Drops/Unstable",
-        "category_id": "connectivity",
-        "category_name": "Connectivity & Setup",
-        "severity": "high",
-        "count": 14,
-        "pct": 1.3
-      },
-      {
-        "id": "crashes",
-        "name": "App Crashes",
-        "category_id": "reliability",
-        "category_name": "App Reliability & Stability",
-        "severity": "critical",
-        "count": 14,
-        "pct": 1.3
-      },
-      {
-        "id": "responsiveness",
-        "name": "App Responsiveness",
-        "category_id": "mobile_experience",
-        "category_name": "Mobile App Experience",
-        "severity": "medium",
-        "count": 13,
-        "pct": 1.2
-      },
-      {
-        "id": "printer_discovery",
-        "name": "Printer Not Found/Discovery",
-        "category_id": "connectivity",
-        "category_name": "Connectivity & Setup",
-        "severity": "critical",
-        "count": 12,
-        "pct": 1.1
-      },
-      {
-        "id": "print_speed",
-        "name": "Print Speed/Performance",
-        "category_id": "printing",
-        "category_name": "Print Quality & Functionality",
-        "severity": "medium",
-        "count": 12,
-        "pct": 1.1
-      },
-      {
-        "id": "update_breaks",
-        "name": "Updates Breaking Functionality",
-        "category_id": "updates",
-        "category_name": "Updates & Compatibility",
-        "severity": "critical",
-        "count": 12,
-        "pct": 1.1
-      },
-      {
-        "id": "bluetooth_issues",
-        "name": "Bluetooth Pairing Issues",
-        "category_id": "connectivity",
-        "category_name": "Connectivity & Setup",
-        "severity": "high",
-        "count": 9,
-        "pct": 0.8
-      },
-      {
-        "id": "ads_complaints",
-        "name": "Excessive Ads",
-        "category_id": "value",
-        "category_name": "Value & Pricing",
-        "severity": "medium",
-        "count": 9,
-        "pct": 0.8
-      },
-      {
-        "id": "sync_issues",
-        "name": "Sync/Data Issues",
-        "category_id": "account_cloud",
-        "category_name": "Account & Cloud Services",
-        "severity": "medium",
-        "count": 7,
-        "pct": 0.7
-      },
-      {
-        "id": "multipage_scanning",
-        "name": "Multi-page/Batch Scanning",
-        "category_id": "scanning",
-        "category_name": "Scanning Features",
-        "severity": "medium",
-        "count": 6,
-        "pct": 0.6
-      },
-      {
-        "id": "cloud_integration",
-        "name": "Cloud Storage Integration",
-        "category_id": "account_cloud",
-        "category_name": "Account & Cloud Services",
-        "severity": "medium",
-        "count": 3,
-        "pct": 0.3
-      },
-      {
-        "id": "scan_quality",
-        "name": "Scan Quality Issues",
-        "category_id": "scanning",
-        "category_name": "Scanning Features",
-        "severity": "high",
-        "count": 2,
-        "pct": 0.2
-      },
-      {
-        "id": "ocr_text",
-        "name": "OCR/Text Recognition",
-        "category_id": "scanning",
-        "category_name": "Scanning Features",
-        "severity": "low",
-        "count": 2,
-        "pct": 0.2
-      },
-      {
-        "id": "scan_destinations",
-        "name": "Scan Destination Problems",
-        "category_id": "scanning",
-        "category_name": "Scanning Features",
-        "severity": "medium",
-        "count": 1,
-        "pct": 0.1
-      },
-      {
-        "id": "resource_usage",
-        "name": "Battery/Memory Usage",
-        "category_id": "reliability",
-        "category_name": "App Reliability & Stability",
-        "severity": "medium",
-        "count": 1,
-        "pct": 0.1
-      },
-      {
-        "id": "response_time",
-        "name": "Support Response Time",
-        "category_id": "support",
-        "category_name": "Customer Support & Help",
-        "severity": "medium",
-        "count": 1,
-        "pct": 0.1
-      }
-    ],
-    "monthly_trend": [
-      {
-        "month": "2025-12",
-        "count": 145,
-        "avg_rating": 2.21,
-        "one_star_pct": 62.8
-      },
-      {
-        "month": "2026-01",
-        "count": 348,
-        "avg_rating": 2.44,
-        "one_star_pct": 55.7
-      },
-      {
-        "month": "2026-02",
-        "count": 307,
-        "avg_rating": 2.4,
-        "one_star_pct": 57.3
-      },
-      {
-        "month": "2026-03",
-        "count": 185,
-        "avg_rating": 2.45,
-        "one_star_pct": 55.7
-      },
-      {
-        "month": "2026-04",
-        "count": 89,
-        "avg_rating": 2.35,
-        "one_star_pct": 61.8
-      }
-    ]
-  },
-  "global": {
-    "scope": "Global",
-    "total_reviews": 2307,
-    "avg_rating": 2.67,
-    "one_star_pct": 50.8,
-    "five_star_pct": 34.9,
-    "sentiment": {
-      "positive_pct": 14.9,
-      "negative_pct": 14.4,
-      "neutral_pct": 70.7
-    },
-    "rating_distribution": {
-      "5": {
-        "count": 804,
-        "pct": 34.9
-      },
-      "4": {
-        "count": 115,
-        "pct": 5.0
-      },
-      "3": {
-        "count": 85,
-        "pct": 3.7
-      },
-      "2": {
-        "count": 132,
-        "pct": 5.7
-      },
-      "1": {
-        "count": 1171,
-        "pct": 50.8
-      }
-    },
-    "categories": [
-      {
-        "id": "mobile_experience",
-        "name": "Mobile App Experience",
-        "count": 929,
-        "pct": 40.3,
-        "neg_pct": 22.1,
-        "pos_pct": 18.0
-      },
-      {
-        "id": "printing",
-        "name": "Print Quality & Functionality",
-        "count": 598,
-        "pct": 25.9,
-        "neg_pct": 30.8,
-        "pos_pct": 13.0
-      },
-      {
-        "id": "connectivity",
-        "name": "Connectivity & Setup",
-        "count": 371,
-        "pct": 16.1,
-        "neg_pct": 27.0,
-        "pos_pct": 7.3
-      },
-      {
-        "id": "value",
-        "name": "Value & Pricing",
-        "count": 350,
-        "pct": 15.2,
-        "neg_pct": 28.6,
-        "pos_pct": 11.1
-      },
-      {
-        "id": "updates",
-        "name": "Updates & Compatibility",
-        "count": 272,
-        "pct": 11.8,
-        "neg_pct": 27.6,
-        "pos_pct": 11.0
-      },
-      {
-        "id": "features",
-        "name": "Feature Requests & Missing Features",
-        "count": 268,
-        "pct": 11.6,
-        "neg_pct": 32.1,
+        "count": 190,
+        "pct": 17.4,
+        "neg_pct": 38.4,
         "pos_pct": 14.2
       },
       {
         "id": "scanning",
         "name": "Scanning Features",
-        "count": 257,
-        "pct": 11.1,
-        "neg_pct": 13.6,
-        "pos_pct": 17.5
+        "count": 157,
+        "pct": 14.3,
+        "neg_pct": 21.7,
+        "pos_pct": 26.1
       },
       {
         "id": "reliability",
         "name": "App Reliability & Stability",
-        "count": 186,
-        "pct": 8.1,
-        "neg_pct": 59.1,
-        "pos_pct": 7.5
-      },
-      {
-        "id": "account_cloud",
-        "name": "Account & Cloud Services",
-        "count": 141,
-        "pct": 6.1,
-        "neg_pct": 30.5,
-        "pos_pct": 7.8
+        "count": 147,
+        "pct": 13.4,
+        "neg_pct": 66.7,
+        "pos_pct": 6.8
       },
       {
         "id": "support",
         "name": "Customer Support & Help",
-        "count": 133,
-        "pct": 5.8,
-        "neg_pct": 31.6,
-        "pos_pct": 18.0
+        "count": 112,
+        "pct": 10.2,
+        "neg_pct": 35.7,
+        "pos_pct": 21.4
+      },
+      {
+        "id": "account_cloud",
+        "name": "Account & Cloud Services",
+        "count": 111,
+        "pct": 10.1,
+        "neg_pct": 37.8,
+        "pos_pct": 7.2
       }
     ],
     "sub_issues": [
       {
-        "id": "free_vs_paid",
-        "name": "Free vs Paid Feature Gaps",
-        "category_id": "value",
-        "category_name": "Value & Pricing",
-        "severity": "medium",
-        "count": 261,
-        "pct": 11.3
-      },
-      {
-        "id": "ui_design",
-        "name": "UI/Visual Design",
-        "category_id": "mobile_experience",
-        "category_name": "Mobile App Experience",
-        "severity": "medium",
-        "count": 225,
-        "pct": 9.8
-      },
-      {
-        "id": "ease_of_use",
-        "name": "Ease of Use",
-        "category_id": "mobile_experience",
-        "category_name": "Mobile App Experience",
-        "severity": "high",
-        "count": 153,
-        "pct": 6.6
-      },
-      {
-        "id": "device_compatibility",
-        "name": "Device-Specific Issues",
-        "category_id": "updates",
-        "category_name": "Updates & Compatibility",
-        "severity": "medium",
-        "count": 133,
-        "pct": 5.8
-      },
-      {
-        "id": "document_types",
-        "name": "Document Type Support",
-        "category_id": "printing",
-        "category_name": "Print Quality & Functionality",
-        "severity": "low",
-        "count": 125,
-        "pct": 5.4
-      },
-      {
         "id": "wifi_issues",
         "name": "WiFi Connection Problems",
+        "category": "Connectivity & Setup",
         "category_id": "connectivity",
-        "category_name": "Connectivity & Setup",
         "severity": "critical",
-        "count": 124,
-        "pct": 5.4
-      },
-      {
-        "id": "ink_toner",
-        "name": "Ink/Toner Issues",
-        "category_id": "printing",
-        "category_name": "Print Quality & Functionality",
-        "severity": "medium",
-        "count": 96,
-        "pct": 4.2
-      },
-      {
-        "id": "support_quality",
-        "name": "Support Quality/Experience",
-        "category_id": "support",
-        "category_name": "Customer Support & Help",
-        "severity": "high",
-        "count": 81,
-        "pct": 3.5
-      },
-      {
-        "id": "feature_requests",
-        "name": "New Feature Requests",
-        "category_id": "features",
-        "category_name": "Feature Requests & Missing Features",
-        "severity": "medium",
-        "count": 71,
-        "pct": 3.1
-      },
-      {
-        "id": "account_management",
-        "name": "Account Management",
-        "category_id": "account_cloud",
-        "category_name": "Account & Cloud Services",
-        "severity": "high",
-        "count": 69,
-        "pct": 3.0
-      },
-      {
-        "id": "bugs_glitches",
-        "name": "Bugs & Glitches",
-        "category_id": "reliability",
-        "category_name": "App Reliability & Stability",
-        "severity": "high",
-        "count": 68,
-        "pct": 2.9
-      },
-      {
-        "id": "paper_handling",
-        "name": "Paper Handling/Jams",
-        "category_id": "printing",
-        "category_name": "Print Quality & Functionality",
-        "severity": "medium",
-        "count": 66,
-        "pct": 2.9
-      },
-      {
-        "id": "navigation",
-        "name": "Navigation/Menu Issues",
-        "category_id": "mobile_experience",
-        "category_name": "Mobile App Experience",
-        "severity": "high",
-        "count": 50,
-        "pct": 2.2
-      },
-      {
-        "id": "initial_setup",
-        "name": "First-Time Setup Issues",
-        "category_id": "connectivity",
-        "category_name": "Connectivity & Setup",
-        "severity": "high",
-        "count": 49,
-        "pct": 2.1
+        "count": 77,
+        "pct": 7.0,
+        "neg_pct": 42.9,
+        "pos_pct": 9.1
       },
       {
         "id": "login_issues",
         "name": "Login/Authentication Problems",
+        "category": "Account & Cloud Services",
         "category_id": "account_cloud",
-        "category_name": "Account & Cloud Services",
         "severity": "critical",
-        "count": 47,
-        "pct": 2.0
+        "count": 39,
+        "pct": 3.6,
+        "neg_pct": 38.5,
+        "pos_pct": 0.0
       },
       {
         "id": "freezing",
         "name": "App Freezing/Hanging",
+        "category": "App Reliability & Stability",
         "category_id": "reliability",
-        "category_name": "App Reliability & Stability",
         "severity": "critical",
-        "count": 46,
-        "pct": 2.0
-      },
-      {
-        "id": "android_compatibility",
-        "name": "Android Version Compatibility",
-        "category_id": "updates",
-        "category_name": "Updates & Compatibility",
-        "severity": "high",
-        "count": 36,
-        "pct": 1.6
-      },
-      {
-        "id": "value_perception",
-        "name": "Value for Money",
-        "category_id": "value",
-        "category_name": "Value & Pricing",
-        "severity": "medium",
-        "count": 34,
-        "pct": 1.5
-      },
-      {
-        "id": "hp_services",
-        "name": "HP+ / Instant Ink Issues",
-        "category_id": "account_cloud",
-        "category_name": "Account & Cloud Services",
-        "severity": "high",
-        "count": 31,
-        "pct": 1.3
-      },
-      {
-        "id": "performance",
-        "name": "Performance/Speed Issues",
-        "category_id": "reliability",
-        "category_name": "App Reliability & Stability",
-        "severity": "high",
-        "count": 26,
-        "pct": 1.1
-      },
-      {
-        "id": "self_help",
-        "name": "Self-Help/Documentation",
-        "category_id": "support",
-        "category_name": "Customer Support & Help",
-        "severity": "low",
-        "count": 26,
-        "pct": 1.1
-      },
-      {
-        "id": "printer_compatibility",
-        "name": "Printer Model Compatibility",
-        "category_id": "updates",
-        "category_name": "Updates & Compatibility",
-        "severity": "high",
-        "count": 25,
-        "pct": 1.1
-      },
-      {
-        "id": "missing_features",
-        "name": "Missing Core Features",
-        "category_id": "features",
-        "category_name": "Feature Requests & Missing Features",
-        "severity": "high",
-        "count": 23,
-        "pct": 1.0
-      },
-      {
-        "id": "enhancement_requests",
-        "name": "Enhancement/Improvement Requests",
-        "category_id": "features",
-        "category_name": "Feature Requests & Missing Features",
-        "severity": "medium",
-        "count": 21,
-        "pct": 0.9
-      },
-      {
-        "id": "subscription_model",
-        "name": "Subscription Complaints",
-        "category_id": "value",
-        "category_name": "Value & Pricing",
-        "severity": "high",
-        "count": 21,
-        "pct": 0.9
-      },
-      {
-        "id": "print_quality",
-        "name": "Print Quality Issues",
-        "category_id": "printing",
-        "category_name": "Print Quality & Functionality",
-        "severity": "high",
-        "count": 19,
-        "pct": 0.8
-      },
-      {
-        "id": "removed_features",
-        "name": "Removed/Deprecated Features",
-        "category_id": "features",
-        "category_name": "Feature Requests & Missing Features",
-        "severity": "high",
-        "count": 19,
-        "pct": 0.8
-      },
-      {
-        "id": "bluetooth_issues",
-        "name": "Bluetooth Pairing Issues",
-        "category_id": "connectivity",
-        "category_name": "Connectivity & Setup",
-        "severity": "high",
-        "count": 18,
-        "pct": 0.8
-      },
-      {
-        "id": "print_jobs",
-        "name": "Print Job Management",
-        "category_id": "printing",
-        "category_name": "Print Quality & Functionality",
-        "severity": "medium",
-        "count": 18,
-        "pct": 0.8
-      },
-      {
-        "id": "troubleshooting",
-        "name": "Troubleshooting Effectiveness",
-        "category_id": "support",
-        "category_name": "Customer Support & Help",
-        "severity": "medium",
-        "count": 18,
-        "pct": 0.8
-      },
-      {
-        "id": "pricing_concerns",
-        "name": "Pricing Too High",
-        "category_id": "value",
-        "category_name": "Value & Pricing",
-        "severity": "high",
-        "count": 18,
-        "pct": 0.8
-      },
-      {
-        "id": "connection_drops",
-        "name": "Connection Drops/Unstable",
-        "category_id": "connectivity",
-        "category_name": "Connectivity & Setup",
-        "severity": "high",
-        "count": 17,
-        "pct": 0.7
-      },
-      {
-        "id": "responsiveness",
-        "name": "App Responsiveness",
-        "category_id": "mobile_experience",
-        "category_name": "Mobile App Experience",
-        "severity": "medium",
-        "count": 17,
-        "pct": 0.7
+        "count": 38,
+        "pct": 3.5,
+        "neg_pct": 42.1,
+        "pos_pct": 13.2
       },
       {
         "id": "crashes",
         "name": "App Crashes",
+        "category": "App Reliability & Stability",
         "category_id": "reliability",
-        "category_name": "App Reliability & Stability",
         "severity": "critical",
-        "count": 15,
-        "pct": 0.7
+        "count": 14,
+        "pct": 1.3,
+        "neg_pct": 71.4,
+        "pos_pct": 7.1
       },
       {
         "id": "printer_discovery",
         "name": "Printer Not Found/Discovery",
+        "category": "Connectivity & Setup",
         "category_id": "connectivity",
-        "category_name": "Connectivity & Setup",
         "severity": "critical",
         "count": 12,
-        "pct": 0.5
-      },
-      {
-        "id": "print_speed",
-        "name": "Print Speed/Performance",
-        "category_id": "printing",
-        "category_name": "Print Quality & Functionality",
-        "severity": "medium",
-        "count": 12,
-        "pct": 0.5
+        "pct": 1.1,
+        "neg_pct": 58.3,
+        "pos_pct": 0.0
       },
       {
         "id": "update_breaks",
         "name": "Updates Breaking Functionality",
+        "category": "Updates & Compatibility",
         "category_id": "updates",
-        "category_name": "Updates & Compatibility",
         "severity": "critical",
         "count": 12,
-        "pct": 0.5
+        "pct": 1.1,
+        "neg_pct": 41.7,
+        "pos_pct": 25.0
       },
       {
-        "id": "ads_complaints",
-        "name": "Excessive Ads",
+        "id": "ease_of_use",
+        "name": "Ease of Use",
+        "category": "Mobile App Experience",
+        "category_id": "mobile_experience",
+        "severity": "high",
+        "count": 127,
+        "pct": 11.6,
+        "neg_pct": 34.6,
+        "pos_pct": 56.7
+      },
+      {
+        "id": "support_quality",
+        "name": "Support Quality/Experience",
+        "category": "Customer Support & Help",
+        "category_id": "support",
+        "severity": "high",
+        "count": 70,
+        "pct": 6.4,
+        "neg_pct": 32.9,
+        "pos_pct": 27.1
+      },
+      {
+        "id": "account_management",
+        "name": "Account Management",
+        "category": "Account & Cloud Services",
+        "category_id": "account_cloud",
+        "severity": "high",
+        "count": 59,
+        "pct": 5.4,
+        "neg_pct": 35.6,
+        "pos_pct": 5.1
+      },
+      {
+        "id": "initial_setup",
+        "name": "First-Time Setup Issues",
+        "category": "Connectivity & Setup",
+        "category_id": "connectivity",
+        "severity": "high",
+        "count": 47,
+        "pct": 4.3,
+        "neg_pct": 38.3,
+        "pos_pct": 10.6
+      },
+      {
+        "id": "bugs_glitches",
+        "name": "Bugs & Glitches",
+        "category": "App Reliability & Stability",
+        "category_id": "reliability",
+        "severity": "high",
+        "count": 42,
+        "pct": 3.8,
+        "neg_pct": 59.5,
+        "pos_pct": 9.5
+      },
+      {
+        "id": "navigation",
+        "name": "Navigation/Menu Issues",
+        "category": "Mobile App Experience",
+        "category_id": "mobile_experience",
+        "severity": "high",
+        "count": 40,
+        "pct": 3.7,
+        "neg_pct": 55.0,
+        "pos_pct": 22.5
+      },
+      {
+        "id": "android_compatibility",
+        "name": "Android Version Compatibility",
+        "category": "Updates & Compatibility",
+        "category_id": "updates",
+        "severity": "high",
+        "count": 25,
+        "pct": 2.3,
+        "neg_pct": 28.0,
+        "pos_pct": 12.0
+      },
+      {
+        "id": "printer_compatibility",
+        "name": "Printer Model Compatibility",
+        "category": "Updates & Compatibility",
+        "category_id": "updates",
+        "severity": "high",
+        "count": 25,
+        "pct": 2.3,
+        "neg_pct": 44.0,
+        "pos_pct": 12.0
+      },
+      {
+        "id": "missing_features",
+        "name": "Missing Core Features",
+        "category": "Feature Requests & Missing Features",
+        "category_id": "features",
+        "severity": "high",
+        "count": 24,
+        "pct": 2.2,
+        "neg_pct": 37.5,
+        "pos_pct": 20.8
+      },
+      {
+        "id": "hp_services",
+        "name": "HP+ / Instant Ink Issues",
+        "category": "Account & Cloud Services",
+        "category_id": "account_cloud",
+        "severity": "high",
+        "count": 23,
+        "pct": 2.1,
+        "neg_pct": 52.2,
+        "pos_pct": 4.3
+      },
+      {
+        "id": "subscription_model",
+        "name": "Subscription Complaints",
+        "category": "Value & Pricing",
         "category_id": "value",
-        "category_name": "Value & Pricing",
-        "severity": "medium",
+        "severity": "high",
+        "count": 21,
+        "pct": 1.9,
+        "neg_pct": 52.4,
+        "pos_pct": 4.8
+      },
+      {
+        "id": "performance",
+        "name": "Performance/Speed Issues",
+        "category": "App Reliability & Stability",
+        "category_id": "reliability",
+        "severity": "high",
+        "count": 19,
+        "pct": 1.7,
+        "neg_pct": 78.9,
+        "pos_pct": 5.3
+      },
+      {
+        "id": "removed_features",
+        "name": "Removed/Deprecated Features",
+        "category": "Feature Requests & Missing Features",
+        "category_id": "features",
+        "severity": "high",
+        "count": 19,
+        "pct": 1.7,
+        "neg_pct": 15.8,
+        "pos_pct": 26.3
+      },
+      {
+        "id": "pricing_concerns",
+        "name": "Pricing Too High",
+        "category": "Value & Pricing",
+        "category_id": "value",
+        "severity": "high",
+        "count": 17,
+        "pct": 1.6,
+        "neg_pct": 41.2,
+        "pos_pct": 11.8
+      },
+      {
+        "id": "print_quality",
+        "name": "Print Quality Issues",
+        "category": "Print Quality & Functionality",
+        "category_id": "printing",
+        "severity": "high",
+        "count": 16,
+        "pct": 1.5,
+        "neg_pct": 50.0,
+        "pos_pct": 6.2
+      },
+      {
+        "id": "connection_drops",
+        "name": "Connection Drops/Unstable",
+        "category": "Connectivity & Setup",
+        "category_id": "connectivity",
+        "severity": "high",
+        "count": 14,
+        "pct": 1.3,
+        "neg_pct": 35.7,
+        "pos_pct": 14.3
+      },
+      {
+        "id": "bluetooth_issues",
+        "name": "Bluetooth Pairing Issues",
+        "category": "Connectivity & Setup",
+        "category_id": "connectivity",
+        "severity": "high",
         "count": 9,
-        "pct": 0.4
-      },
-      {
-        "id": "sync_issues",
-        "name": "Sync/Data Issues",
-        "category_id": "account_cloud",
-        "category_name": "Account & Cloud Services",
-        "severity": "medium",
-        "count": 8,
-        "pct": 0.3
-      },
-      {
-        "id": "cloud_integration",
-        "name": "Cloud Storage Integration",
-        "category_id": "account_cloud",
-        "category_name": "Account & Cloud Services",
-        "severity": "medium",
-        "count": 7,
-        "pct": 0.3
-      },
-      {
-        "id": "multipage_scanning",
-        "name": "Multi-page/Batch Scanning",
-        "category_id": "scanning",
-        "category_name": "Scanning Features",
-        "severity": "medium",
-        "count": 6,
-        "pct": 0.3
-      },
-      {
-        "id": "ocr_text",
-        "name": "OCR/Text Recognition",
-        "category_id": "scanning",
-        "category_name": "Scanning Features",
-        "severity": "low",
-        "count": 4,
-        "pct": 0.2
+        "pct": 0.8,
+        "neg_pct": 55.6,
+        "pos_pct": 0.0
       },
       {
         "id": "scan_quality",
         "name": "Scan Quality Issues",
+        "category": "Scanning Features",
         "category_id": "scanning",
-        "category_name": "Scanning Features",
         "severity": "high",
         "count": 2,
-        "pct": 0.1
+        "pct": 0.2,
+        "neg_pct": 50.0,
+        "pos_pct": 0.0
+      },
+      {
+        "id": "free_vs_paid",
+        "name": "Free vs Paid Feature Gaps",
+        "category": "Value & Pricing",
+        "category_id": "value",
+        "severity": "medium",
+        "count": 148,
+        "pct": 13.5,
+        "neg_pct": 36.5,
+        "pos_pct": 17.6
+      },
+      {
+        "id": "device_compatibility",
+        "name": "Device-Specific Issues",
+        "category": "Updates & Compatibility",
+        "category_id": "updates",
+        "severity": "medium",
+        "count": 94,
+        "pct": 8.6,
+        "neg_pct": 35.1,
+        "pos_pct": 17.0
+      },
+      {
+        "id": "ink_toner",
+        "name": "Ink/Toner Issues",
+        "category": "Print Quality & Functionality",
+        "category_id": "printing",
+        "severity": "medium",
+        "count": 80,
+        "pct": 7.3,
+        "neg_pct": 40.0,
+        "pos_pct": 16.2
+      },
+      {
+        "id": "feature_requests",
+        "name": "New Feature Requests",
+        "category": "Feature Requests & Missing Features",
+        "category_id": "features",
+        "severity": "medium",
+        "count": 69,
+        "pct": 6.3,
+        "neg_pct": 34.8,
+        "pos_pct": 13.0
+      },
+      {
+        "id": "ui_design",
+        "name": "UI/Visual Design",
+        "category": "Mobile App Experience",
+        "category_id": "mobile_experience",
+        "severity": "medium",
+        "count": 67,
+        "pct": 6.1,
+        "neg_pct": 46.3,
+        "pos_pct": 17.9
+      },
+      {
+        "id": "paper_handling",
+        "name": "Paper Handling/Jams",
+        "category": "Print Quality & Functionality",
+        "category_id": "printing",
+        "severity": "medium",
+        "count": 61,
+        "pct": 5.6,
+        "neg_pct": 34.4,
+        "pos_pct": 19.7
+      },
+      {
+        "id": "value_perception",
+        "name": "Value for Money",
+        "category": "Value & Pricing",
+        "category_id": "value",
+        "severity": "medium",
+        "count": 34,
+        "pct": 3.1,
+        "neg_pct": 58.8,
+        "pos_pct": 8.8
+      },
+      {
+        "id": "enhancement_requests",
+        "name": "Enhancement/Improvement Requests",
+        "category": "Feature Requests & Missing Features",
+        "category_id": "features",
+        "severity": "medium",
+        "count": 21,
+        "pct": 1.9,
+        "neg_pct": 42.9,
+        "pos_pct": 9.5
+      },
+      {
+        "id": "troubleshooting",
+        "name": "Troubleshooting Effectiveness",
+        "category": "Customer Support & Help",
+        "category_id": "support",
+        "severity": "medium",
+        "count": 18,
+        "pct": 1.6,
+        "neg_pct": 55.6,
+        "pos_pct": 11.1
+      },
+      {
+        "id": "print_jobs",
+        "name": "Print Job Management",
+        "category": "Print Quality & Functionality",
+        "category_id": "printing",
+        "severity": "medium",
+        "count": 17,
+        "pct": 1.6,
+        "neg_pct": 41.2,
+        "pos_pct": 23.5
+      },
+      {
+        "id": "print_speed",
+        "name": "Print Speed/Performance",
+        "category": "Print Quality & Functionality",
+        "category_id": "printing",
+        "severity": "medium",
+        "count": 13,
+        "pct": 1.2,
+        "neg_pct": 23.1,
+        "pos_pct": 38.5
+      },
+      {
+        "id": "responsiveness",
+        "name": "App Responsiveness",
+        "category": "Mobile App Experience",
+        "category_id": "mobile_experience",
+        "severity": "medium",
+        "count": 13,
+        "pct": 1.2,
+        "neg_pct": 30.8,
+        "pos_pct": 38.5
+      },
+      {
+        "id": "ads_complaints",
+        "name": "Excessive Ads",
+        "category": "Value & Pricing",
+        "category_id": "value",
+        "severity": "medium",
+        "count": 10,
+        "pct": 0.9,
+        "neg_pct": 20.0,
+        "pos_pct": 10.0
+      },
+      {
+        "id": "sync_issues",
+        "name": "Sync/Data Issues",
+        "category": "Account & Cloud Services",
+        "category_id": "account_cloud",
+        "severity": "medium",
+        "count": 7,
+        "pct": 0.6,
+        "neg_pct": 57.1,
+        "pos_pct": 14.3
+      },
+      {
+        "id": "multipage_scanning",
+        "name": "Multi-page/Batch Scanning",
+        "category": "Scanning Features",
+        "category_id": "scanning",
+        "severity": "medium",
+        "count": 6,
+        "pct": 0.5,
+        "neg_pct": 16.7,
+        "pos_pct": 0.0
+      },
+      {
+        "id": "cloud_integration",
+        "name": "Cloud Storage Integration",
+        "category": "Account & Cloud Services",
+        "category_id": "account_cloud",
+        "severity": "medium",
+        "count": 3,
+        "pct": 0.3,
+        "neg_pct": 33.3,
+        "pos_pct": 0.0
       },
       {
         "id": "scan_destinations",
         "name": "Scan Destination Problems",
+        "category": "Scanning Features",
         "category_id": "scanning",
-        "category_name": "Scanning Features",
         "severity": "medium",
         "count": 1,
-        "pct": 0.0
+        "pct": 0.1,
+        "neg_pct": 0.0,
+        "pos_pct": 0.0
       },
       {
         "id": "resource_usage",
         "name": "Battery/Memory Usage",
+        "category": "App Reliability & Stability",
         "category_id": "reliability",
-        "category_name": "App Reliability & Stability",
         "severity": "medium",
         "count": 1,
-        "pct": 0.0
+        "pct": 0.1,
+        "neg_pct": 100.0,
+        "pos_pct": 0.0
       },
       {
         "id": "response_time",
         "name": "Support Response Time",
+        "category": "Customer Support & Help",
         "category_id": "support",
-        "category_name": "Customer Support & Help",
         "severity": "medium",
+        "count": 1,
+        "pct": 0.1,
+        "neg_pct": 100.0,
+        "pos_pct": 0.0
+      },
+      {
+        "id": "document_types",
+        "name": "Document Type Support",
+        "category": "Print Quality & Functionality",
+        "category_id": "printing",
+        "severity": "low",
+        "count": 89,
+        "pct": 8.1,
+        "neg_pct": 33.7,
+        "pos_pct": 20.2
+      },
+      {
+        "id": "self_help",
+        "name": "Self-Help/Documentation",
+        "category": "Customer Support & Help",
+        "category_id": "support",
+        "severity": "low",
+        "count": 21,
+        "pct": 1.9,
+        "neg_pct": 28.6,
+        "pos_pct": 23.8
+      },
+      {
+        "id": "ocr_text",
+        "name": "OCR/Text Recognition",
+        "category": "Scanning Features",
+        "category_id": "scanning",
+        "severity": "low",
+        "count": 2,
+        "pct": 0.2,
+        "neg_pct": 50.0,
+        "pos_pct": 50.0
+      }
+    ]
+  },
+  "global": {
+    "scope": "GLOBAL",
+    "total_reviews": 2354,
+    "date_range": "All-time (no date cap — full version lifecycle)",
+    "avg_rating": 2.67,
+    "one_star_pct": 50.9,
+    "five_star_pct": 34.7,
+    "sentiment": {
+      "positive_pct": 14.8,
+      "negative_pct": 14.4,
+      "neutral_pct": 70.9
+    },
+    "rating_distribution": {
+      "5": {
+        "count": 818,
+        "pct": 34.7
+      },
+      "4": {
+        "count": 115,
+        "pct": 4.9
+      },
+      "3": {
+        "count": 85,
+        "pct": 3.6
+      },
+      "2": {
+        "count": 137,
+        "pct": 5.8
+      },
+      "1": {
+        "count": 1199,
+        "pct": 50.9
+      }
+    },
+    "country_breakdown": {
+      "us": {
+        "count": 1095,
+        "pct": 46.5
+      },
+      "es": {
+        "count": 432,
+        "pct": 18.4
+      },
+      "de": {
+        "count": 232,
+        "pct": 9.9
+      },
+      "fr": {
+        "count": 215,
+        "pct": 9.1
+      },
+      "br": {
+        "count": 201,
+        "pct": 8.5
+      },
+      "it": {
+        "count": 139,
+        "pct": 5.9
+      },
+      "nl": {
+        "count": 30,
+        "pct": 1.3
+      },
+      "se": {
+        "count": 9,
+        "pct": 0.4
+      },
+      "jp": {
         "count": 1,
         "pct": 0.0
       }
+    },
+    "thresholds": {
+      "avg_rating_must_exceed": 2.67,
+      "one_star_pct_must_be_below": 50.9,
+      "negative_pct_must_be_below": 14.4,
+      "improvement_target": {
+        "avg_rating": 2.82,
+        "one_star_pct": 45.9,
+        "negative_pct": 9.4
+      },
+      "category_thresholds": {
+        "mobile_experience": {
+          "name": "Mobile App Experience",
+          "pct_must_be_below": 43.2,
+          "neg_pct_must_be_below": 27.1
+        },
+        "printing": {
+          "name": "Print Quality & Functionality",
+          "pct_must_be_below": 28.8,
+          "neg_pct_must_be_below": 35.9
+        },
+        "connectivity": {
+          "name": "Connectivity & Setup",
+          "pct_must_be_below": 18.9,
+          "neg_pct_must_be_below": 31.7
+        },
+        "value": {
+          "name": "Value & Pricing",
+          "pct_must_be_below": 18.3,
+          "neg_pct_must_be_below": 33.4
+        },
+        "updates": {
+          "name": "Updates & Compatibility",
+          "pct_must_be_below": 14.7,
+          "neg_pct_must_be_below": 32.6
+        },
+        "features": {
+          "name": "Feature Requests & Missing Features",
+          "pct_must_be_below": 14.6,
+          "neg_pct_must_be_below": 37.1
+        },
+        "scanning": {
+          "name": "Scanning Features",
+          "pct_must_be_below": 14.0,
+          "neg_pct_must_be_below": 18.5
+        },
+        "reliability": {
+          "name": "App Reliability & Stability",
+          "pct_must_be_below": 11.0,
+          "neg_pct_must_be_below": 64.0
+        },
+        "account_cloud": {
+          "name": "Account & Cloud Services",
+          "pct_must_be_below": 9.1,
+          "neg_pct_must_be_below": 35.6
+        },
+        "support": {
+          "name": "Customer Support & Help",
+          "pct_must_be_below": 8.7,
+          "neg_pct_must_be_below": 36.3
+        }
+      }
+    },
+    "categories": [
+      {
+        "id": "mobile_experience",
+        "name": "Mobile App Experience",
+        "count": 947,
+        "pct": 40.2,
+        "neg_pct": 22.1,
+        "pos_pct": 17.7
+      },
+      {
+        "id": "printing",
+        "name": "Print Quality & Functionality",
+        "count": 608,
+        "pct": 25.8,
+        "neg_pct": 30.9,
+        "pos_pct": 13.0
+      },
+      {
+        "id": "connectivity",
+        "name": "Connectivity & Setup",
+        "count": 375,
+        "pct": 15.9,
+        "neg_pct": 26.7,
+        "pos_pct": 7.5
+      },
+      {
+        "id": "value",
+        "name": "Value & Pricing",
+        "count": 359,
+        "pct": 15.3,
+        "neg_pct": 28.4,
+        "pos_pct": 10.9
+      },
+      {
+        "id": "updates",
+        "name": "Updates & Compatibility",
+        "count": 275,
+        "pct": 11.7,
+        "neg_pct": 27.6,
+        "pos_pct": 10.9
+      },
+      {
+        "id": "features",
+        "name": "Feature Requests & Missing Features",
+        "count": 274,
+        "pct": 11.6,
+        "neg_pct": 32.1,
+        "pos_pct": 14.6
+      },
+      {
+        "id": "scanning",
+        "name": "Scanning Features",
+        "count": 259,
+        "pct": 11.0,
+        "neg_pct": 13.5,
+        "pos_pct": 17.8
+      },
+      {
+        "id": "reliability",
+        "name": "App Reliability & Stability",
+        "count": 188,
+        "pct": 8.0,
+        "neg_pct": 59.0,
+        "pos_pct": 7.4
+      },
+      {
+        "id": "account_cloud",
+        "name": "Account & Cloud Services",
+        "count": 144,
+        "pct": 6.1,
+        "neg_pct": 30.6,
+        "pos_pct": 7.6
+      },
+      {
+        "id": "support",
+        "name": "Customer Support & Help",
+        "count": 134,
+        "pct": 5.7,
+        "neg_pct": 31.3,
+        "pos_pct": 17.9
+      }
     ],
-    "monthly_trend": [
+    "sub_issues": [
       {
-        "month": "2025-12",
-        "count": 307,
-        "avg_rating": 2.49,
-        "one_star_pct": 56.7
+        "id": "wifi_issues",
+        "name": "WiFi Connection Problems",
+        "category": "Connectivity & Setup",
+        "category_id": "connectivity",
+        "severity": "critical",
+        "count": 125,
+        "pct": 5.3,
+        "neg_pct": 27.2,
+        "pos_pct": 6.4
       },
       {
-        "month": "2026-01",
-        "count": 783,
-        "avg_rating": 2.73,
-        "one_star_pct": 49.6
+        "id": "login_issues",
+        "name": "Login/Authentication Problems",
+        "category": "Account & Cloud Services",
+        "category_id": "account_cloud",
+        "severity": "critical",
+        "count": 47,
+        "pct": 2.0,
+        "neg_pct": 31.9,
+        "pos_pct": 2.1
       },
       {
-        "month": "2026-02",
-        "count": 628,
-        "avg_rating": 2.74,
-        "one_star_pct": 48.4
+        "id": "freezing",
+        "name": "App Freezing/Hanging",
+        "category": "App Reliability & Stability",
+        "category_id": "reliability",
+        "severity": "critical",
+        "count": 46,
+        "pct": 2.0,
+        "neg_pct": 37.0,
+        "pos_pct": 10.9
       },
       {
-        "month": "2026-03",
-        "count": 423,
-        "avg_rating": 2.71,
-        "one_star_pct": 49.4
+        "id": "crashes",
+        "name": "App Crashes",
+        "category": "App Reliability & Stability",
+        "category_id": "reliability",
+        "severity": "critical",
+        "count": 15,
+        "pct": 0.6,
+        "neg_pct": 73.3,
+        "pos_pct": 6.7
       },
       {
-        "month": "2026-04",
-        "count": 166,
-        "avg_rating": 2.42,
-        "one_star_pct": 57.8
+        "id": "printer_discovery",
+        "name": "Printer Not Found/Discovery",
+        "category": "Connectivity & Setup",
+        "category_id": "connectivity",
+        "severity": "critical",
+        "count": 12,
+        "pct": 0.5,
+        "neg_pct": 58.3,
+        "pos_pct": 0.0
+      },
+      {
+        "id": "update_breaks",
+        "name": "Updates Breaking Functionality",
+        "category": "Updates & Compatibility",
+        "category_id": "updates",
+        "severity": "critical",
+        "count": 12,
+        "pct": 0.5,
+        "neg_pct": 41.7,
+        "pos_pct": 25.0
+      },
+      {
+        "id": "ease_of_use",
+        "name": "Ease of Use",
+        "category": "Mobile App Experience",
+        "category_id": "mobile_experience",
+        "severity": "high",
+        "count": 154,
+        "pct": 6.5,
+        "neg_pct": 30.5,
+        "pos_pct": 59.1
+      },
+      {
+        "id": "support_quality",
+        "name": "Support Quality/Experience",
+        "category": "Customer Support & Help",
+        "category_id": "support",
+        "severity": "high",
+        "count": 82,
+        "pct": 3.5,
+        "neg_pct": 30.5,
+        "pos_pct": 23.2
+      },
+      {
+        "id": "account_management",
+        "name": "Account Management",
+        "category": "Account & Cloud Services",
+        "category_id": "account_cloud",
+        "severity": "high",
+        "count": 71,
+        "pct": 3.0,
+        "neg_pct": 31.0,
+        "pos_pct": 4.2
+      },
+      {
+        "id": "bugs_glitches",
+        "name": "Bugs & Glitches",
+        "category": "App Reliability & Stability",
+        "category_id": "reliability",
+        "severity": "high",
+        "count": 68,
+        "pct": 2.9,
+        "neg_pct": 50.0,
+        "pos_pct": 8.8
+      },
+      {
+        "id": "navigation",
+        "name": "Navigation/Menu Issues",
+        "category": "Mobile App Experience",
+        "category_id": "mobile_experience",
+        "severity": "high",
+        "count": 53,
+        "pct": 2.3,
+        "neg_pct": 41.5,
+        "pos_pct": 17.0
+      },
+      {
+        "id": "initial_setup",
+        "name": "First-Time Setup Issues",
+        "category": "Connectivity & Setup",
+        "category_id": "connectivity",
+        "severity": "high",
+        "count": 49,
+        "pct": 2.1,
+        "neg_pct": 36.7,
+        "pos_pct": 10.2
+      },
+      {
+        "id": "android_compatibility",
+        "name": "Android Version Compatibility",
+        "category": "Updates & Compatibility",
+        "category_id": "updates",
+        "severity": "high",
+        "count": 37,
+        "pct": 1.6,
+        "neg_pct": 21.6,
+        "pos_pct": 8.1
+      },
+      {
+        "id": "hp_services",
+        "name": "HP+ / Instant Ink Issues",
+        "category": "Account & Cloud Services",
+        "category_id": "account_cloud",
+        "severity": "high",
+        "count": 32,
+        "pct": 1.4,
+        "neg_pct": 40.6,
+        "pos_pct": 3.1
+      },
+      {
+        "id": "performance",
+        "name": "Performance/Speed Issues",
+        "category": "App Reliability & Stability",
+        "category_id": "reliability",
+        "severity": "high",
+        "count": 26,
+        "pct": 1.1,
+        "neg_pct": 61.5,
+        "pos_pct": 11.5
+      },
+      {
+        "id": "printer_compatibility",
+        "name": "Printer Model Compatibility",
+        "category": "Updates & Compatibility",
+        "category_id": "updates",
+        "severity": "high",
+        "count": 25,
+        "pct": 1.1,
+        "neg_pct": 44.0,
+        "pos_pct": 12.0
+      },
+      {
+        "id": "missing_features",
+        "name": "Missing Core Features",
+        "category": "Feature Requests & Missing Features",
+        "category_id": "features",
+        "severity": "high",
+        "count": 24,
+        "pct": 1.0,
+        "neg_pct": 37.5,
+        "pos_pct": 20.8
+      },
+      {
+        "id": "subscription_model",
+        "name": "Subscription Complaints",
+        "category": "Value & Pricing",
+        "category_id": "value",
+        "severity": "high",
+        "count": 21,
+        "pct": 0.9,
+        "neg_pct": 52.4,
+        "pos_pct": 4.8
+      },
+      {
+        "id": "print_quality",
+        "name": "Print Quality Issues",
+        "category": "Print Quality & Functionality",
+        "category_id": "printing",
+        "severity": "high",
+        "count": 19,
+        "pct": 0.8,
+        "neg_pct": 42.1,
+        "pos_pct": 5.3
+      },
+      {
+        "id": "removed_features",
+        "name": "Removed/Deprecated Features",
+        "category": "Feature Requests & Missing Features",
+        "category_id": "features",
+        "severity": "high",
+        "count": 19,
+        "pct": 0.8,
+        "neg_pct": 15.8,
+        "pos_pct": 26.3
+      },
+      {
+        "id": "bluetooth_issues",
+        "name": "Bluetooth Pairing Issues",
+        "category": "Connectivity & Setup",
+        "category_id": "connectivity",
+        "severity": "high",
+        "count": 18,
+        "pct": 0.8,
+        "neg_pct": 27.8,
+        "pos_pct": 0.0
+      },
+      {
+        "id": "pricing_concerns",
+        "name": "Pricing Too High",
+        "category": "Value & Pricing",
+        "category_id": "value",
+        "severity": "high",
+        "count": 18,
+        "pct": 0.8,
+        "neg_pct": 38.9,
+        "pos_pct": 11.1
+      },
+      {
+        "id": "connection_drops",
+        "name": "Connection Drops/Unstable",
+        "category": "Connectivity & Setup",
+        "category_id": "connectivity",
+        "severity": "high",
+        "count": 17,
+        "pct": 0.7,
+        "neg_pct": 29.4,
+        "pos_pct": 11.8
+      },
+      {
+        "id": "scan_quality",
+        "name": "Scan Quality Issues",
+        "category": "Scanning Features",
+        "category_id": "scanning",
+        "severity": "high",
+        "count": 2,
+        "pct": 0.1,
+        "neg_pct": 50.0,
+        "pos_pct": 0.0
+      },
+      {
+        "id": "free_vs_paid",
+        "name": "Free vs Paid Feature Gaps",
+        "category": "Value & Pricing",
+        "category_id": "value",
+        "severity": "medium",
+        "count": 266,
+        "pct": 11.3,
+        "neg_pct": 21.8,
+        "pos_pct": 11.7
+      },
+      {
+        "id": "ui_design",
+        "name": "UI/Visual Design",
+        "category": "Mobile App Experience",
+        "category_id": "mobile_experience",
+        "severity": "medium",
+        "count": 231,
+        "pct": 9.8,
+        "neg_pct": 14.7,
+        "pos_pct": 10.0
+      },
+      {
+        "id": "device_compatibility",
+        "name": "Device-Specific Issues",
+        "category": "Updates & Compatibility",
+        "category_id": "updates",
+        "severity": "medium",
+        "count": 134,
+        "pct": 5.7,
+        "neg_pct": 24.6,
+        "pos_pct": 12.7
+      },
+      {
+        "id": "ink_toner",
+        "name": "Ink/Toner Issues",
+        "category": "Print Quality & Functionality",
+        "category_id": "printing",
+        "severity": "medium",
+        "count": 97,
+        "pct": 4.1,
+        "neg_pct": 34.0,
+        "pos_pct": 13.4
+      },
+      {
+        "id": "feature_requests",
+        "name": "New Feature Requests",
+        "category": "Feature Requests & Missing Features",
+        "category_id": "features",
+        "severity": "medium",
+        "count": 71,
+        "pct": 3.0,
+        "neg_pct": 33.8,
+        "pos_pct": 12.7
+      },
+      {
+        "id": "paper_handling",
+        "name": "Paper Handling/Jams",
+        "category": "Print Quality & Functionality",
+        "category_id": "printing",
+        "severity": "medium",
+        "count": 70,
+        "pct": 3.0,
+        "neg_pct": 32.9,
+        "pos_pct": 17.1
+      },
+      {
+        "id": "value_perception",
+        "name": "Value for Money",
+        "category": "Value & Pricing",
+        "category_id": "value",
+        "severity": "medium",
+        "count": 35,
+        "pct": 1.5,
+        "neg_pct": 57.1,
+        "pos_pct": 8.6
+      },
+      {
+        "id": "enhancement_requests",
+        "name": "Enhancement/Improvement Requests",
+        "category": "Feature Requests & Missing Features",
+        "category_id": "features",
+        "severity": "medium",
+        "count": 21,
+        "pct": 0.9,
+        "neg_pct": 42.9,
+        "pos_pct": 9.5
+      },
+      {
+        "id": "print_jobs",
+        "name": "Print Job Management",
+        "category": "Print Quality & Functionality",
+        "category_id": "printing",
+        "severity": "medium",
+        "count": 18,
+        "pct": 0.8,
+        "neg_pct": 38.9,
+        "pos_pct": 22.2
+      },
+      {
+        "id": "troubleshooting",
+        "name": "Troubleshooting Effectiveness",
+        "category": "Customer Support & Help",
+        "category_id": "support",
+        "severity": "medium",
+        "count": 18,
+        "pct": 0.8,
+        "neg_pct": 55.6,
+        "pos_pct": 11.1
+      },
+      {
+        "id": "responsiveness",
+        "name": "App Responsiveness",
+        "category": "Mobile App Experience",
+        "category_id": "mobile_experience",
+        "severity": "medium",
+        "count": 17,
+        "pct": 0.7,
+        "neg_pct": 23.5,
+        "pos_pct": 41.2
+      },
+      {
+        "id": "print_speed",
+        "name": "Print Speed/Performance",
+        "category": "Print Quality & Functionality",
+        "category_id": "printing",
+        "severity": "medium",
+        "count": 13,
+        "pct": 0.6,
+        "neg_pct": 23.1,
+        "pos_pct": 38.5
+      },
+      {
+        "id": "ads_complaints",
+        "name": "Excessive Ads",
+        "category": "Value & Pricing",
+        "category_id": "value",
+        "severity": "medium",
+        "count": 10,
+        "pct": 0.4,
+        "neg_pct": 20.0,
+        "pos_pct": 10.0
+      },
+      {
+        "id": "sync_issues",
+        "name": "Sync/Data Issues",
+        "category": "Account & Cloud Services",
+        "category_id": "account_cloud",
+        "severity": "medium",
+        "count": 8,
+        "pct": 0.3,
+        "neg_pct": 50.0,
+        "pos_pct": 12.5
+      },
+      {
+        "id": "cloud_integration",
+        "name": "Cloud Storage Integration",
+        "category": "Account & Cloud Services",
+        "category_id": "account_cloud",
+        "severity": "medium",
+        "count": 7,
+        "pct": 0.3,
+        "neg_pct": 14.3,
+        "pos_pct": 14.3
+      },
+      {
+        "id": "multipage_scanning",
+        "name": "Multi-page/Batch Scanning",
+        "category": "Scanning Features",
+        "category_id": "scanning",
+        "severity": "medium",
+        "count": 6,
+        "pct": 0.3,
+        "neg_pct": 16.7,
+        "pos_pct": 0.0
+      },
+      {
+        "id": "scan_destinations",
+        "name": "Scan Destination Problems",
+        "category": "Scanning Features",
+        "category_id": "scanning",
+        "severity": "medium",
+        "count": 1,
+        "pct": 0.0,
+        "neg_pct": 0.0,
+        "pos_pct": 0.0
+      },
+      {
+        "id": "resource_usage",
+        "name": "Battery/Memory Usage",
+        "category": "App Reliability & Stability",
+        "category_id": "reliability",
+        "severity": "medium",
+        "count": 1,
+        "pct": 0.0,
+        "neg_pct": 100.0,
+        "pos_pct": 0.0
+      },
+      {
+        "id": "response_time",
+        "name": "Support Response Time",
+        "category": "Customer Support & Help",
+        "category_id": "support",
+        "severity": "medium",
+        "count": 1,
+        "pct": 0.0,
+        "neg_pct": 100.0,
+        "pos_pct": 0.0
+      },
+      {
+        "id": "document_types",
+        "name": "Document Type Support",
+        "category": "Print Quality & Functionality",
+        "category_id": "printing",
+        "severity": "low",
+        "count": 126,
+        "pct": 5.4,
+        "neg_pct": 23.8,
+        "pos_pct": 16.7
+      },
+      {
+        "id": "self_help",
+        "name": "Self-Help/Documentation",
+        "category": "Customer Support & Help",
+        "category_id": "support",
+        "severity": "low",
+        "count": 26,
+        "pct": 1.1,
+        "neg_pct": 23.1,
+        "pos_pct": 19.2
+      },
+      {
+        "id": "ocr_text",
+        "name": "OCR/Text Recognition",
+        "category": "Scanning Features",
+        "category_id": "scanning",
+        "severity": "low",
+        "count": 4,
+        "pct": 0.2,
+        "neg_pct": 25.0,
+        "pos_pct": 25.0
       }
     ]
   }
