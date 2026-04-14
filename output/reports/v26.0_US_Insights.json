@@ -1,0 +1,469 @@
+{
+  "generated_at": "2026-04-13T20:45:38.826452",
+  "version": "26.0 (all sub-versions)",
+  "version_breakdown": {
+    "26.0.2.6338": 225,
+    "26.0.1.6280": 174,
+    "26.0.0.6234": 87
+  },
+  "scope": "US",
+  "total_reviews": 486,
+  "avg_rating": 1.88,
+  "sentiment_summary": {
+    "positive": 89,
+    "negative": 177,
+    "neutral": 220,
+    "positive_pct": 18.3,
+    "negative_pct": 36.4
+  },
+  "rating_distribution": {
+    "5": {
+      "count": 77,
+      "pct": 15.8
+    },
+    "4": {
+      "count": 14,
+      "pct": 2.9
+    },
+    "3": {
+      "count": 21,
+      "pct": 4.3
+    },
+    "2": {
+      "count": 34,
+      "pct": 7.0
+    },
+    "1": {
+      "count": 340,
+      "pct": 70.0
+    }
+  },
+  "one_star_pct": 70.0,
+  "five_star_pct": 15.8,
+  "categories": {
+    "connectivity": {
+      "name": "Connectivity & Setup",
+      "mention_count": 77,
+      "percentage_of_total": 15.8,
+      "sentiment": {
+        "positive": 13,
+        "negative": 34,
+        "neutral": 30
+      },
+      "neg_pct": 44.2,
+      "sub_issues": {
+        "wifi_issues": {
+          "name": "WiFi Connection Problems",
+          "severity": "critical",
+          "count": 26,
+          "pct": 5.3,
+          "neg_pct": 50.0
+        },
+        "bluetooth_issues": {
+          "name": "Bluetooth Pairing Issues",
+          "severity": "high",
+          "count": 2,
+          "pct": 0.4,
+          "neg_pct": 100.0
+        },
+        "printer_discovery": {
+          "name": "Printer Not Found/Discovery",
+          "severity": "critical",
+          "count": 9,
+          "pct": 1.9,
+          "neg_pct": 22.2
+        },
+        "connection_drops": {
+          "name": "Connection Drops/Unstable",
+          "severity": "high",
+          "count": 7,
+          "pct": 1.4,
+          "neg_pct": 57.1
+        },
+        "initial_setup": {
+          "name": "First-Time Setup Issues",
+          "severity": "high",
+          "count": 5,
+          "pct": 1.0,
+          "neg_pct": 40.0
+        }
+      }
+    },
+    "printing": {
+      "name": "Print Quality & Functionality",
+      "mention_count": 206,
+      "percentage_of_total": 42.4,
+      "sentiment": {
+        "positive": 33,
+        "negative": 77,
+        "neutral": 96
+      },
+      "neg_pct": 37.4,
+      "sub_issues": {
+        "print_quality": {
+          "name": "Print Quality Issues",
+          "severity": "high",
+          "count": 5,
+          "pct": 1.0,
+          "neg_pct": 60.0
+        },
+        "print_speed": {
+          "name": "Print Speed/Performance",
+          "severity": "medium",
+          "count": 3,
+          "pct": 0.6,
+          "neg_pct": 33.3
+        },
+        "paper_handling": {
+          "name": "Paper Handling/Jams",
+          "severity": "medium",
+          "count": 43,
+          "pct": 8.8,
+          "neg_pct": 44.2
+        },
+        "ink_toner": {
+          "name": "Ink/Toner Issues",
+          "severity": "medium",
+          "count": 30,
+          "pct": 6.2,
+          "neg_pct": 40.0
+        },
+        "print_jobs": {
+          "name": "Print Job Management",
+          "severity": "medium",
+          "count": 13,
+          "pct": 2.7,
+          "neg_pct": 53.8
+        },
+        "document_types": {
+          "name": "Document Type Support",
+          "severity": "low",
+          "count": 31,
+          "pct": 6.4,
+          "neg_pct": 32.3
+        }
+      }
+    },
+    "scanning": {
+      "name": "Scanning Features",
+      "mention_count": 48,
+      "percentage_of_total": 9.9,
+      "sentiment": {
+        "positive": 14,
+        "negative": 12,
+        "neutral": 22
+      },
+      "neg_pct": 25.0,
+      "sub_issues": {
+        "multipage_scanning": {
+          "name": "Multi-page/Batch Scanning",
+          "severity": "medium",
+          "count": 3,
+          "pct": 0.6,
+          "neg_pct": 0.0
+        }
+      }
+    },
+    "mobile_experience": {
+      "name": "Mobile App Experience",
+      "mention_count": 276,
+      "percentage_of_total": 56.8,
+      "sentiment": {
+        "positive": 44,
+        "negative": 113,
+        "neutral": 119
+      },
+      "neg_pct": 40.9,
+      "sub_issues": {
+        "navigation": {
+          "name": "Navigation/Menu Issues",
+          "severity": "high",
+          "count": 21,
+          "pct": 4.3,
+          "neg_pct": 57.1
+        },
+        "ui_design": {
+          "name": "UI/Visual Design",
+          "severity": "medium",
+          "count": 31,
+          "pct": 6.4,
+          "neg_pct": 51.6
+        },
+        "ease_of_use": {
+          "name": "Ease of Use",
+          "severity": "high",
+          "count": 33,
+          "pct": 6.8,
+          "neg_pct": 42.4
+        },
+        "responsiveness": {
+          "name": "App Responsiveness",
+          "severity": "medium",
+          "count": 5,
+          "pct": 1.0,
+          "neg_pct": 40.0
+        }
+      }
+    },
+    "reliability": {
+      "name": "App Reliability & Stability",
+      "mention_count": 112,
+      "percentage_of_total": 23.0,
+      "sentiment": {
+        "positive": 7,
+        "negative": 87,
+        "neutral": 18
+      },
+      "neg_pct": 77.7,
+      "sub_issues": {
+        "crashes": {
+          "name": "App Crashes",
+          "severity": "critical",
+          "count": 12,
+          "pct": 2.5,
+          "neg_pct": 58.3
+        },
+        "freezing": {
+          "name": "App Freezing/Hanging",
+          "severity": "critical",
+          "count": 32,
+          "pct": 6.6,
+          "neg_pct": 62.5
+        },
+        "bugs_glitches": {
+          "name": "Bugs & Glitches",
+          "severity": "high",
+          "count": 21,
+          "pct": 4.3,
+          "neg_pct": 66.7
+        },
+        "performance": {
+          "name": "Performance/Speed Issues",
+          "severity": "high",
+          "count": 33,
+          "pct": 6.8,
+          "neg_pct": 87.9
+        },
+        "resource_usage": {
+          "name": "Battery/Memory Usage",
+          "severity": "medium",
+          "count": 2,
+          "pct": 0.4,
+          "neg_pct": 50.0
+        }
+      }
+    },
+    "updates": {
+      "name": "Updates & Compatibility",
+      "mention_count": 101,
+      "percentage_of_total": 20.8,
+      "sentiment": {
+        "positive": 16,
+        "negative": 41,
+        "neutral": 44
+      },
+      "neg_pct": 40.6,
+      "sub_issues": {
+        "update_breaks": {
+          "name": "Updates Breaking Functionality",
+          "severity": "critical",
+          "count": 9,
+          "pct": 1.9,
+          "neg_pct": 55.6
+        },
+        "android_compatibility": {
+          "name": "Android Version Compatibility",
+          "severity": "high",
+          "count": 9,
+          "pct": 1.9,
+          "neg_pct": 11.1
+        },
+        "device_compatibility": {
+          "name": "Device-Specific Issues",
+          "severity": "medium",
+          "count": 44,
+          "pct": 9.1,
+          "neg_pct": 34.1
+        },
+        "printer_compatibility": {
+          "name": "Printer Model Compatibility",
+          "severity": "high",
+          "count": 10,
+          "pct": 2.1,
+          "neg_pct": 30.0
+        }
+      }
+    },
+    "features": {
+      "name": "Feature Requests & Missing Features",
+      "mention_count": 110,
+      "percentage_of_total": 22.6,
+      "sentiment": {
+        "positive": 16,
+        "negative": 44,
+        "neutral": 50
+      },
+      "neg_pct": 40.0,
+      "sub_issues": {
+        "missing_features": {
+          "name": "Missing Core Features",
+          "severity": "high",
+          "count": 6,
+          "pct": 1.2,
+          "neg_pct": 50.0
+        },
+        "feature_requests": {
+          "name": "New Feature Requests",
+          "severity": "medium",
+          "count": 29,
+          "pct": 6.0,
+          "neg_pct": 37.9
+        },
+        "removed_features": {
+          "name": "Removed/Deprecated Features",
+          "severity": "high",
+          "count": 11,
+          "pct": 2.3,
+          "neg_pct": 9.1
+        },
+        "enhancement_requests": {
+          "name": "Enhancement/Improvement Requests",
+          "severity": "medium",
+          "count": 7,
+          "pct": 1.4,
+          "neg_pct": 42.9
+        }
+      }
+    },
+    "account_cloud": {
+      "name": "Account & Cloud Services",
+      "mention_count": 35,
+      "percentage_of_total": 7.2,
+      "sentiment": {
+        "positive": 3,
+        "negative": 9,
+        "neutral": 23
+      },
+      "neg_pct": 25.7,
+      "sub_issues": {
+        "login_issues": {
+          "name": "Login/Authentication Problems",
+          "severity": "critical",
+          "count": 15,
+          "pct": 3.1,
+          "neg_pct": 13.3
+        },
+        "account_management": {
+          "name": "Account Management",
+          "severity": "high",
+          "count": 17,
+          "pct": 3.5,
+          "neg_pct": 41.2
+        },
+        "hp_services": {
+          "name": "HP+ / Instant Ink Issues",
+          "severity": "high",
+          "count": 7,
+          "pct": 1.4,
+          "neg_pct": 57.1
+        },
+        "sync_issues": {
+          "name": "Sync/Data Issues",
+          "severity": "medium",
+          "count": 4,
+          "pct": 0.8,
+          "neg_pct": 0.0
+        }
+      }
+    },
+    "support": {
+      "name": "Customer Support & Help",
+      "mention_count": 37,
+      "percentage_of_total": 7.6,
+      "sentiment": {
+        "positive": 11,
+        "negative": 12,
+        "neutral": 14
+      },
+      "neg_pct": 32.4,
+      "sub_issues": {
+        "support_quality": {
+          "name": "Support Quality/Experience",
+          "severity": "high",
+          "count": 23,
+          "pct": 4.7,
+          "neg_pct": 30.4
+        },
+        "response_time": {
+          "name": "Support Response Time",
+          "severity": "medium",
+          "count": 5,
+          "pct": 1.0,
+          "neg_pct": 40.0
+        },
+        "self_help": {
+          "name": "Self-Help/Documentation",
+          "severity": "low",
+          "count": 3,
+          "pct": 0.6,
+          "neg_pct": 66.7
+        },
+        "troubleshooting": {
+          "name": "Troubleshooting Effectiveness",
+          "severity": "medium",
+          "count": 7,
+          "pct": 1.4,
+          "neg_pct": 14.3
+        }
+      }
+    },
+    "value": {
+      "name": "Value & Pricing",
+      "mention_count": 77,
+      "percentage_of_total": 15.8,
+      "sentiment": {
+        "positive": 7,
+        "negative": 37,
+        "neutral": 33
+      },
+      "neg_pct": 48.1,
+      "sub_issues": {
+        "subscription_model": {
+          "name": "Subscription Complaints",
+          "severity": "high",
+          "count": 9,
+          "pct": 1.9,
+          "neg_pct": 44.4
+        },
+        "pricing_concerns": {
+          "name": "Pricing Too High",
+          "severity": "high",
+          "count": 4,
+          "pct": 0.8,
+          "neg_pct": 75.0
+        },
+        "ads_complaints": {
+          "name": "Excessive Ads",
+          "severity": "medium",
+          "count": 7,
+          "pct": 1.4,
+          "neg_pct": 42.9
+        },
+        "free_vs_paid": {
+          "name": "Free vs Paid Feature Gaps",
+          "severity": "medium",
+          "count": 47,
+          "pct": 9.7,
+          "neg_pct": 42.6
+        },
+        "value_perception": {
+          "name": "Value for Money",
+          "severity": "medium",
+          "count": 8,
+          "pct": 1.6,
+          "neg_pct": 62.5
+        }
+      }
+    }
+  }
+}
