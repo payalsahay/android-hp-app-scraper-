@@ -1,9 +1,9 @@
 # HP_App_Android_AllCountries_Last30Days - Customer Insights Report
 
-**Generated:** 2026-04-15 09:37
+**Generated:** 2026-04-20 20:47
 **Source:** HP_App_Android_AllCountries_Last30Days.json
 **Platform:** Google Play Store
-**Total Reviews:** 1400
+**Total Reviews:** 1393
 
 ---
 
@@ -11,12 +11,12 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Reviews | 1400 |
-| Average Rating | 2.10 / 5.0 |
-| Positive Sentiment | 10.8% |
-| Negative Sentiment | 15.6% |
-| 1-Star Reviews | 892 (63.7%) |
-| 5-Star Reviews | 298 (21.3%) |
+| Total Reviews | 1393 |
+| Average Rating | 2.08 / 5.0 |
+| Positive Sentiment | 10.6% |
+| Negative Sentiment | 15.5% |
+| 1-Star Reviews | 893 (64.1%) |
+| 5-Star Reviews | 288 (20.7%) |
 
 ---
 
@@ -24,11 +24,11 @@
 
 | Stars | Count | Percentage |
 |-------|-------|------------|
-| 5 | 298 | 21.3% |
-| 4 | 39 | 2.8% |
-| 3 | 64 | 4.6% |
-| 2 | 107 | 7.6% |
-| 1 | 892 | 63.7% |
+| 5 | 288 | 20.7% |
+| 4 | 44 | 3.2% |
+| 3 | 57 | 4.1% |
+| 2 | 111 | 8.0% |
+| 1 | 893 | 64.1% |
 
 ---
 
@@ -36,22 +36,22 @@
 
 | Rank | Category | Mentions | % of Reviews |
 |------|----------|----------|--------------|
-| 1 | Mobile App Experience | 678 | 48.4% |
-| 2 | Other | 427 | 30.5% |
-| 3 | Print Quality & Functionality | 327 | 23.4% |
-| 4 | Value & Pricing | 208 | 14.9% |
-| 5 | Connectivity & Setup | 177 | 12.6% |
-| 6 | App Reliability & Stability | 157 | 11.2% |
-| 7 | Feature Requests & Missing Features | 153 | 10.9% |
-| 8 | Updates & Compatibility | 153 | 10.9% |
-| 9 | Scanning Features | 140 | 10.0% |
-| 10 | Account & Cloud Services | 82 | 5.9% |
+| 1 | Mobile App Experience | 663 | 47.6% |
+| 2 | Other | 431 | 30.9% |
+| 3 | Print Quality & Functionality | 319 | 22.9% |
+| 4 | Value & Pricing | 198 | 14.2% |
+| 5 | Connectivity & Setup | 183 | 13.1% |
+| 6 | Updates & Compatibility | 159 | 11.4% |
+| 7 | Feature Requests & Missing Features | 147 | 10.6% |
+| 8 | App Reliability & Stability | 140 | 10.1% |
+| 9 | Scanning Features | 136 | 9.8% |
+| 10 | Account & Cloud Services | 75 | 5.4% |
 
 ---
 
 ## Critical Pain Points
 
-- **App Reliability & Stability**: 68% negative sentiment (157 mentions)
+- **App Reliability & Stability**: 72% negative sentiment (140 mentions)
 
 ---
 
